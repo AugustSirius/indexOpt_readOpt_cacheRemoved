@@ -1,0 +1,4 @@
+:/output/
+**/output/**
+**/target/**
+**/.DS_Store

@@ -75,7 +75,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     
     // OPTIMIZED: Configure thread pool with better work stealing
     rayon::ThreadPoolBuilder::new()
-        .num_threads(parallel_threads)
+        .num_threads(64)
         .thread_name(|i| format!("worker-{}", i))
         .build_global()
         .unwrap();

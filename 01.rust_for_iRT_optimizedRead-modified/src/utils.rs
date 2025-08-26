@@ -149,131 +149,329 @@ pub fn build_scan_lookup(scan_offsets: &[usize]) -> Vec<u32> {
     lookup
 }
 
-// OPTIMIZED: Main data reading function with better parallelization
+// // OPTIMIZED: Main data reading function with better parallelization
+// pub fn read_timstof_data(d_folder: &Path) -> Result<TimsTOFRawData, Box<dyn Error>> {
+//     let start_time = Instant::now();
+//     println!("Reading TimsTOF data from: {:?}", d_folder);
+    
+//     let tdf_path = d_folder.join("analysis.tdf");
+//     let meta = MetadataReader::new(&tdf_path)?;
+//     let mz_cv = Arc::new(meta.mz_converter);
+//     let im_cv = Arc::new(meta.im_converter);
+    
+//     let frames = FrameReader::new(d_folder)?;
+//     let n_frames = frames.len();
+//     println!("Processing {} frames in parallel...", n_frames);
+    
+//     // OPTIMIZED: Process frames in parallel with better work distribution
+//     let chunk_size = (n_frames / rayon::current_num_threads()).max(10);
+//     let splits: Vec<FrameSplit> = (0..n_frames)
+//         .into_par_iter()
+//         .with_min_len(chunk_size)
+//         .map(|idx| {
+//             let frame = frames.get(idx).expect("frame read");
+//             let rt_min = frame.rt_in_seconds as f32 / 60.0;
+//             let mut ms1 = TimsTOFData::new();
+//             let mut ms2_pairs: Vec<((u32,u32), TimsTOFData)> = Vec::new();
+            
+//             match frame.ms_level {
+//                 MSLevel::MS1 => {
+//                     let n_peaks = frame.tof_indices.len();
+//                     ms1 = TimsTOFData::with_capacity(n_peaks);
+                    
+//                     let scan_lookup = build_scan_lookup(&frame.scan_offsets);
+//                     let max_scan = (frame.scan_offsets.len() - 1) as u32;
+                    
+//                     // OPTIMIZED: Vectorized processing
+//                     for (p_idx, (&tof, &intensity)) in frame.tof_indices.iter()
+//                         .zip(frame.intensities.iter())
+//                         .enumerate() 
+//                     {
+//                         let mz = mz_cv.convert(tof as f64) as f32;
+//                         let scan = if p_idx < scan_lookup.len() {
+//                             unsafe { *scan_lookup.get_unchecked(p_idx) }
+//                         } else {
+//                             max_scan
+//                         };
+//                         let im = im_cv.convert(scan as f64) as f32;
+                        
+//                         ms1.rt_values_min.push(rt_min);
+//                         ms1.mobility_values.push(im);
+//                         ms1.mz_values.push(mz);
+//                         ms1.intensity_values.push(intensity);
+//                         ms1.frame_indices.push(frame.index as u32);
+//                         ms1.scan_indices.push(scan);
+//                     }
+//                 }
+//                 MSLevel::MS2 => {
+//                     let qs = &frame.quadrupole_settings;
+//                     ms2_pairs.reserve(qs.isolation_mz.len());
+                    
+//                     let scan_lookup = build_scan_lookup(&frame.scan_offsets);
+//                     let max_scan = (frame.scan_offsets.len() - 1) as u32;
+                    
+//                     for win in 0..qs.isolation_mz.len() {
+//                         if win >= qs.isolation_width.len() { break; }
+                        
+//                         let prec_mz = qs.isolation_mz[win] as f32;
+//                         let width = qs.isolation_width[win] as f32;
+//                         let low = prec_mz - width * 0.5;
+//                         let high = prec_mz + width * 0.5;
+//                         let key = (quantize(low), quantize(high));
+                        
+//                         let win_start = qs.scan_starts[win] as u32;
+//                         let win_end = qs.scan_ends[win] as u32;
+                        
+//                         let estimated_peaks = frame.tof_indices.len() / qs.isolation_mz.len().max(1);
+//                         let mut td = TimsTOFData::with_capacity(estimated_peaks);
+                        
+//                         for (p_idx, (&tof, &intensity)) in frame.tof_indices.iter()
+//                             .zip(frame.intensities.iter())
+//                             .enumerate() 
+//                         {
+//                             let scan = if p_idx < scan_lookup.len() {
+//                                 unsafe { *scan_lookup.get_unchecked(p_idx) }
+//                             } else {
+//                                 max_scan
+//                             };
+                            
+//                             if scan < win_start || scan > win_end { 
+//                                 continue; 
+//                             }
+                            
+//                             let mz = mz_cv.convert(tof as f64) as f32;
+//                             let im = im_cv.convert(scan as f64) as f32;
+                            
+//                             td.rt_values_min.push(rt_min);
+//                             td.mobility_values.push(im);
+//                             td.mz_values.push(mz);
+//                             td.intensity_values.push(intensity);
+//                             td.frame_indices.push(frame.index as u32);
+//                             td.scan_indices.push(scan);
+//                         }
+                        
+//                         if !td.mz_values.is_empty() {
+//                             ms2_pairs.push((key, td));
+//                         }
+//                     }
+//                 }
+//                 _ => {}
+//             }
+//             FrameSplit { ms1, ms2: ms2_pairs }
+//         })
+//         .collect();
+    
+//     // OPTIMIZED: Parallel merging with pre-calculated capacity
+//     let ms1_total_size: usize = splits.par_iter()
+//         .map(|s| s.ms1.mz_values.len())
+//         .sum();
+    
+//     let mut global_ms1 = TimsTOFData::with_capacity(ms1_total_size);
+//     for split in &splits {
+//         if !split.ms1.mz_values.is_empty() {
+//             global_ms1.merge_from_ref(&split.ms1);
+//         }
+//     }
+    
+//     // OPTIMIZED: Parallel MS2 merging with better memory layout
+//     let mut window_sizes: HashMap<(u32, u32), usize> = HashMap::with_capacity(64);
+//     for split in &splits {
+//         for (key, td) in &split.ms2 {
+//             *window_sizes.entry(*key).or_insert(0) += td.mz_values.len();
+//         }
+//     }
+    
+//     let mut ms2_hash: HashMap<(u32,u32), TimsTOFData> = 
+//         HashMap::with_capacity(window_sizes.len());
+//     for (key, size) in window_sizes {
+//         ms2_hash.insert(key, TimsTOFData::with_capacity(size));
+//     }
+    
+//     for split in splits {
+//         for (key, td) in split.ms2 {
+//             if let Some(entry) = ms2_hash.get_mut(&key) {
+//                 entry.merge_from(td);
+//             }
+//         }
+//     }
+    
+//     let mut ms2_vec: Vec<((f32, f32), TimsTOFData)> = Vec::with_capacity(ms2_hash.len());
+//     for ((q_low, q_high), td) in ms2_hash {
+//         let low = q_low as f32 / 10_000.0;
+//         let high = q_high as f32 / 10_000.0;
+//         ms2_vec.push(((low, high), td));
+//     }
+    
+//     ms2_vec.sort_unstable_by_key(|((low, high), _)| 
+//         ((low * 10000.0) as u32, (high * 10000.0) as u32));
+    
+//     println!("Total processing time: {:.2} seconds", start_time.elapsed().as_secs_f32());
+    
+//     Ok(TimsTOFRawData {
+//         ms1_data: global_ms1,
+//         ms2_windows: ms2_vec,
+//     })
+// }
+
+
 pub fn read_timstof_data(d_folder: &Path) -> Result<TimsTOFRawData, Box<dyn Error>> {
     let start_time = Instant::now();
     println!("Reading TimsTOF data from: {:?}", d_folder);
     
+    // Step 1: Read metadata
+    let metadata_start = Instant::now();
     let tdf_path = d_folder.join("analysis.tdf");
     let meta = MetadataReader::new(&tdf_path)?;
     let mz_cv = Arc::new(meta.mz_converter);
     let im_cv = Arc::new(meta.im_converter);
+    println!("  ✓ Metadata read: {:.2} ms", metadata_start.elapsed().as_secs_f32() * 1000.0);
     
+    // Step 2: Initialize frame reader
+    let frame_init_start = Instant::now();
     let frames = FrameReader::new(d_folder)?;
     let n_frames = frames.len();
-    println!("Processing {} frames in parallel...", n_frames);
+    println!("  ✓ Frame reader initialized: {:.2} ms ({} frames)", 
+             frame_init_start.elapsed().as_secs_f32() * 1000.0, n_frames);
     
-    // OPTIMIZED: Process frames in parallel with better work distribution
-    let chunk_size = (n_frames / rayon::current_num_threads()).max(10);
-    let splits: Vec<FrameSplit> = (0..n_frames)
-        .into_par_iter()
-        .with_min_len(chunk_size)
-        .map(|idx| {
-            let frame = frames.get(idx).expect("frame read");
-            let rt_min = frame.rt_in_seconds as f32 / 60.0;
-            let mut ms1 = TimsTOFData::new();
-            let mut ms2_pairs: Vec<((u32,u32), TimsTOFData)> = Vec::new();
-            
-            match frame.ms_level {
-                MSLevel::MS1 => {
-                    let n_peaks = frame.tof_indices.len();
-                    ms1 = TimsTOFData::with_capacity(n_peaks);
+    // Step 3: Process frames in parallel with optimizations
+    let frame_proc_start = Instant::now();
+    println!("  Processing {} frames in parallel...", n_frames);
+    
+    let splits: Vec<FrameSplit> = (0..n_frames).into_par_iter().map(|idx| {
+        let frame = frames.get(idx).expect("frame read");
+        let rt_min = frame.rt_in_seconds as f32 / 60.0;
+        let mut ms1 = TimsTOFData::new();
+        let mut ms2_pairs: Vec<((u32,u32), TimsTOFData)> = Vec::new();
+        
+        match frame.ms_level {
+            MSLevel::MS1 => {
+                let n_peaks = frame.tof_indices.len();
+                ms1 = TimsTOFData::with_capacity(n_peaks);
+                
+                // OPTIMIZATION: Build scan lookup table once per frame
+                let scan_lookup = build_scan_lookup(&frame.scan_offsets);
+                
+                // OPTIMIZATION: Use iterators and pre-allocated capacity
+                for (p_idx, (&tof, &intensity)) in frame.tof_indices.iter()
+                    .zip(frame.intensities.iter())
+                    .enumerate() 
+                {
+                    let mz = mz_cv.convert(tof as f64) as f32;
                     
-                    let scan_lookup = build_scan_lookup(&frame.scan_offsets);
-                    let max_scan = (frame.scan_offsets.len() - 1) as u32;
+                    // CRITICAL: O(1) lookup instead of O(n) search
+                    let scan = if p_idx < scan_lookup.len() {
+                        scan_lookup[p_idx]
+                    } else {
+                        (frame.scan_offsets.len() - 1) as u32
+                    };
                     
-                    // OPTIMIZED: Vectorized processing
+                    let im = im_cv.convert(scan as f64) as f32;
+                    
+                    ms1.rt_values_min.push(rt_min);
+                    ms1.mobility_values.push(im);
+                    ms1.mz_values.push(mz);
+                    ms1.intensity_values.push(intensity);
+                    ms1.frame_indices.push(frame.index as u32);
+                    ms1.scan_indices.push(scan);
+                }
+            }
+            MSLevel::MS2 => {
+                let qs = &frame.quadrupole_settings;
+                ms2_pairs.reserve(qs.isolation_mz.len());
+                
+                // OPTIMIZATION: Build scan lookup table once for MS2 frame
+                let scan_lookup = build_scan_lookup(&frame.scan_offsets);
+                
+                for win in 0..qs.isolation_mz.len() {
+                    if win >= qs.isolation_width.len() { break; }
+                    
+                    let prec_mz = qs.isolation_mz[win] as f32;
+                    let width = qs.isolation_width[win] as f32;
+                    let low = prec_mz - width * 0.5;
+                    let high = prec_mz + width * 0.5;
+                    let key = (quantize(low), quantize(high));
+                    
+                    // OPTIMIZATION: Pre-count peaks in window for capacity
+                    let win_start = qs.scan_starts[win];
+                    let win_end = qs.scan_ends[win];
+                    
+                    // Estimate capacity (rough but helps)
+                    let estimated_peaks = frame.tof_indices.len() / qs.isolation_mz.len();
+                    let mut td = TimsTOFData::with_capacity(estimated_peaks);
+                    
                     for (p_idx, (&tof, &intensity)) in frame.tof_indices.iter()
                         .zip(frame.intensities.iter())
                         .enumerate() 
                     {
-                        let mz = mz_cv.convert(tof as f64) as f32;
+                        // CRITICAL: O(1) lookup
                         let scan = if p_idx < scan_lookup.len() {
-                            unsafe { *scan_lookup.get_unchecked(p_idx) }
+                            scan_lookup[p_idx]
                         } else {
-                            max_scan
+                            (frame.scan_offsets.len() - 1) as u32
                         };
+                        
+                        // Quick bounds check
+                        if scan < win_start as u32 || scan > win_end as u32 { 
+                            continue; 
+                        }
+                        
+                        let mz = mz_cv.convert(tof as f64) as f32;
                         let im = im_cv.convert(scan as f64) as f32;
                         
-                        ms1.rt_values_min.push(rt_min);
-                        ms1.mobility_values.push(im);
-                        ms1.mz_values.push(mz);
-                        ms1.intensity_values.push(intensity);
-                        ms1.frame_indices.push(frame.index as u32);
-                        ms1.scan_indices.push(scan);
+                        td.rt_values_min.push(rt_min);
+                        td.mobility_values.push(im);
+                        td.mz_values.push(mz);
+                        td.intensity_values.push(intensity);
+                        td.frame_indices.push(frame.index as u32);
+                        td.scan_indices.push(scan);
+                    }
+                    
+                    if !td.mz_values.is_empty() {
+                        ms2_pairs.push((key, td));
                     }
                 }
-                MSLevel::MS2 => {
-                    let qs = &frame.quadrupole_settings;
-                    ms2_pairs.reserve(qs.isolation_mz.len());
-                    
-                    let scan_lookup = build_scan_lookup(&frame.scan_offsets);
-                    let max_scan = (frame.scan_offsets.len() - 1) as u32;
-                    
-                    for win in 0..qs.isolation_mz.len() {
-                        if win >= qs.isolation_width.len() { break; }
-                        
-                        let prec_mz = qs.isolation_mz[win] as f32;
-                        let width = qs.isolation_width[win] as f32;
-                        let low = prec_mz - width * 0.5;
-                        let high = prec_mz + width * 0.5;
-                        let key = (quantize(low), quantize(high));
-                        
-                        let win_start = qs.scan_starts[win] as u32;
-                        let win_end = qs.scan_ends[win] as u32;
-                        
-                        let estimated_peaks = frame.tof_indices.len() / qs.isolation_mz.len().max(1);
-                        let mut td = TimsTOFData::with_capacity(estimated_peaks);
-                        
-                        for (p_idx, (&tof, &intensity)) in frame.tof_indices.iter()
-                            .zip(frame.intensities.iter())
-                            .enumerate() 
-                        {
-                            let scan = if p_idx < scan_lookup.len() {
-                                unsafe { *scan_lookup.get_unchecked(p_idx) }
-                            } else {
-                                max_scan
-                            };
-                            
-                            if scan < win_start || scan > win_end { 
-                                continue; 
-                            }
-                            
-                            let mz = mz_cv.convert(tof as f64) as f32;
-                            let im = im_cv.convert(scan as f64) as f32;
-                            
-                            td.rt_values_min.push(rt_min);
-                            td.mobility_values.push(im);
-                            td.mz_values.push(mz);
-                            td.intensity_values.push(intensity);
-                            td.frame_indices.push(frame.index as u32);
-                            td.scan_indices.push(scan);
-                        }
-                        
-                        if !td.mz_values.is_empty() {
-                            ms2_pairs.push((key, td));
-                        }
-                    }
-                }
-                _ => {}
             }
-            FrameSplit { ms1, ms2: ms2_pairs }
-        })
-        .collect();
+            _ => {}
+        }
+        FrameSplit { ms1, ms2: ms2_pairs }
+    }).collect();
     
-    // OPTIMIZED: Parallel merging with pre-calculated capacity
+    println!("  ✓ Frame processing: {:.2} ms", frame_proc_start.elapsed().as_secs_f32() * 1000.0);
+    
+    // Step 4: Merge MS1 data - OPTIMIZED
+    let ms1_merge_start = Instant::now();
+    println!("  Merging MS1 data...");
+    
+    // OPTIMIZATION: Calculate exact size for single allocation
     let ms1_total_size: usize = splits.par_iter()
         .map(|s| s.ms1.mz_values.len())
         .sum();
     
     let mut global_ms1 = TimsTOFData::with_capacity(ms1_total_size);
+    
     for split in &splits {
         if !split.ms1.mz_values.is_empty() {
-            global_ms1.merge_from_ref(&split.ms1);
+            global_ms1.rt_values_min.extend(&split.ms1.rt_values_min);
+            global_ms1.mobility_values.extend(&split.ms1.mobility_values);
+            global_ms1.mz_values.extend(&split.ms1.mz_values);
+            global_ms1.intensity_values.extend(&split.ms1.intensity_values);
+            global_ms1.frame_indices.extend(&split.ms1.frame_indices);
+            global_ms1.scan_indices.extend(&split.ms1.scan_indices);
         }
     }
+    println!("  ✓ MS1 merge: {:.2} ms ({} peaks)", 
+             ms1_merge_start.elapsed().as_secs_f32() * 1000.0, 
+             global_ms1.mz_values.len());
     
-    // OPTIMIZED: Parallel MS2 merging with better memory layout
+    // Step 5: Merge MS2 data - HEAVILY OPTIMIZED
+    let ms2_merge_start = Instant::now();
+    println!("  Merging MS2 data...");
+    
+    // OPTIMIZATION #2: Pre-allocate HashMap with expected size
+    // Typically 32-50 windows in DIA
+    let mut ms2_hash: HashMap<(u32,u32), TimsTOFData> = HashMap::with_capacity(64);
+    
+    // OPTIMIZATION: Pre-calculate total MS2 size per window to avoid reallocation
     let mut window_sizes: HashMap<(u32, u32), usize> = HashMap::with_capacity(64);
     for split in &splits {
         for (key, td) in &split.ms2 {
@@ -281,31 +479,48 @@ pub fn read_timstof_data(d_folder: &Path) -> Result<TimsTOFRawData, Box<dyn Erro
         }
     }
     
-    let mut ms2_hash: HashMap<(u32,u32), TimsTOFData> = 
-        HashMap::with_capacity(window_sizes.len());
+    // Pre-allocate each window with exact capacity
     for (key, size) in window_sizes {
         ms2_hash.insert(key, TimsTOFData::with_capacity(size));
     }
     
-    for split in splits {
-        for (key, td) in split.ms2 {
+    // Now merge without reallocation
+    for mut split in splits {
+        for (key, mut td) in split.ms2 {
             if let Some(entry) = ms2_hash.get_mut(&key) {
+                // entry.merge_from(&mut td);
                 entry.merge_from(td);
             }
         }
     }
     
-    let mut ms2_vec: Vec<((f32, f32), TimsTOFData)> = Vec::with_capacity(ms2_hash.len());
+    println!("  ✓ MS2 merge: {:.2} ms ({} windows)", 
+             ms2_merge_start.elapsed().as_secs_f32() * 1000.0, 
+             ms2_hash.len());
+    
+    // Step 6: Convert to final format
+    let ms2_convert_start = Instant::now();
+    let mut ms2_vec = Vec::with_capacity(ms2_hash.len());
+    
+    // OPTIMIZATION: Move data instead of cloning
     for ((q_low, q_high), td) in ms2_hash {
         let low = q_low as f32 / 10_000.0;
         let high = q_high as f32 / 10_000.0;
         ms2_vec.push(((low, high), td));
     }
     
-    ms2_vec.sort_unstable_by_key(|((low, high), _)| 
-        ((low * 10000.0) as u32, (high * 10000.0) as u32));
+    // Sort by window for consistent output
+    ms2_vec.sort_by(|a, b| a.0.0.partial_cmp(&b.0.0).unwrap());
     
-    println!("Total processing time: {:.2} seconds", start_time.elapsed().as_secs_f32());
+    println!("  ✓ MS2 convert: {:.2} ms", ms2_convert_start.elapsed().as_secs_f32() * 1000.0);
+    
+    println!("  MS1 data points: {}", global_ms1.mz_values.len());
+    println!("  MS2 windows: {}", ms2_vec.len());
+    
+    let total_ms2_peaks: usize = ms2_vec.iter().map(|(_, td)| td.mz_values.len()).sum();
+    println!("  MS2 data points: {}", total_ms2_peaks);
+    
+    println!("\n  Total processing time: {:.2} seconds", start_time.elapsed().as_secs_f32());
     
     Ok(TimsTOFRawData {
         ms1_data: global_ms1,

@@ -1,3 +1,9 @@
+# Ignore any directories starting with "output-" anywhere in the repo
+**/output-*/
+
+# Ignore any directories named exactly "output" anywhere in the repo
+**/output/
+
 :/output/
 **/output/**
 **/target/**

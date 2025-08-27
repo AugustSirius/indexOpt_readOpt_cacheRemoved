@@ -1,0 +1,2229 @@
+ASLEAAIADAEQRGELAIK3_RT84.19_IM0.9430_final_dataframe.csv
+ASLKEPEGPR2_RT22.32_IM0.8889_final_dataframe.csv
+ASLPHGPMK2_RT28.12_IM0.8210_final_dataframe.csv
+ASPQLREAVLK2_RT38.71_IM0.9346_final_dataframe.csv
+ASTIEMPQQAR2_RT38.62_IM0.9152_final_dataframe.csv
+ATAPVPTVGEGYGYGHESELSQASAAAR3_RT60.60_IM1.0256_final_dataframe.csv
+ATAVVDGAFK2_RT40.54_IM0.8186_final_dataframe.csv
+ATAVVDGAFKEVK3_RT45.62_IM0.8116_final_dataframe.csv
+ATDAEADVASLNRR3_RT37.54_IM0.8411_final_dataframe.csv
+ATDFVADRAGTFKMVFTPK3_RT73.22_IM1.0024_final_dataframe.csv
+ATHVVQSEVDK2_RT17.57_IM0.9110_final_dataframe.csv
+ATIAGGGVIPHIHK3_RT45.41_IM0.7684_final_dataframe.csv
+ATISNDGATILK2_RT46.38_IM0.9299_final_dataframe.csv
+ATLLDIYK2_RT65.50_IM0.8438_final_dataframe.csv
+ATNESEDEIPQLVPIGK2_RT75.78_IM1.1390_final_dataframe.csv
+ATNIEVLSNTFQFTNEAR2_RT85.07_IM1.1936_final_dataframe.csv
+ATNMTVSAIR2_RT39.45_IM0.8650_final_dataframe.csv
+ATPTPFTPEMER2_RT55.29_IM1.0075_final_dataframe.csv
+ATTELPLLRAALKETLR3_RT85.93_IM0.9222_final_dataframe.csv
+ATVLNYLPK2_RT66.82_IM0.8643_final_dataframe.csv
+ATYGNFMR2_RT42.58_IM0.8256_final_dataframe.csv
+AVAFSPVTELK2_RT65.30_IM0.9362_final_dataframe.csv
+AVAGNISDPGLQK2_RT40.05_IM0.9760_final_dataframe.csv
+AVAREESGKPGAHVTVK3_RT17.58_IM0.8659_final_dataframe.csv
+AVFQANQENLPILKR3_RT65.82_IM0.8752_final_dataframe.csv
+AVGPEITK2_RT27.72_IM0.7444_final_dataframe.csv
+AVGVPALGFSPMNR3_RT77.43_IM0.8338_final_dataframe.csv
+AVNIAGIGEPGEVTDVIEM(UniMod:35)K2_RT83.28_IM1.2230_final_dataframe.csv
+AVNKVGGGEYIELK3_RT46.60_IM0.8266_final_dataframe.csv
+AAPLQGMLPGLLAPLR3_RT92.67_IM0.8928_final_dataframe.csv
+AAPRPAPVAQPPAAAPPSAVGSSAAAPR3_RT51.16_IM1.0273_final_dataframe.csv
+
+[比较] AASGFNAMEDAQTLR2_RT58.98_IM1.0860_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+AASVVQPQPLVVVK2_RT64.01_IM1.0887_final_dataframe.csv
+AAVPSGASTGIYEALELRDGDK3_RT74.20_IM0.9863_final_dataframe.csv
+ADAVNQEFLTTR2_RT51.59_IM0.9899_final_dataframe.csv
+ADDAGAAGGPGGPGGPGM(UniMod:35)GNRGGFRGGFGSGIR3_RT63.41_IM1.1627_final_dataframe.csv
+ADFREPNAEVPRPIPHIGPDYIPTEEER5_RT71.11_IM0.9362_final_dataframe.csv
+ADGYIDLDELK2_RT69.40_IM0.9740_final_dataframe.csv
+ADLAAQYTTVGR2_RT46.78_IM0.9578_final_dataframe.csv
+ADVLTTGAGNPVGDKLNVITVGPR3_RT77.07_IM0.9667_final_dataframe.csv
+AEELHYPLGER3_RT44.74_IM0.7387_final_dataframe.csv
+AEGILLLVK2_RT76.82_IM0.8449_final_dataframe.csv
+AEHDSILAEK2_RT25.19_IM0.8993_final_dataframe.csv
+AEHQQDSEDLFKK3_RT26.79_IM0.8021_final_dataframe.csv
+AEIITVSDGR2_RT41.85_IM0.8857_final_dataframe.csv
+AERDYHIFYQILSNK3_RT73.43_IM0.8716_final_dataframe.csv
+AFAHITGGGLLENIPR3_RT74.69_IM0.8288_final_dataframe.csv
+AFEALLSNIVK2_RT88.11_IM0.9601_final_dataframe.csv
+AFEDTLQLMER2_RT73.71_IM0.9993_final_dataframe.csv
+AFINLEAAGVGGK2_RT68.27_IM0.9466_final_dataframe.csv
+AFKALIAAQYSGAQVR2_RT59.67_IM1.1240_final_dataframe.csv
+AFKAWAVAR2_RT43.71_IM0.8750_final_dataframe.csv
+AFLASPEYVNLPI2_RT93.04_IM1.0373_final_dataframe.csv
+AFLMQHAPANDYLVTSHIHLHVPEGATPK5_RT74.22_IM0.9649_final_dataframe.csv
+AFRPELR2_RT32.14_IM0.8298_final_dataframe.csv
+AGAISASGPELQGAGHSK3_RT34.66_IM0.8783_final_dataframe.csv
+AGGANSNVFSM(UniMod:35)FEQTQIQEFK2_RT85.91_IM1.2703_final_dataframe.csv
+AGGATSVQIEMNK2_RT40.60_IM0.9607_final_dataframe.csv
+ALDHITTLLRPGGHLLL3_RT87.12_IM0.8947_final_dataframe.csv
+ALDQSDNDMSAVYR2_RT46.82_IM1.0540_final_dataframe.csv
+ALDYYMLR2_RT64.26_IM0.8929_final_dataframe.csv
+ALEHFTDLYDIK2_RT68.65_IM1.0644_final_dataframe.csv
+ALFEEVPELLTEAEK2_RT91.12_IM1.1300_final_dataframe.csv
+ALFNRLVPSVNGVR3_RT70.23_IM0.8007_final_dataframe.csv
+ALGIGVYPVR2_RT64.41_IM0.8924_final_dataframe.csv
+ALHYSDEVEIIQGLTR3_RT79.53_IM0.8536_final_dataframe.csv
+ALIESYQNLTR2_RT58.55_IM0.9735_final_dataframe.csv
+ALIQILAAAAAER2_RT89.94_IM1.0610_final_dataframe.csv
+ALKGTNDSLMR2_RT28.54_IM0.9564_final_dataframe.csv
+ALLIFLEK2_RT85.14_IM0.8354_final_dataframe.csv
+ALLNVVDNAR2_RT55.53_IM0.9136_final_dataframe.csv
+ALLSYDGLNQR2_RT58.70_IM0.9690_final_dataframe.csv
+ALPAPIEKTISKTK3_RT47.33_IM0.7950_final_dataframe.csv
+ALPATPQLPSR2_RT53.89_IM0.9009_final_dataframe.csv
+ALPDSGEDRDTK2_RT17.70_IM0.9639_final_dataframe.csv
+ALPEPMQESK2_RT38.63_IM0.8943_final_dataframe.csv
+ALPHAIMR2_RT35.35_IM0.8350_final_dataframe.csv
+ALQEAHQQALDDLQAEED2_RT53.94_IM1.1893_final_dataframe.csv
+ALQEAHQQALDDLQAEEDKVNTLTK4_RT69.62_IM0.9407_final_dataframe.csv
+ALQHNTVLTELR3_RT48.48_IM0.7627_final_dataframe.csv
+ALSQLAEVEEK2_RT49.55_IM0.9720_final_dataframe.csv
+ALSVVSTVVR2_RT57.09_IM0.8522_final_dataframe.csv
+ALVEGVDQLFTDYQIK2_RT90.10_IM1.1643_final_dataframe.csv
+
+[比较] ALVGGTAPM(UniMod:35)TIK2_RT43.01_IM0.9590_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+ALVPGNIFKSSGLTDGIAYEFR3_RT89.83_IM0.9904_final_dataframe.csv
+ALVSEEGEGK2_RT22.74_IM0.8504_final_dataframe.csv
+ALVTGYFMQVAHLER2_RT85.87_IM1.2194_final_dataframe.csv
+(UniMod:1)AAAAAAGAASGLPGPVAQGLK2_RT81.97_IM1.2376_final_dataframe.csv
+(UniMod:1)AAAAELSLLEK2_RT87.91_IM0.9167_final_dataframe.csv
+(UniMod:1)AAPMTPAARPED2_RT46.38_IM0.9383_final_dataframe.csv
+
+[比较] (UniMod:1)AAQALALLR2_RT90.78_IM0.8650_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+(UniMod:1)AEAITYADLR2_RT73.32_IM0.9584_final_dataframe.csv
+(UniMod:1)AEVQVLVLDGRGHLLGR3_RT88.27_IM0.9067_final_dataframe.csv
+(UniMod:1)AHQTGIHATEELK2_RT33.78_IM1.0900_final_dataframe.csv
+(UniMod:1)ALLAEHLLKPLPADK3_RT88.96_IM0.8683_final_dataframe.csv
+(UniMod:1)MEATLEQHLEDTMK2_RT86.02_IM1.1607_final_dataframe.csv
+(UniMod:1)MEEVVIAGMSGK2_RT89.16_IM1.0187_final_dataframe.csv
+(UniMod:1)MEGPLSVFGDR2_RT91.15_IM0.9460_final_dataframe.csv
+(UniMod:1)MLGPEGGEGFVVK2_RT84.29_IM1.0181_final_dataframe.csv
+(UniMod:1)SASSLLEQRPK2_RT50.71_IM0.9919_final_dataframe.csv
+(UniMod:1)SETAPAAPAAPAPAEKTPVK3_RT46.11_IM0.9975_final_dataframe.csv
+(UniMod:1)SMPDAMPLPGVGEELK2_RT89.94_IM1.1510_final_dataframe.csv
+(UniMod:1)SNPFAHLAEPLDPVQPGK3_RT88.18_IM0.9202_final_dataframe.csv
+(UniMod:1)SSDSELAVFGEAAPFLR2_RT93.81_IM1.2800_final_dataframe.csv
+(UniMod:1)TAIIKEIVSR2_RT89.86_IM0.9214_final_dataframe.csv
+(UniMod:1)VDREQLVQK2_RT37.60_IM0.9197_final_dataframe.csv
+AADTIIGFEHGTAVER2_RT56.38_IM1.1513_final_dataframe.csv
+AAFDDAIAELDTLSEESYK2_RT91.49_IM1.2265_final_dataframe.csv
+AAFVLPEFAR2_RT81.15_IM0.8893_final_dataframe.csv
+AAHFVFR2_RT36.89_IM0.8075_final_dataframe.csv
+AAIISAEGDSK2_RT29.06_IM0.8825_final_dataframe.csv
+AALPYFPR2_RT63.12_IM0.8091_final_dataframe.csv
+AAMVDVGRKPDTER3_RT27.43_IM0.8263_final_dataframe.csv
+AANGVVLATEK2_RT34.09_IM0.8931_final_dataframe.csv
+
+[比较] AAPAPAPPPEPER2_RT34.44_IM0.9425_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+AAPKAAPAPAPPPEPERPK4_RT32.87_IM0.8686_final_dataframe.csv
+AGGIETIANEYSDR2_RT56.51_IM1.0206_final_dataframe.csv
+AGKGEVTFEDVK2_RT35.02_IM0.9427_final_dataframe.csv
+AGLGAVYTR2_RT38.05_IM0.8189_final_dataframe.csv
+
+[比较] AGLTDQVSHHAR3_RT22.43_IM0.7469_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+AGLVIGAGAC(UniMod:4)YC(UniMod:4)IYR2_RT47.08_IM1.0936_final_dataframe.csv
+AGMSAEQAQGLLEKIATPK3_RT80.11_IM0.9294_final_dataframe.csv
+AGNAIHAILLYR3_RT63.52_IM0.7469_final_dataframe.csv
+AGNLGGGVVTIER2_RT50.55_IM0.9652_final_dataframe.csv
+AGQAVDDFIEK2_RT49.53_IM0.8945_final_dataframe.csv
+AGTFKMVFTPK3_RT56.10_IM0.7591_final_dataframe.csv
+AGTNMMM(UniMod:35)VGVHGPK3_RT41.00_IM0.7970_final_dataframe.csv
+AGVDTSPDTQKILVDSR3_RT49.12_IM0.8294_final_dataframe.csv
+AGVLFGM(UniMod:35)SDR2_RT45.38_IM0.8950_final_dataframe.csv
+AHATTSNTVSKLLEK3_RT39.24_IM0.8631_final_dataframe.csv
+
+[比较] AHFGLPSVEAEDK2_RT52.75_IM1.0070_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+AHGLEVEPSALEQGFR3_RT66.70_IM0.8361_final_dataframe.csv
+AHSSM(UniMod:35)VGVNLPQK3_RT33.87_IM0.7802_final_dataframe.csv
+AHSSMVGVNLPQK3_RT42.21_IM0.8055_final_dataframe.csv
+AHVIVMAATNRPNSIDPALR3_RT56.42_IM0.9558_final_dataframe.csv
+AIAIAAGVPVVPGTD2_RT84.83_IM1.0030_final_dataframe.csv
+AIGEELLPR2_RT58.40_IM0.8492_final_dataframe.csv
+AIGISNFNHLQVEM(UniMod:35)ILNK3_RT83.16_IM0.8928_final_dataframe.csv
+AIMTYVSSFYHAFSGAQK3_RT89.38_IM0.9393_final_dataframe.csv
+AINQAGVGKPSDLAGPVVAETRPGTK3_RT54.85_IM1.1465_final_dataframe.csv
+AIYLLKVGK2_RT55.62_IM0.8669_final_dataframe.csv
+AKLSSDVLTLLIK2_RT86.88_IM1.0600_final_dataframe.csv
+ALAHLLEAERQER3_RT40.85_IM0.8361_final_dataframe.csv
+ALASILLQDHIR2_RT70.78_IM1.0302_final_dataframe.csv
+ALDEATKYALERK3_RT41.21_IM0.8094_final_dataframe.csv
+DATNVGDEGGFAPN2_RT47.54_IM0.9575_final_dataframe.csv
+DDPIGNINLAM(UniMod:35)EIAEK2_RT82.88_IM1.1378_final_dataframe.csv
+DEDGYFQFMGR2_RT74.32_IM0.9702_final_dataframe.csv
+DEIFATAKENEK2_RT35.14_IM1.0289_final_dataframe.csv
+DFALLSLQVPLKDAK2_RT89.29_IM1.2228_final_dataframe.csv
+DFENEM(UniMod:35)ATAASSSSLEK2_RT44.59_IM1.1319_final_dataframe.csv
+DFHILFVPR2_RT81.12_IM0.9131_final_dataframe.csv
+DFLALALLDGR2_RT92.91_IM0.9765_final_dataframe.csv
+DFLFLGANVQYMR2_RT90.95_IM1.1110_final_dataframe.csv
+DFMIGLVK2_RT77.70_IM0.8120_final_dataframe.csv
+DFNM(UniMod:35)PLTISSLK2_RT73.13_IM0.9996_final_dataframe.csv
+DFSHPQMPK2_RT38.63_IM0.8730_final_dataframe.csv
+DFTLAMAAR2_RT63.52_IM0.8530_final_dataframe.csv
+DFTPAELRR2_RT43.74_IM0.8987_final_dataframe.csv
+
+[比较] DGFFGNPR2_RT46.38_IM0.8054_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+DHEVLFPK2_RT41.45_IM0.8858_final_dataframe.csv
+DHLVTAYNHLFETK3_RT60.11_IM0.8677_final_dataframe.csv
+DIALLKLSSPAVITDK3_RT84.96_IM0.8062_final_dataframe.csv
+DIPGLTDTTVPR2_RT63.89_IM0.9604_final_dataframe.csv
+DKILGATIENSR2_RT42.18_IM0.9835_final_dataframe.csv
+DLAGSIIGKGGQR2_RT47.87_IM1.0375_final_dataframe.csv
+DLAKDITSDTSGDFR2_RT59.09_IM1.0806_final_dataframe.csv
+DLAQALINR2_RT62.15_IM0.8611_final_dataframe.csv
+DLDTGEEVTR2_RT31.60_IM0.9085_final_dataframe.csv
+DLEEATLQHEA2_RT46.72_IM0.9466_final_dataframe.csv
+DLEGSDIDTR2_RT33.18_IM0.8903_final_dataframe.csv
+DLFDFSTR2_RT73.92_IM0.8477_final_dataframe.csv
+DLIGVQNLLKK2_RT72.82_IM0.9922_final_dataframe.csv
+DLISNNEQLPMLGR2_RT79.46_IM1.0578_final_dataframe.csv
+ELNDIRFEFTPGR3_RT70.35_IM0.8366_final_dataframe.csv
+ELNVMFIETSAK2_RT76.82_IM1.0204_final_dataframe.csv
+ELNYFAK2_RT43.73_IM0.8028_final_dataframe.csv
+ELNYFAKALESPERPFLAILGGAK3_RT91.59_IM1.1287_final_dataframe.csv
+ELQTLHNLR2_RT35.87_IM0.9238_final_dataframe.csv
+ELREFLDK2_RT42.92_IM0.8746_final_dataframe.csv
+ELTLEKPELK2_RT48.91_IM0.9637_final_dataframe.csv
+
+[比较] ELVAHLR2_RT30.47_IM0.8010_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+ELVTVLLQHR2_RT65.71_IM0.9725_final_dataframe.csv
+ELYPVEFR2_RT63.25_IM0.8757_final_dataframe.csv
+EMKLLEQAGSLK2_RT57.17_IM1.0365_final_dataframe.csv
+ENLEEEAIIM(UniMod:35)K2_RT51.80_IM0.9786_final_dataframe.csv
+ENVAITALEGLK2_RT86.69_IM0.9609_final_dataframe.csv
+EPAHLMSLFGGKPMIIYK4_RT82.98_IM0.8938_final_dataframe.csv
+EPGHLEESYAQQTTLEYGYK3_RT57.55_IM0.9241_final_dataframe.csv
+EPLFGISTGNLITGLAAGAK2_RT91.84_IM1.2296_final_dataframe.csv
+EPQVYTLPPSRDELTK2_RT55.32_IM1.1839_final_dataframe.csv
+EQAPNLVYMVTGNPASDEIK2_RT86.39_IM1.2576_final_dataframe.csv
+EQEVTVLKKALDEETR3_RT58.36_IM0.9069_final_dataframe.csv
+EQLAKLMATLR3_RT67.12_IM0.8007_final_dataframe.csv
+ESDVPLKTEEFEVTK2_RT56.26_IM1.1153_final_dataframe.csv
+ESETTTSLVLER2_RT49.64_IM0.9834_final_dataframe.csv
+ESGYNM(UniMod:35)IHFTPLQTLGLSR3_RT85.42_IM0.9046_final_dataframe.csv
+ESLVISGLR2_RT58.61_IM0.8481_final_dataframe.csv
+ESNGTVMGAELR2_RT42.39_IM0.9547_final_dataframe.csv
+ESVFTVEGGHR2_RT36.68_IM0.9561_final_dataframe.csv
+ESVLQFYPK2_RT64.69_IM0.9098_final_dataframe.csv
+ESYSIYVYK2_RT54.62_IM0.9338_final_dataframe.csv
+ETAENYLGHTAK3_RT30.51_IM0.7660_final_dataframe.csv
+DLLHPSLEEEK2_RT53.82_IM0.9836_final_dataframe.csv
+DLQDAVTELSK2_RT65.44_IM0.9411_final_dataframe.csv
+DLQHPNEFIR3_RT48.66_IM0.8094_final_dataframe.csv
+DLSLLSHGGRVIVVGSR3_RT67.59_IM0.9050_final_dataframe.csv
+DLTIGQMQGK2_RT45.90_IM0.8813_final_dataframe.csv
+DLYDAGVKRK2_RT23.98_IM0.9181_final_dataframe.csv
+DMFQETM(UniMod:35)EAMR2_RT59.59_IM0.9811_final_dataframe.csv
+DMHSLVMR2_RT40.72_IM0.8562_final_dataframe.csv
+DMSGTMGFNEFK2_RT67.24_IM0.9805_final_dataframe.csv
+DNGLLAKPTHGDIIR3_RT47.57_IM0.8491_final_dataframe.csv
+DNLAEDIM(UniMod:35)R2_RT43.83_IM0.8706_final_dataframe.csv
+DNLAEELEGVAGR2_RT76.79_IM0.9730_final_dataframe.csv
+DPFAHLPK2_RT45.65_IM0.8533_final_dataframe.csv
+DPVSIEER2_RT32.32_IM0.8325_final_dataframe.csv
+DQELGEYLAR2_RT55.47_IM0.9362_final_dataframe.csv
+DQGSFTEVVSISNLGMAK2_RT87.44_IM1.1954_final_dataframe.csv
+DRADQTVLTEDEK2_RT30.64_IM1.0077_final_dataframe.csv
+DRFSAEDEALSNIAR3_RT61.61_IM0.8726_final_dataframe.csv
+DRPGPPEGPLK2_RT43.65_IM0.8897_final_dataframe.csv
+DSIFSNLTGQLDYQGFEK2_RT90.38_IM1.2245_final_dataframe.csv
+DSTYSLSSTLTLSKADYEK3_RT68.19_IM0.9339_final_dataframe.csv
+DTGKTPVEPEVAIHRIR4_RT45.14_IM0.7636_final_dataframe.csv
+DTGTYGFLLPER2_RT76.97_IM0.9883_final_dataframe.csv
+DTHDQLSEPSEVR3_RT32.36_IM0.7982_final_dataframe.csv
+DTLASVFR2_RT60.99_IM0.8197_final_dataframe.csv
+DTM(UniMod:35)DLPEELPGVK2_RT64.32_IM1.0131_final_dataframe.csv
+DTTAAHQALLVAK2_RT40.45_IM1.0535_final_dataframe.csv
+DTVTKDNGIRPSSLEQMAK3_RT50.07_IM0.9356_final_dataframe.csv
+DVASLSSQLQDTQELLQEETR2_RT89.76_IM1.2990_final_dataframe.csv
+AVQEIMQEK2_RT33.84_IM0.8704_final_dataframe.csv
+AVQMGMSSVFFNK2_RT75.72_IM1.0366_final_dataframe.csv
+AVQQPDGLAVLGIFLK3_RT94.27_IM0.8816_final_dataframe.csv
+AVTDFTSEVTYDPAGR2_RT65.50_IM1.1226_final_dataframe.csv
+AVVGGSHVSTAAVVR2_RT36.39_IM1.0597_final_dataframe.csv
+AVVGVVAGGGRIDKPILK3_RT54.71_IM0.9318_final_dataframe.csv
+AVVVNAAQLASYSQSK3_RT62.37_IM0.8646_final_dataframe.csv
+AYAILLVTHGPSHPITK2_RT60.20_IM1.2127_final_dataframe.csv
+AYGDMYELSTNTQEK2_RT52.63_IM1.1132_final_dataframe.csv
+AYGGTTEYAASVKGR2_RT32.66_IM1.0989_final_dataframe.csv
+AYGPGIEPTGNMVKK3_RT43.62_IM0.8039_final_dataframe.csv
+AYGVESHVLSPAETK3_RT44.13_IM0.8056_final_dataframe.csv
+AYTGREFDDLPLAEQR3_RT62.45_IM0.8776_final_dataframe.csv
+AYTNFDAERDALNIETAIK3_RT78.62_IM0.9723_final_dataframe.csv
+C(UniMod:4)M(UniMod:35)DPRLEFEK2_RT19.75_IM0.9961_final_dataframe.csv
+DADEAKRVESQLK3_RT35.26_IM0.7873_final_dataframe.csv
+DAFEHIVTQF2_RT81.75_IM0.9047_final_dataframe.csv
+DAFVAIVQSVKNK2_RT69.56_IM1.0804_final_dataframe.csv
+
+[比较] DAGEGLLAVQITDPEGK2_RT78.04_IM1.1073_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+DAGHPLYPFNDPY2_RT75.60_IM1.0179_final_dataframe.csv
+DAHLIPDHTIR3_RT40.57_IM0.7952_final_dataframe.csv
+DALAASHEPPPEPEEITGPVD2_RT65.57_IM1.2190_final_dataframe.csv
+DALGDSLQVPVSPSSTTSSR2_RT67.12_IM1.1832_final_dataframe.csv
+DALSQLMNGPIR2_RT81.42_IM0.9619_final_dataframe.csv
+DAMENEMR2_RT25.46_IM0.8509_final_dataframe.csv
+
+[比较] DAPIALKR2_RT31.38_IM0.8101_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+DAQEKLELAEK3_RT35.08_IM0.7402_final_dataframe.csv
+DAQVPIILAVNK2_RT76.45_IM0.9477_final_dataframe.csv
+DASLMVTNDGATILK2_RT71.88_IM1.0611_final_dataframe.csv
+DVEILHLR2_RT59.31_IM0.8591_final_dataframe.csv
+DVFSPIGER2_RT55.50_IM0.8413_final_dataframe.csv
+DVIVVKAGEVLK2_RT59.86_IM1.0134_final_dataframe.csv
+DVNVNFEK2_RT40.72_IM0.8303_final_dataframe.csv
+DVVDPGKVK2_RT25.43_IM0.8538_final_dataframe.csv
+DVVTLLAEGLR2_RT90.76_IM0.9622_final_dataframe.csv
+DWDFSMNLNVR3_RT41.54_IM0.7598_final_dataframe.csv
+DYDSLAQPGFFDR2_RT75.27_IM1.0602_final_dataframe.csv
+DYKTMAALAK2_RT42.83_IM0.9344_final_dataframe.csv
+DYLHYIRK2_RT41.43_IM0.9015_final_dataframe.csv
+DYPFHEEF2_RT66.36_IM0.8649_final_dataframe.csv
+EAAAAGLPGLAR2_RT51.93_IM0.8849_final_dataframe.csv
+EAEEQANTNLSK2_RT19.66_IM0.9497_final_dataframe.csv
+EAEERADIAESQVNKLR3_RT42.24_IM0.9709_final_dataframe.csv
+EAFNM(UniMod:35)IDQNR2_RT34.56_IM0.9256_final_dataframe.csv
+EAIAELDTLNEDSYK2_RT65.96_IM1.1070_final_dataframe.csv
+EAILAIHKEAQRIAESNHIK4_RT53.37_IM0.8465_final_dataframe.csv
+EAIQLIAR2_RT50.80_IM0.8201_final_dataframe.csv
+EAMVQAEEAAAEITR2_RT66.44_IM1.0640_final_dataframe.csv
+EANHNVSAPYGR3_RT21.71_IM0.7829_final_dataframe.csv
+EAPGPAGGGGGGSR2_RT13.04_IM0.8752_final_dataframe.csv
+EATQEAFMKR2_RT28.72_IM0.9319_final_dataframe.csv
+EAVEEPSSKDVMEK2_RT33.21_IM1.0724_final_dataframe.csv
+EAYMGNVLQGGEGQAPTR3_RT55.46_IM0.9372_final_dataframe.csv
+EDFSDMVAEHAAK2_RT52.30_IM1.0739_final_dataframe.csv
+EDGQEYAQVIK2_RT43.37_IM0.9474_final_dataframe.csv
+EDLKEQLAMVER2_RT57.61_IM1.0291_final_dataframe.csv
+EDLSKIIR2_RT45.38_IM0.8535_final_dataframe.csv
+EDMTYAVR2_RT34.72_IM0.8397_final_dataframe.csv
+EIGAVGNAGPAGPAGPR2_RT42.10_IM1.0003_final_dataframe.csv
+EIGELTQLK2_RT52.11_IM0.8674_final_dataframe.csv
+EIHATIPETGLMHR3_RT53.09_IM0.8891_final_dataframe.csv
+EIIADGLKYR2_RT48.31_IM0.9745_final_dataframe.csv
+EIINVGHSFHVNFEDNDNRSVLK3_RT69.38_IM1.1329_final_dataframe.csv
+EILFSVDSSINQSIGGVILFHETLYQK3_RT94.38_IM1.2242_final_dataframe.csv
+EINLAPDSSSVVVSGLMVATK2_RT89.54_IM1.3019_final_dataframe.csv
+EIQEAIAVANASTMH2_RT60.94_IM1.1502_final_dataframe.csv
+EITALAPSTM(UniMod:35)KIK2_RT44.86_IM1.0666_final_dataframe.csv
+EIVEMLFSR2_RT80.33_IM0.8948_final_dataframe.csv
+EKEMASMKEEFTR3_RT36.05_IM0.8598_final_dataframe.csv
+EKLEMEMEAAR2_RT41.24_IM0.9941_final_dataframe.csv
+
+[比较] EKPLALYVFSHNHK3_RT51.48_IM0.9082_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+EKYEKDIAAYR3_RT30.30_IM0.8015_final_dataframe.csv
+ELDIAGDEDNRR2_RT31.96_IM0.9982_final_dataframe.csv
+ELEDMNQKLFDLR3_RT72.16_IM0.8405_final_dataframe.csv
+ELEGILLPSDRDR3_RT62.37_IM0.8253_final_dataframe.csv
+ELEKILTTASSHEFEHTKK4_RT49.07_IM0.8286_final_dataframe.csv
+ELESQVSGLEK2_RT42.15_IM0.9186_final_dataframe.csv
+ELGENMSDEELR2_RT46.26_IM1.0173_final_dataframe.csv
+
+[比较] ELGVGIALRK2_RT50.56_IM0.9072_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+ELHEQLVALDK2_RT49.09_IM0.9764_final_dataframe.csv
+ELHEQLVALDK3_RT48.97_IM0.7226_final_dataframe.csv
+ELHINLIPNKQD3_RT61.72_IM0.7613_final_dataframe.csv
+ELKPVEVVK2_RT37.33_IM0.9223_final_dataframe.csv
+ELLEIVKK2_RT46.81_IM0.8575_final_dataframe.csv
+ELLSPGSVDPLTR2_RT82.06_IM0.9901_final_dataframe.csv
+ELLVPLTSSMYVPGK2_RT87.86_IM1.1289_final_dataframe.csv
+ELMEEKKEEITGTLR3_RT45.19_IM0.8645_final_dataframe.csv
+ETKALSLAR2_RT28.00_IM0.8691_final_dataframe.csv
+ETLIDVAR2_RT49.49_IM0.8495_final_dataframe.csv
+ETLNISGPPLKAGK2_RT51.81_IM1.0334_final_dataframe.csv
+ETSELGGSDVSILDTTR2_RT65.75_IM1.1057_final_dataframe.csv
+ETSSLESFVR2_RT55.87_IM0.9029_final_dataframe.csv
+ETVNATFPVAIVMLR2_RT91.86_IM1.0917_final_dataframe.csv
+ETVVESSGPK2_RT20.29_IM0.8536_final_dataframe.csv
+EVAKIIYIVHDEVK2_RT64.83_IM1.1437_final_dataframe.csv
+EVDIGIPDATGRLEILQIHTK3_RT86.67_IM1.0606_final_dataframe.csv
+EVEEEPGIHSLK2_RT36.99_IM1.0107_final_dataframe.csv
+EVEVVEIIQATIIR2_RT93.80_IM1.1399_final_dataframe.csv
+EVLKSLNEEAVKK3_RT34.78_IM0.7980_final_dataframe.csv
+EVLPLAFLGMHEIADEEK2_RT91.06_IM1.3162_final_dataframe.csv
+EVPIHRVADISGDTQK3_RT40.97_IM0.8590_final_dataframe.csv
+EVQQLQGKIR2_RT28.97_IM0.9739_final_dataframe.csv
+EVSLGC(UniMod:4)M(UniMod:35)LNGQEVR2_RT85.77_IM1.0754_final_dataframe.csv
+EVTNFLR2_RT47.75_IM0.8004_final_dataframe.csv
+EVVKPVPITSPAVSK2_RT49.80_IM1.0617_final_dataframe.csv
+EYDTLGHSAFTSGK2_RT42.43_IM1.0562_final_dataframe.csv
+EYLSEEVQAVHK2_RT44.13_IM1.0367_final_dataframe.csv
+EYSLQVLK2_RT56.51_IM0.8637_final_dataframe.csv
+EYTGFPDPYDELNTGK2_RT74.50_IM1.1441_final_dataframe.csv
+EYTVTEPER2_RT31.82_IM0.8810_final_dataframe.csv
+EYVNIQTFR2_RT58.68_IM0.9264_final_dataframe.csv
+FAAEHTIFASNTSSLQITSIANATTR3_RT82.89_IM1.0417_final_dataframe.csv
+FAIQDISVEETSAK2_RT67.31_IM1.0550_final_dataframe.csv
+FALEVAAK2_RT51.68_IM0.7778_final_dataframe.csv
+FAMEPEEFDSDTLR2_RT73.00_IM1.0914_final_dataframe.csv
+FANQILSYGAELDADHPGFK3_RT81.97_IM0.9964_final_dataframe.csv
+AMLPPNSFQGKVAFITGGGTGLGK3_RT82.95_IM0.9627_final_dataframe.csv
+AMYDYM(UniMod:35)AADADEVSFK2_RT64.41_IM1.1396_final_dataframe.csv
+ANEVDRMVLVGDVK3_RT58.03_IM0.8031_final_dataframe.csv
+ANTVLSGGTTMYPGIADR2_RT66.09_IM1.1397_final_dataframe.csv
+APAPAPPPEPERPK3_RT31.87_IM0.8378_final_dataframe.csv
+APDFVFYAPRLR3_RT76.82_IM0.7738_final_dataframe.csv
+APEVTTVTK2_RT26.33_IM0.8066_final_dataframe.csv
+APEYLHR2_RT21.98_IM0.7901_final_dataframe.csv
+APFAAHGYGAFLTLSILDR3_RT90.78_IM0.8871_final_dataframe.csv
+APFAAPSPFAEL2_RT91.18_IM0.9207_final_dataframe.csv
+APGFAQMLKEGAK2_RT55.71_IM1.0655_final_dataframe.csv
+APGFGGFGSSAVSGGSTAAMITETIIETDKPK3_RT90.97_IM1.2760_final_dataframe.csv
+APPGHQLHR2_RT28.12_IM0.8677_final_dataframe.csv
+APQPDVKEEEEEKEEEK3_RT24.25_IM0.9483_final_dataframe.csv
+AQAALAVNISAAR2_RT54.58_IM0.9536_final_dataframe.csv
+AQAVHPGYGFLSENK2_RT49.61_IM1.1038_final_dataframe.csv
+AQFAQPEILIGTIPGAGGTQR3_RT87.41_IM1.0717_final_dataframe.csv
+AQHEDQVEQYK2_RT18.66_IM0.9853_final_dataframe.csv
+AQIGTVLPSLIDR2_RT81.82_IM1.0225_final_dataframe.csv
+AQLELYPEPLLVANAIK2_RT91.38_IM1.2485_final_dataframe.csv
+AQPSASLGVGYR2_RT42.76_IM0.9215_final_dataframe.csv
+ARAYGPGIEPTGNMVK3_RT45.39_IM0.8147_final_dataframe.csv
+ARPELEELLAKLK3_RT79.93_IM0.8440_final_dataframe.csv
+ARSDMLLSR2_RT32.15_IM0.8712_final_dataframe.csv
+ARVDVERDNLLDDLQR4_RT61.63_IM0.8000_final_dataframe.csv
+ASEASRPIMAQNPVDAPGRPEVTDVTR4_RT55.32_IM1.0081_final_dataframe.csv
+ASEIISEK2_RT24.25_IM0.7897_final_dataframe.csv
+ASESFEDVGHSSDAR2_RT30.36_IM1.1112_final_dataframe.csv
+ASGPPVSELITKAVAASKER4_RT77.09_IM0.8321_final_dataframe.csv
+EDPQTFYYAVAVVKK3_RT71.67_IM0.8799_final_dataframe.csv
+EEAEQVLGQAR2_RT38.32_IM0.9236_final_dataframe.csv
+EEEAIQLDGLNASQIR2_RT70.47_IM1.1461_final_dataframe.csv
+EEEINAELTAKK2_RT34.99_IM1.0065_final_dataframe.csv
+EEFTAFLHPEEFEHMK4_RT80.54_IM0.8125_final_dataframe.csv
+EEFVLAAQK2_RT48.03_IM0.8706_final_dataframe.csv
+
+[比较] EEMQSNVEVVHTYR2_RT41.82_IM1.0945_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+EEQAEPDGTEVADK2_RT25.07_IM0.9962_final_dataframe.csv
+EESDDEAAVEEEEEEK2_RT33.84_IM1.1086_final_dataframe.csv
+EESILGSIPLLSFR2_RT93.81_IM1.0661_final_dataframe.csv
+EFFNGKEPSR2_RT32.86_IM0.9554_final_dataframe.csv
+EFQTVPFYIFSESYGGK2_RT91.44_IM1.2001_final_dataframe.csv
+EFTPPVQAAYQK2_RT53.09_IM0.9950_final_dataframe.csv
+EGFGHLSPTGTTEF2_RT67.06_IM1.0262_final_dataframe.csv
+
+[比较] EGFVDLPEYPFGLESR2_RT90.54_IM1.1556_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+EGIAASFAVK2_RT53.70_IM0.8462_final_dataframe.csv
+EGIVIPEC(UniMod:4)APGGLYK2_RT73.12_IM1.0788_final_dataframe.csv
+EGIVTATEQEVK2_RT45.93_IM0.9604_final_dataframe.csv
+
+[比较] EGLPVALDK2_RT53.91_IM0.8279_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+EGTETFADHREGILKTAK3_RT38.35_IM0.9095_final_dataframe.csv
+EGYERLLK2_RT37.48_IM0.8814_final_dataframe.csv
+EHALLAYTLGVKQLIVGVNK4_RT87.53_IM0.8296_final_dataframe.csv
+EHFQDDVFNEK3_RT43.70_IM0.7568_final_dataframe.csv
+EHLFPAAQVK2_RT42.34_IM0.9240_final_dataframe.csv
+EHLLMALAGIDTLLIR3_RT93.11_IM0.9188_final_dataframe.csv
+
+[比较] EHM(UniMod:35)QPTHPIR3_RT11.67_IM0.7695_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+EHPTLLTEAPLNPK3_RT57.57_IM0.8398_final_dataframe.csv
+EIAEELFTR2_RT62.58_IM0.8934_final_dataframe.csv
+EIDPIVTR2_RT43.70_IM0.8245_final_dataframe.csv
+FDRDDVALEGVSHFFR3_RT79.56_IM0.9625_final_dataframe.csv
+
+[比较] FDRPLPVSR2_RT64.08_IM0.8924_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+FDSFTVQYK2_RT55.47_IM0.9016_final_dataframe.csv
+FDSSLDRK2_RT21.53_IM0.8449_final_dataframe.csv
+FEDLNKR2_RT19.78_IM0.8341_final_dataframe.csv
+FEEAQSTEAYLK2_RT48.70_IM1.0182_final_dataframe.csv
+FEEEFIK2_RT51.99_IM0.8439_final_dataframe.csv
+FEGLEKISAYMK2_RT70.05_IM1.0550_final_dataframe.csv
+FEINLISPDTK2_RT75.84_IM0.9560_final_dataframe.csv
+FEKLIVALMK2_RT73.77_IM0.9654_final_dataframe.csv
+FESMAEEK2_RT25.31_IM0.8340_final_dataframe.csv
+FETFLPMLQHISKNK3_RT79.19_IM0.8655_final_dataframe.csv
+FFESFGDLSSPDAVMGNPKVKAHGK3_RT70.78_IM1.0644_final_dataframe.csv
+FFESFGDLSTPDAVMGNPK2_RT85.99_IM1.2048_final_dataframe.csv
+FFPASADRTVIDYNGER3_RT62.12_IM0.9279_final_dataframe.csv
+FFVADTANEALEAAKR2_RT71.02_IM1.2099_final_dataframe.csv
+FGDLSTPDAVMGNPKVK2_RT83.56_IM1.1319_final_dataframe.csv
+FGEDMPHPH2_RT35.18_IM0.8749_final_dataframe.csv
+FGGEHIPNSPFHVL3_RT74.53_IM0.7934_final_dataframe.csv
+FGHTLVNPLLYR2_RT69.01_IM1.0434_final_dataframe.csv
+
+[比较] FGLLDEDGK2_RT55.44_IM0.8741_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+FHAVEPYTK2_RT31.97_IM0.9291_final_dataframe.csv
+FHHTFSTEIAKFLK3_RT64.26_IM0.8949_final_dataframe.csv
+FHKLQNVQIALDYLR3_RT72.97_IM0.8862_final_dataframe.csv
+FIEAAQR2_RT25.42_IM0.7744_final_dataframe.csv
+FIEFEDSQEQEK2_RT50.93_IM1.0546_final_dataframe.csv
+FIINDREVSDSEIHR4_RT50.98_IM0.7858_final_dataframe.csv
+FIQTLSHK2_RT28.42_IM0.8464_final_dataframe.csv
+FISDKDASIVGFFDDSFSEAHSEFLK4_RT91.38_IM0.9711_final_dataframe.csv
+GADPEETILNAF2_RT90.59_IM0.9403_final_dataframe.csv
+GAGEEEEIDIMELLK2_RT91.12_IM1.1390_final_dataframe.csv
+GAIQLGIGYTVGHLSSKPER3_RT67.43_IM1.0008_final_dataframe.csv
+GALAAVPVQDLGSTVIK2_RT81.54_IM1.1261_final_dataframe.csv
+GALIHNVSK2_RT22.31_IM0.8478_final_dataframe.csv
+GALLVFAEHR2_RT57.85_IM0.9385_final_dataframe.csv
+GALVAINPGDRK2_RT39.35_IM0.9712_final_dataframe.csv
+GANEKLAVAEVR2_RT34.93_IM0.9900_final_dataframe.csv
+GAPLNTPVTEDR2_RT40.69_IM0.9400_final_dataframe.csv
+GAQASSTPLSPTR2_RT29.57_IM0.9373_final_dataframe.csv
+GASSFKITR2_RT28.21_IM0.8505_final_dataframe.csv
+GASTPPTLGDLFAGGFPVLRPAGQR3_RT91.00_IM0.9750_final_dataframe.csv
+GDFMFSADR2_RT54.65_IM0.8633_final_dataframe.csv
+GDLFAATFLIK2_RT90.29_IM0.9666_final_dataframe.csv
+GDPNKPSGFR2_RT18.03_IM0.8268_final_dataframe.csv
+GDSEM(UniMod:35)AVFGAAAPYLR2_RT76.72_IM1.0765_final_dataframe.csv
+GDVAFVKHQTVPQNTGGK3_RT32.93_IM0.8823_final_dataframe.csv
+GEADILAALK2_RT71.91_IM0.8450_final_dataframe.csv
+GEFTFLLPAGR2_RT85.13_IM0.9274_final_dataframe.csv
+GELAIKDANAK2_RT25.25_IM0.9044_final_dataframe.csv
+GENQSPVELHTKDIRHD3_RT32.05_IM0.9002_final_dataframe.csv
+
+[比较] GEQGFMGNTGPTGAVGDRGPK3_RT45.17_IM0.8669_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+GEYLPLLQGK2_RT69.90_IM0.9063_final_dataframe.csv
+GFFLVQTK2_RT65.50_IM0.8357_final_dataframe.csv
+GFGFVTFSSM(UniMod:35)AEVDAAM(UniMod:35)AARPHSIDGR4_RT81.42_IM0.9772_final_dataframe.csv
+GFGFVTYATVEEVDAAMNARPHK3_RT88.95_IM1.1147_final_dataframe.csv
+GFGGITHGPPEKK3_RT27.15_IM0.7434_final_dataframe.csv
+GFGNVGLHSMR2_RT44.35_IM0.9824_final_dataframe.csv
+GFQQILAGEYDHLPEQAF2_RT90.22_IM1.2361_final_dataframe.csv
+FRQDLMNIAGTTLSSK3_RT69.17_IM0.8264_final_dataframe.csv
+FSDFLGLHSK2_RT58.74_IM0.9577_final_dataframe.csv
+FSIAILGSYNR2_RT81.96_IM0.9492_final_dataframe.csv
+FSMFEQTQIQEFK2_RT78.40_IM1.1139_final_dataframe.csv
+FSPGAPGGSGSQPNQK2_RT27.31_IM1.0098_final_dataframe.csv
+FSPIPFPPLSYK2_RT90.07_IM1.0018_final_dataframe.csv
+FSPSPLSMK2_RT52.48_IM0.8430_final_dataframe.csv
+FSSLVAATVR2_RT54.74_IM0.8596_final_dataframe.csv
+FSTVAGESGSADTVRDPR3_RT38.47_IM0.9066_final_dataframe.csv
+FSVGGMTDVAEIK2_RT71.05_IM1.0070_final_dataframe.csv
+FSVNLDVKHFSPEELK3_RT74.83_IM0.9289_final_dataframe.csv
+FSVVTGPAPSQEAGTK2_RT48.83_IM1.0597_final_dataframe.csv
+FTAVAQTDLK2_RT43.22_IM0.9029_final_dataframe.csv
+FTEIYEFHK2_RT51.80_IM0.9469_final_dataframe.csv
+FTITGLPTDAKIFVR3_RT86.67_IM0.8531_final_dataframe.csv
+FTLGTVLGLATLHTYR2_RT90.82_IM1.2550_final_dataframe.csv
+FTRPLFKDLAAFDK3_RT70.20_IM0.8760_final_dataframe.csv
+FTVPHLR2_RT49.97_IM0.8177_final_dataframe.csv
+FVAVTSTNAAK2_RT33.97_IM0.8950_final_dataframe.csv
+FVINYDYPNSSEDYIHR3_RT69.41_IM0.9561_final_dataframe.csv
+FVKPGAENSR2_RT17.67_IM0.8964_final_dataframe.csv
+FVVEKAEQQKK3_RT19.72_IM0.7553_final_dataframe.csv
+FYALSASFEPFSNK2_RT86.08_IM1.0852_final_dataframe.csv
+FYEDKIVPIGQPSQR3_RT58.40_IM0.8319_final_dataframe.csv
+FYLEVSQILK2_RT88.36_IM0.9753_final_dataframe.csv
+FYNELTEILVR2_RT88.80_IM1.0267_final_dataframe.csv
+GAAALVLMTADAAKR2_RT66.15_IM1.1171_final_dataframe.csv
+GAAGVHFIYTR2_RT46.27_IM0.9480_final_dataframe.csv
+GADLSGVTEEAPLKLSK2_RT63.52_IM1.1781_final_dataframe.csv
+FKDIFQEIFDK2_RT89.17_IM1.0069_final_dataframe.csv
+FKSLDDVIKR3_RT46.59_IM0.7329_final_dataframe.csv
+FKVFADYEDYIK2_RT75.85_IM1.1071_final_dataframe.csv
+FLATLLSR2_RT68.55_IM0.8325_final_dataframe.csv
+FLDKPEDVLLK2_RT65.02_IM1.0211_final_dataframe.csv
+FLEQQNAALAAEVNRLK3_RT72.39_IM0.9564_final_dataframe.csv
+FLEYSISDEITK2_RT71.15_IM1.0120_final_dataframe.csv
+FLHEPAVLYNLK2_RT68.52_IM1.0287_final_dataframe.csv
+FLIDGFPR2_RT76.85_IM0.8394_final_dataframe.csv
+FLIIPLGSHPVAK2_RT75.32_IM1.0793_final_dataframe.csv
+FLNKLAEER2_RT37.18_IM0.9346_final_dataframe.csv
+FLNSFASMHR2_RT51.77_IM0.9565_final_dataframe.csv
+
+[比较] FLSLYGDQIDMHR3_RT69.38_IM0.8273_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+FLVTEVENGGSLGSK2_RT62.61_IM1.0557_final_dataframe.csv
+FNEEHIPDSPFVVPVASPSGDARR4_RT73.74_IM0.9520_final_dataframe.csv
+FNHFSLTLNTNHGHILVDYSK4_RT69.34_IM0.9313_final_dataframe.csv
+FNQTYQLAHGTAEEK2_RT36.99_IM1.1800_final_dataframe.csv
+FNWYVDGVEVHNAKTK3_RT58.64_IM0.9074_final_dataframe.csv
+FPEEPHVPLEQR3_RT54.92_IM0.8216_final_dataframe.csv
+FPEFLTMM(UniMod:35)AR2_RT79.16_IM0.9409_final_dataframe.csv
+FPFAANSR2_RT45.74_IM0.8126_final_dataframe.csv
+FPFLGVHFTPR3_RT79.98_IM0.7979_final_dataframe.csv
+FPGQLNADLRK2_RT46.50_IM0.9707_final_dataframe.csv
+FPHFDLSHGSAQVK3_RT55.59_IM0.8588_final_dataframe.csv
+FQLHTNVNDGTEFGGSIYQK3_RT64.41_IM0.9302_final_dataframe.csv
+FQPTLLTLPR2_RT79.39_IM0.9226_final_dataframe.csv
+FRDTIVVNAGETFR3_RT60.60_IM0.8361_final_dataframe.csv
+FRFNFLAPELPAVSEFSTSETMGHSADR4_RT90.64_IM1.0647_final_dataframe.csv
+FRPSLEER2_RT31.87_IM0.8863_final_dataframe.csv
+HVM(UniMod:35)TRLGEKLSDEEVDEMIR3_RT72.54_IM0.9648_final_dataframe.csv
+HVQELRPIARPNPGFLR4_RT52.17_IM0.8606_final_dataframe.csv
+HVQLSHEFESLVR3_RT58.34_IM0.8519_final_dataframe.csv
+HVSPAGAAVGIPLSED2_RT64.08_IM1.0387_final_dataframe.csv
+HVVFGQVIK2_RT45.84_IM0.8629_final_dataframe.csv
+HYAGLKDVAEER3_RT30.75_IM0.8157_final_dataframe.csv
+IAAYKSILQER2_RT47.99_IM1.0396_final_dataframe.csv
+IAEEFEVELER2_RT67.70_IM0.9910_final_dataframe.csv
+IAEQPVSEVETR2_RT39.02_IM0.9883_final_dataframe.csv
+IAGSLPMR2_RT39.90_IM0.7889_final_dataframe.csv
+IAHTPGVAADLSHIETK4_RT50.01_IM0.7980_final_dataframe.csv
+IAILHENFTTVKPEDAYEDFIVKPPVR4_RT87.10_IM1.0592_final_dataframe.csv
+IANAYIIK2_RT45.44_IM0.8067_final_dataframe.csv
+IAPQLSTEELVSLGEK2_RT79.47_IM1.1208_final_dataframe.csv
+IAVAAASKPAVEIK2_RT45.75_IM1.0581_final_dataframe.csv
+IAVAQYSDDVKVESR2_RT48.42_IM1.1833_final_dataframe.csv
+IAVEPVNPSELPK2_RT64.47_IM1.0080_final_dataframe.csv
+IDEPTSNMDIFPTVAK2_RT78.10_IM1.1358_final_dataframe.csv
+
+[比较] IDHTGFSPHAAIYSTRPDVK3_RT47.30_IM1.0204_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+IDIIHSKK2_RT22.47_IM0.8450_final_dataframe.csv
+IDITLSSVK2_RT59.22_IM0.8505_final_dataframe.csv
+IDVSIEAASGGK2_RT47.58_IM0.8881_final_dataframe.csv
+IEANEALVKALE2_RT71.20_IM0.9461_final_dataframe.csv
+IEDEQALGIQLQKKIK3_RT54.85_IM0.8834_final_dataframe.csv
+IEEPPPAKVPEAPKK3_RT35.15_IM0.8250_final_dataframe.csv
+IEFGVDEVIEPSDTLPR2_RT86.73_IM1.1939_final_dataframe.csv
+IEFPMPNEEAR2_RT64.34_IM0.9522_final_dataframe.csv
+IEIESFYEGEDFSETLTR2_RT88.11_IM1.2589_final_dataframe.csv
+IEIPDLELADDLK2_RT89.61_IM1.0658_final_dataframe.csv
+
+[比较] GVNIGGAGSYIYEK2_RT58.61_IM1.0155_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+GVNLQEFLNVTSVHLFK2_RT92.18_IM1.2470_final_dataframe.csv
+GVPQHLVLVLGGK2_RT66.48_IM1.0031_final_dataframe.csv
+GVTHTVPIYEGYALPHAILR3_RT76.64_IM1.0663_final_dataframe.csv
+GVVVMIPSYALHR2_RT72.82_IM1.0763_final_dataframe.csv
+GYAFNHSADFETVR2_RT51.86_IM1.0760_final_dataframe.csv
+GYGFGLIK2_RT64.34_IM0.8053_final_dataframe.csv
+GYLDKLEPSKITK2_RT51.90_IM1.0644_final_dataframe.csv
+GYSFVTTAEREIVR3_RT70.26_IM0.8361_final_dataframe.csv
+
+[比较] GYTSIFNMETQQR2_RT66.94_IM1.0528_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+HAASTVQILGAEKALFR3_RT69.07_IM0.9612_final_dataframe.csv
+HADIVTTTTHK3_RT16.55_IM0.7287_final_dataframe.csv
+HAIFTEITTFSR2_RT67.46_IM1.0324_final_dataframe.csv
+HATALEELSEQLEQAKR3_RT70.99_IM0.9764_final_dataframe.csv
+HATGNYIIIMDADLSHHPK3_RT61.33_IM1.0436_final_dataframe.csv
+HDVGAYMLMYK2_RT60.20_IM0.9673_final_dataframe.csv
+HEALLYTWLAEHK3_RT72.55_IM0.8604_final_dataframe.csv
+HEEAPGHRPTTNPNASK4_RT11.95_IM0.8247_final_dataframe.csv
+HEERQDEHGFISREFHR4_RT32.51_IM0.8250_final_dataframe.csv
+HEERQDEHGYISR3_RT14.93_IM0.8711_final_dataframe.csv
+HELIEFR2_RT45.80_IM0.8700_final_dataframe.csv
+HEQEYMEVR2_RT27.51_IM0.9457_final_dataframe.csv
+HEYLPILGLAEFR3_RT89.95_IM0.8577_final_dataframe.csv
+
+[比较] HFLIETGPK2_RT42.67_IM0.8816_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+HFTEFVPLR2_RT59.32_IM0.9252_final_dataframe.csv
+HGFRQEYLDTLYR3_RT54.47_IM0.8437_final_dataframe.csv
+HGGPLPYHR2_RT19.93_IM0.8667_final_dataframe.csv
+HGLYLPTR2_RT39.17_IM0.8491_final_dataframe.csv
+HHMFVLEQEEYKK4_RT39.26_IM0.7677_final_dataframe.csv
+GFTGIDSDYEKPETPER2_RT49.59_IM1.1960_final_dataframe.csv
+GFYIYQEGVK2_RT58.67_IM0.9396_final_dataframe.csv
+GGAPLSGYVVEQR2_RT52.44_IM0.9808_final_dataframe.csv
+GGATPPALLLLLSR2_RT92.79_IM0.9967_final_dataframe.csv
+GGDQTSLLVVDK2_RT51.53_IM0.9459_final_dataframe.csv
+GGETSEMYLIQPDSSVKPYR2_RT64.69_IM1.2984_final_dataframe.csv
+GGGGNFGPGPGSNFRG2_RT43.43_IM0.9749_final_dataframe.csv
+GGIYSHTPVSLGRPER3_RT43.47_IM0.8613_final_dataframe.csv
+GGNFGPGPGSNFR2_RT42.88_IM0.9255_final_dataframe.csv
+GGPISFSSSR2_RT39.60_IM0.8300_final_dataframe.csv
+GGQIGLQAPGLSVSGPQGHLESGSGK3_RT64.19_IM0.9600_final_dataframe.csv
+GGTAAFQATLK2_RT43.62_IM0.8542_final_dataframe.csv
+
+[比较] GGVADALLYR2_RT60.87_IM0.8703_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+GGVFYIPEYLNR2_RT84.99_IM1.0047_final_dataframe.csv
+GHAYSVTGAK2_RT15.89_IM0.8511_final_dataframe.csv
+GHEGIMYFVEK3_RT59.77_IM0.7605_final_dataframe.csv
+GHGFITPADGGPD2_RT44.64_IM0.9040_final_dataframe.csv
+
+[比较] GHNGLDGLK2_RT22.40_IM0.8250_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+GHVTQDAPIPGSPLYTIK3_RT64.25_IM0.8447_final_dataframe.csv
+GIEVGHTFYLGTK3_RT61.20_IM0.7422_final_dataframe.csv
+GIGFGDIFK2_RT80.87_IM0.8143_final_dataframe.csv
+GIHPTIISESFQKALEK3_RT70.19_IM0.9532_final_dataframe.csv
+GIISPVGDAYK2_RT53.37_IM0.9105_final_dataframe.csv
+GILPGVSPLALHIK3_RT83.25_IM0.8648_final_dataframe.csv
+GITINAAHVEYSTAAR2_RT51.96_IM1.1424_final_dataframe.csv
+GKKVADALTNAVAHVDDMPNALSALSDLHAHK5_RT88.42_IM0.9397_final_dataframe.csv
+GLDPYNVLAPK2_RT68.38_IM0.9399_final_dataframe.csv
+GLEVPFVPMTLPTK2_RT90.98_IM1.0494_final_dataframe.csv
+GLFGVPELSAPEGFHIAQEK2_RT88.83_IM1.3515_final_dataframe.csv
+GLGLDDALEPR2_RT63.32_IM0.9221_final_dataframe.csv
+GLGYAQYLPK2_RT64.57_IM0.9173_final_dataframe.csv
+GLHGPLTLNSPLTPEKIR4_RT66.42_IM0.8230_final_dataframe.csv
+GLKEVERLIQER3_RT61.11_IM0.8095_final_dataframe.csv
+GLLPGAGGTQR2_RT40.18_IM0.8535_final_dataframe.csv
+GLMIHSGDPVNYYVDTAVR3_RT73.92_IM0.9235_final_dataframe.csv
+GLNAMANETPDFMR2_RT69.50_IM1.0533_final_dataframe.csv
+GLQHLYALVLVNNKISK4_RT76.21_IM0.8335_final_dataframe.csv
+GLVASKPTLATLSVR2_RT61.12_IM1.1094_final_dataframe.csv
+GLYQDLEDK2_RT47.82_IM0.8845_final_dataframe.csv
+GMDLQPGNALK2_RT50.32_IM0.9114_final_dataframe.csv
+GMHISSQIKK2_RT21.35_IM0.9219_final_dataframe.csv
+GMKGLVYETSVLDPDEGIR3_RT74.04_IM0.9419_final_dataframe.csv
+GMTENEVEDR2_RT24.20_IM0.9051_final_dataframe.csv
+GNLEVLLFTIQSK2_RT90.94_IM1.0383_final_dataframe.csv
+GNSLQEILER2_RT64.81_IM0.9189_final_dataframe.csv
+GNTATQMAQALSLNTEEDIHR3_RT71.03_IM1.0268_final_dataframe.csv
+GPAGPQGPRGDK2_RT11.38_IM0.8447_final_dataframe.csv
+GPAGPSGPAGKD2_RT15.56_IM0.8179_final_dataframe.csv
+GPAYGLSAEVK2_RT44.44_IM0.8998_final_dataframe.csv
+GPLATGGIK2_RT31.96_IM0.7747_final_dataframe.csv
+GPLEYVPSAKVEVVEER3_RT66.63_IM0.8698_final_dataframe.csv
+GPLLVQDVVFTDEMAHFDR2_RT90.16_IM1.2884_final_dataframe.csv
+GPLVILDHVK2_RT61.21_IM0.9238_final_dataframe.csv
+GPSSVEDIK2_RT26.94_IM0.8115_final_dataframe.csv
+GPTELTESQK2_RT22.38_IM0.8731_final_dataframe.csv
+GPTSYYYMLPMK2_RT76.46_IM1.0282_final_dataframe.csv
+GQFDEHYVLSSR2_RT53.09_IM1.0500_final_dataframe.csv
+GQLTEASSATSK2_RT20.18_IM0.9130_final_dataframe.csv
+HHPEDVEPALR2_RT27.36_IM0.9458_final_dataframe.csv
+HIAVLQAEVYGAR2_RT54.25_IM1.0525_final_dataframe.csv
+HIDSAHLYNNEEQVGLAIR4_RT58.28_IM0.8683_final_dataframe.csv
+HIEPELAGR2_RT29.88_IM0.8619_final_dataframe.csv
+HINIDQFVR2_RT56.33_IM0.9254_final_dataframe.csv
+HIVLKPPTIVTQVIEVNKR3_RT75.05_IM1.0302_final_dataframe.csv
+HLEEIVEK2_RT28.48_IM0.8776_final_dataframe.csv
+HLESELAK2_RT20.44_IM0.8576_final_dataframe.csv
+HLGYKPEEYK3_RT25.06_IM0.7934_final_dataframe.csv
+HLNYTEFTQFLQELQLEHAR3_RT90.59_IM1.0919_final_dataframe.csv
+HLSGNQFILELFHGPTGSFK3_RT89.45_IM1.0444_final_dataframe.csv
+HLSNVSSTGSID2_RT31.29_IM0.9066_final_dataframe.csv
+HLVPGAPFLLQALVR2_RT91.40_IM1.1334_final_dataframe.csv
+HLYTKDIDIHEVR3_RT41.00_IM0.8725_final_dataframe.csv
+HNLEIIK2_RT33.02_IM0.8652_final_dataframe.csv
+HNYGVVESFTVQR3_RT53.33_IM0.8416_final_dataframe.csv
+HQPTAIIAK2_RT23.77_IM0.8831_final_dataframe.csv
+HQSFVLVGETGSGK2_RT44.93_IM1.0268_final_dataframe.csv
+HQVEYLGLK2_RT41.09_IM0.9133_final_dataframe.csv
+HRDFVAEPMGEK3_RT31.48_IM0.7909_final_dataframe.csv
+HRELPEDVGLDASTAESFHR4_RT53.98_IM0.9090_final_dataframe.csv
+HSPSIHQSVVAVSR3_RT31.51_IM0.8250_final_dataframe.csv
+HSPTSEPTPPGDALPPVSSPHTHR4_RT42.36_IM0.9217_final_dataframe.csv
+HSQAVEELAEQLEQTK3_RT67.91_IM0.9306_final_dataframe.csv
+HTVDIEEK2_RT18.42_IM0.8604_final_dataframe.csv
+HVIILMTDGLHNMGGD2_RT72.55_IM1.1145_final_dataframe.csv
+HVILGIR2_RT42.85_IM0.8158_final_dataframe.csv
+HVLHVQLNRPNKR4_RT23.85_IM0.7925_final_dataframe.csv
+HVLQTFGPIPEFSR3_RT74.53_IM0.8546_final_dataframe.csv
+ILASDKPYILAEELRR3_RT67.45_IM0.9582_final_dataframe.csv
+
+[比较] ILAYTEGLHGK2_RT41.11_IM0.9762_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+ILFDGIPLEK2_RT82.10_IM0.9126_final_dataframe.csv
+ILFTEATR2_RT48.67_IM0.8480_final_dataframe.csv
+ILGLEYSLR2_RT73.92_IM0.9022_final_dataframe.csv
+
+[比较] ILIANTGM(UniMod:35)DTDK2_RT39.05_IM0.9838_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+ILKEDILNYLEK3_RT77.79_IM0.8104_final_dataframe.csv
+ILLLNEM(UniMod:35)EK2_RT55.44_IM0.9355_final_dataframe.csv
+ILLQSKNAGAVIGK2_RT47.30_IM1.0764_final_dataframe.csv
+ILMLGLDAAGK2_RT73.89_IM0.9178_final_dataframe.csv
+ILNPAAIPEGQFIDSRKGAEK3_RT65.42_IM0.9572_final_dataframe.csv
+ILSGRPPLGFLNPR3_RT73.04_IM0.7778_final_dataframe.csv
+ILSTIDRELLK3_RT60.62_IM0.7766_final_dataframe.csv
+ILVIGLSR2_RT65.44_IM0.8312_final_dataframe.csv
+ILYTKILDVLEEIPK3_RT93.08_IM0.8752_final_dataframe.csv
+IM(UniMod:35)NVIGEPIDER2_RT54.10_IM1.0061_final_dataframe.csv
+IMADIRAQYDELAR3_RT62.49_IM0.8220_final_dataframe.csv
+IMDYSLLLGIHDIIR3_RT91.72_IM0.9165_final_dataframe.csv
+IMGPNYTPGKK3_RT30.69_IM0.7302_final_dataframe.csv
+IMSSPLSKELR2_RT48.18_IM1.0086_final_dataframe.csv
+INDATDVNDALGYVTR2_RT70.20_IM1.1215_final_dataframe.csv
+INELTGIK2_RT39.93_IM0.8060_final_dataframe.csv
+INKESLLPVAK2_RT45.95_IM0.9659_final_dataframe.csv
+
+[比较] INMLVIELK2_RT83.41_IM0.8906_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+INPDHIGFYR2_RT49.42_IM0.9547_final_dataframe.csv
+INPSSMFDVQVK2_RT72.67_IM0.9842_final_dataframe.csv
+INQDPQVM(UniMod:35)LAPLISIALK2_RT92.65_IM1.2350_final_dataframe.csv
+IPAMTIAKNAGVEGSLIVEK2_RT74.16_IM1.2983_final_dataframe.csv
+IPEEKVPVPVQK3_RT45.87_IM0.7745_final_dataframe.csv
+KADVGFAMGIAGTDVAK3_RT63.07_IM0.8762_final_dataframe.csv
+KALDDMISTLK2_RT59.98_IM0.9887_final_dataframe.csv
+
+[比较] KAVAFSPVTELK2_RT54.15_IM0.9990_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+KDLNSDMDSILASLK3_RT86.15_IM0.8240_final_dataframe.csv
+KDLYANNVLSGG2_RT49.55_IM0.9531_final_dataframe.csv
+KEDMEYALR2_RT35.18_IM0.9035_final_dataframe.csv
+KELASALK2_RT21.35_IM0.8024_final_dataframe.csv
+KEYTIVVK2_RT32.54_IM0.8440_final_dataframe.csv
+KFAMEPEEFDSDTLR3_RT65.38_IM0.8666_final_dataframe.csv
+KFLDAGHK2_RT15.80_IM0.8256_final_dataframe.csv
+KFPSGTFEQVSQLVK3_RT73.80_IM0.8281_final_dataframe.csv
+KGLVGPELHDR3_RT28.63_IM0.7490_final_dataframe.csv
+KGQVDLVDTMAFLVIPNSTR2_RT91.56_IM1.2943_final_dataframe.csv
+KILQVYEMMIVR2_RT27.46_IM1.0472_final_dataframe.csv
+KITIGQAPTEKGHTR3_RT21.81_IM0.8463_final_dataframe.csv
+KKMEGDLNEMEIQLSHANR4_RT52.88_IM0.8778_final_dataframe.csv
+KKPPGTLLPSAHAIER4_RT38.56_IM0.8022_final_dataframe.csv
+KLAQANGWGVMVSHR3_RT47.15_IM0.8490_final_dataframe.csv
+KLEEEMVEMK2_RT26.42_IM0.9790_final_dataframe.csv
+KLLEAQSHFR3_RT29.72_IM0.7606_final_dataframe.csv
+KLPSFGPYLEQR3_RT64.68_IM0.7900_final_dataframe.csv
+KLQEFELPYVSVTSLR3_RT87.43_IM0.9451_final_dataframe.csv
+KLSVEEFFMDLHNFR4_RT89.85_IM0.7925_final_dataframe.csv
+KLSVVDQEKVDK3_RT26.61_IM0.8030_final_dataframe.csv
+KLYESLLVGSLPDMNK3_RT80.29_IM0.8939_final_dataframe.csv
+KM(UniMod:35)EGDLNEMEIQLSHANR4_RT54.22_IM0.8193_final_dataframe.csv
+KMFDAAK2_RT19.14_IM0.7730_final_dataframe.csv
+
+[比较] KPLFFGEGTVLR2_RT67.91_IM1.0268_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+KPMVVLGSSALQR3_RT50.83_IM0.8142_final_dataframe.csv
+IPHMDIEALK2_RT60.05_IM0.9346_final_dataframe.csv
+IPNIYAIGDVVAGPMLAHK3_RT90.57_IM0.9799_final_dataframe.csv
+IQEENVIPR2_RT42.31_IM0.8945_final_dataframe.csv
+IQIADLMEEK2_RT70.63_IM0.9355_final_dataframe.csv
+IQIGTQAIER2_RT48.43_IM0.9087_final_dataframe.csv
+IQLVAVNYIPEVR2_RT87.19_IM1.0785_final_dataframe.csv
+IRDQYEMPGKLDR3_RT38.78_IM0.8390_final_dataframe.csv
+IREEFPDR2_RT29.85_IM0.8683_final_dataframe.csv
+IRELESQISELQEDLESER3_RT83.26_IM0.9382_final_dataframe.csv
+ISGASEKDIVHSGLAYTMER4_RT60.32_IM0.8732_final_dataframe.csv
+ISGGNDKQGFPMK2_RT31.63_IM0.9815_final_dataframe.csv
+ISMPEIDLNLK2_RT84.59_IM0.9421_final_dataframe.csv
+ISMSEVDLNVAAPK2_RT69.74_IM1.0510_final_dataframe.csv
+ISREESEQIVLIGSK3_RT53.55_IM0.8093_final_dataframe.csv
+ITAHLVHELRR2_RT30.75_IM1.0195_final_dataframe.csv
+
+[比较] ITHPVYSLYFPEEK2_RT68.22_IM1.1100_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+ITLPDFTGDLR2_RT83.82_IM0.9413_final_dataframe.csv
+IVEVFDIGPK2_RT73.07_IM0.8947_final_dataframe.csv
+IVLDNSVFSEHR3_RT57.75_IM0.7893_final_dataframe.csv
+IVLLDSSLEYKK2_RT62.37_IM1.0411_final_dataframe.csv
+IVNSAQTGSFK2_RT29.67_IM0.8909_final_dataframe.csv
+IVTVVPQDTKLVLQMPR3_RT81.33_IM0.9241_final_dataframe.csv
+IYESHVGISSHEGK2_RT26.25_IM1.0848_final_dataframe.csv
+IYGNQDTSSQLK2_RT29.84_IM0.9783_final_dataframe.csv
+IYISGM(UniMod:35)APRPSL2_RT60.56_IM0.9693_final_dataframe.csv
+IYISGMAPRP2_RT56.82_IM0.8935_final_dataframe.csv
+IYNEIPDINLDVPHSYSVLER3_RT88.02_IM0.9911_final_dataframe.csv
+IYSLNEGYAK2_RT44.84_IM0.9350_final_dataframe.csv
+IYVAANSGAR2_RT26.49_IM0.8466_final_dataframe.csv
+
+[比较] GRLDAELGAQQR2_RT32.63_IM0.9871_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+GSANLVGQFPVVR2_RT69.89_IM0.9876_final_dataframe.csv
+GSAVVGQYQSYSEQVR2_RT49.31_IM1.0956_final_dataframe.csv
+GSELQNYFTK2_RT54.71_IM0.9336_final_dataframe.csv
+GSGAGGGGSAEQLDALVK2_RT55.99_IM1.0525_final_dataframe.csv
+GSLAAVAHAQSLVEAQPNVD2_RT70.05_IM1.1923_final_dataframe.csv
+GSLAAVAHAQSLVEAQPNVDK3_RT63.10_IM1.0131_final_dataframe.csv
+GSNNVALGYDEGSIIVK2_RT66.87_IM1.1270_final_dataframe.csv
+GSPTTPSLSEK2_RT51.81_IM0.9016_final_dataframe.csv
+GTAIFTTNGATAR2_RT42.79_IM0.9708_final_dataframe.csv
+GTFEEVSGNVSPGTR2_RT45.78_IM1.0168_final_dataframe.csv
+GTGGANIDPTFFLSR2_RT83.26_IM1.0283_final_dataframe.csv
+GTGPNILTDITK2_RT67.30_IM0.9366_final_dataframe.csv
+
+[比较] GTGRIPDQLVILDMK3_RT77.65_IM0.8258_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+GTITDAPGFDPLRDAEVLRK4_RT75.60_IM0.8429_final_dataframe.csv
+GTKALMDEVVK2_RT44.02_IM0.9328_final_dataframe.csv
+GTKVILHLKEDQTEYLEER3_RT52.76_IM1.0058_final_dataframe.csv
+GTLTVEAPMPK2_RT53.43_IM0.9131_final_dataframe.csv
+GTSIVVPEPLHFLLPGK2_RT90.97_IM1.1926_final_dataframe.csv
+GTTIMALLTSVLHDDK2_RT93.95_IM1.2217_final_dataframe.csv
+GTTSVTLLAAEFLK2_RT91.44_IM1.0678_final_dataframe.csv
+GTVLIKTAEELMNFSK2_RT89.26_IM1.2325_final_dataframe.csv
+GTVTDFPGFDER2_RT63.61_IM0.9625_final_dataframe.csv
+GVAMNPVEHPFGGGN2_RT57.58_IM1.0084_final_dataframe.csv
+GVDEATIIDILTKR2_RT89.33_IM1.1319_final_dataframe.csv
+GVEVTVGHEQEEGGK2_RT28.31_IM1.0866_final_dataframe.csv
+GVIVVEVEDREK2_RT46.69_IM1.0250_final_dataframe.csv
+
+[比较] GVKVSDVSR2_RT18.84_IM0.8282_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+GVLLAGPPGVGK2_RT58.03_IM0.8860_final_dataframe.csv
+KPVAAAAAAPAPAPAPAPAPAPAK3_RT43.31_IM0.9895_final_dataframe.csv
+KQLNLLQK2_RT34.99_IM0.8652_final_dataframe.csv
+KRDDDNELMTSGPR3_RT26.43_IM0.8026_final_dataframe.csv
+KSDVEAIFSK2_RT45.02_IM0.9196_final_dataframe.csv
+KSDVETIFSK2_RT43.07_IM0.9031_final_dataframe.csv
+
+[比较] KSELVVEVK2_RT35.27_IM0.8742_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+KSNFAEALAAHK2_RT34.23_IM0.9673_final_dataframe.csv
+KTETQEKNPLPSK3_RT18.00_IM0.8052_final_dataframe.csv
+KTEVLMENFR2_RT47.63_IM0.9753_final_dataframe.csv
+KTPSPIEAERR3_RT19.44_IM0.7557_final_dataframe.csv
+KTTHFVEGGDAGNREDQINR4_RT25.83_IM0.8734_final_dataframe.csv
+KVADALTNAVAHVD3_RT56.87_IM0.7445_final_dataframe.csv
+KVADALTNAVAHVDDMPN3_RT69.92_IM0.8371_final_dataframe.csv
+KVEAQLQELQVKFNEGER4_RT60.93_IM0.8185_final_dataframe.csv
+KVEQAVETEPEPELR3_RT41.07_IM0.8476_final_dataframe.csv
+KVGEQLNLVVPFQGK3_RT71.76_IM0.8118_final_dataframe.csv
+KVSDLENEAK2_RT21.75_IM0.8954_final_dataframe.csv
+KVSQPIEGHAASFAQFK3_RT48.45_IM0.8928_final_dataframe.csv
+KYEVLALLYHEPPEDDK3_RT74.62_IM0.9600_final_dataframe.csv
+LAAELEDRR2_RT27.37_IM0.9037_final_dataframe.csv
+LAANHFGR2_RT43.40_IM0.8166_final_dataframe.csv
+LAEAEM(UniMod:35)LLLLHHVLK3_RT77.04_IM0.8626_final_dataframe.csv
+LAEELDVPVYLYGEAAR3_RT88.64_IM0.9356_final_dataframe.csv
+LAGEELAGEEAPQEK2_RT42.07_IM1.0464_final_dataframe.csv
+LAKPLSSLTPLIMAAK3_RT84.90_IM0.9084_final_dataframe.csv
+LALKEEASK2_RT21.80_IM0.8614_final_dataframe.csv
+LALPADSVNIK2_RT62.31_IM0.9084_final_dataframe.csv
+LAMQEFMILPVGAANFR3_RT93.00_IM0.9675_final_dataframe.csv
+LAQESTM(UniMod:35)DIENDK2_RT30.51_IM1.0078_final_dataframe.csv
+LAVISNFDR2_RT58.52_IM0.8663_final_dataframe.csv
+LDAEEVARGQGTGKPR3_RT30.21_IM0.8907_final_dataframe.csv
+LDDTVHVVIATPGR3_RT57.27_IM0.8111_final_dataframe.csv
+LDFEHFLPMLQTVAK2_RT93.04_IM1.1632_final_dataframe.csv
+LDHAFLFR2_RT57.15_IM0.8853_final_dataframe.csv
+
+[比较] LDHVVTIIK2_RT46.69_IM0.9075_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+
+[比较] LDIERPTYTNLNR2_RT53.78_IM1.1016_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+
+[比较] LDLAGRDLTDYLMK2_RT83.12_IM1.1214_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+LDLAGRDLTDYLMKILTER4_RT94.30_IM0.8534_final_dataframe.csv
+LDLHALGSAR2_RT72.67_IM0.9068_final_dataframe.csv
+LDLSYNHLR2_RT48.55_IM0.9375_final_dataframe.csv
+LDQGGAPLAGTNKETTIQGLDGLSER3_RT67.30_IM1.0339_final_dataframe.csv
+LDQIHETK2_RT16.01_IM0.8601_final_dataframe.csv
+
+[比较] LDSGKELK2_RT14.44_IM0.8378_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+LDSPATPEK2_RT24.04_IM0.8177_final_dataframe.csv
+LDSSETTMVK2_RT31.24_IM0.8844_final_dataframe.csv
+LDTHPAMVTVLEMGAAR2_RT77.55_IM1.1562_final_dataframe.csv
+LEEASGATSAQIEMNKK2_RT36.48_IM1.2398_final_dataframe.csv
+LEEEIRHLKDEMAR3_RT49.83_IM0.8761_final_dataframe.csv
+LEEHLEGIVNIFHQYSVR4_RT87.69_IM0.8656_final_dataframe.csv
+LEHAFNIAR2_RT39.09_IM0.8912_final_dataframe.csv
+LENNHAQLLR3_RT29.20_IM0.7715_final_dataframe.csv
+LENSSGSKSAFVTVK2_RT35.48_IM1.0848_final_dataframe.csv
+LEPAYQVSK2_RT34.05_IM0.8523_final_dataframe.csv
+
+[比较] LEPAYQVSKGHK3_RT22.10_IM0.7533_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+LEQGYELQFR2_RT58.42_IM0.9602_final_dataframe.csv
+LEQQVDDLEGSLEQEKK3_RT55.56_IM0.9591_final_dataframe.csv
+LEVANLLLQK2_RT78.84_IM0.9204_final_dataframe.csv
+LEVGTETIIDKSK3_RT49.22_IM0.8109_final_dataframe.csv
+IEIPDLELADDLKK2_RT83.88_IM1.1400_final_dataframe.csv
+IELPATVTGKPEPK3_RT50.31_IM0.8974_final_dataframe.csv
+IELPELFDR2_RT85.11_IM0.8880_final_dataframe.csv
+
+[比较] IERYPEETLSLMTK3_RT64.35_IM0.8055_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+IEVPLYSLLEQTHLK3_RT90.76_IM0.9309_final_dataframe.csv
+IFGQANTTLK2_RT44.10_IM0.8847_final_dataframe.csv
+IGAVHTVIFAGFSAESLAGR3_RT85.50_IM0.8793_final_dataframe.csv
+IGEDYVK2_RT30.32_IM0.7674_final_dataframe.csv
+IGFPSTTPAK2_RT45.87_IM0.8403_final_dataframe.csv
+IGLDLPALNM(UniMod:35)QR2_RT77.43_IM0.9780_final_dataframe.csv
+IGNLQTDLSDGLR2_RT64.32_IM1.0207_final_dataframe.csv
+IGSESTKPPITFDK3_RT47.94_IM0.7619_final_dataframe.csv
+IGVGPPLDSTPTVAK2_RT60.96_IM1.0586_final_dataframe.csv
+IHESAGLPFFEI2_RT91.13_IM0.9934_final_dataframe.csv
+IHFPLATYAPVIS2_RT89.08_IM1.0329_final_dataframe.csv
+IHTEPQLSAALEYVR3_RT71.03_IM0.8354_final_dataframe.csv
+IIDTSLTR2_RT39.39_IM0.8336_final_dataframe.csv
+
+[比较] IIEVHVEK2_RT34.69_IM0.8763_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+IIGLDQVAGMSETALPGAFK3_RT90.78_IM0.9852_final_dataframe.csv
+IIIPPFLAYGEK2_RT90.91_IM1.0050_final_dataframe.csv
+IINEPTAAAIAYGLDKK3_RT68.99_IM0.9447_final_dataframe.csv
+IISDTSGDFRK3_RT30.59_IM0.7566_final_dataframe.csv
+IITLEEGDIILTGTPKGVGPVK3_RT86.15_IM1.0500_final_dataframe.csv
+IITMLPTSINAIEAYSGANGILKK3_RT90.75_IM1.1164_final_dataframe.csv
+IIYFQDEGSLTK2_RT63.86_IM1.0057_final_dataframe.csv
+
+[比较] IKGEELSEANVR2_RT32.23_IM0.9757_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+IKVLNQELR2_RT45.11_IM0.9375_final_dataframe.csv
+IKYPENFFLLR3_RT81.06_IM0.8116_final_dataframe.csv
+ILAQATSDLVNAIKADAEGESDLENSRK3_RT87.50_IM1.2663_final_dataframe.csv
+LLKDAEALSQR2_RT37.32_IM0.9771_final_dataframe.csv
+LLLEGISSTHVNHLR2_RT57.51_IM1.2030_final_dataframe.csv
+LLLFSPSVVHLGVPLSVGVQLQDVPR3_RT93.47_IM1.0187_final_dataframe.csv
+LLLQATPQFHPGYPLK3_RT77.00_IM0.8950_final_dataframe.csv
+LLMDDLK2_RT55.34_IM0.7795_final_dataframe.csv
+LLMFPESR2_RT65.69_IM0.8572_final_dataframe.csv
+LLMSLEELIK2_RT90.67_IM0.9296_final_dataframe.csv
+LLPDLEVLR2_RT81.15_IM0.8886_final_dataframe.csv
+LLPIHTLR2_RT49.18_IM0.8825_final_dataframe.csv
+LLPVGSADDGAHSQNEK2_RT34.29_IM1.1681_final_dataframe.csv
+LLQNSENITIENTEHYTHLVMK3_RT72.55_IM1.0933_final_dataframe.csv
+LLQVAVEDR2_RT48.00_IM0.8914_final_dataframe.csv
+LLQYSDALEHLLTTGQGVVLER3_RT91.65_IM1.0055_final_dataframe.csv
+LLTEAPLNPK2_RT50.38_IM0.9331_final_dataframe.csv
+LMDEVAGIVAAR2_RT69.22_IM0.9561_final_dataframe.csv
+LNDFASTVR2_RT41.09_IM0.8586_final_dataframe.csv
+LNEHFLNTTDFL2_RT86.55_IM1.0302_final_dataframe.csv
+LNFEVFTETTYESTK2_RT82.92_IM1.1260_final_dataframe.csv
+LNHVAIAVPDLEK3_RT63.73_IM0.8463_final_dataframe.csv
+LNLEAINYMAADGDFKIK3_RT87.68_IM0.9871_final_dataframe.csv
+LNLPSDMHIQGLQSR3_RT68.68_IM0.8026_final_dataframe.csv
+LNMGITDLQGLR2_RT76.42_IM0.9809_final_dataframe.csv
+LPAGAIHFQR2_RT44.90_IM0.9380_final_dataframe.csv
+LPANFFKFQFR3_RT83.37_IM0.8089_final_dataframe.csv
+LPAVEAATK2_RT34.08_IM0.7891_final_dataframe.csv
+LPAVVTADLR2_RT62.06_IM0.8939_final_dataframe.csv
+LPDDQIPK2_RT38.08_IM0.8223_final_dataframe.csv
+
+[比较] LPDGVEIK2_RT45.77_IM0.7914_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+LPDGYEFKFPNR3_RT65.35_IM0.8182_final_dataframe.csv
+LEVHQFSR2_RT58.15_IM0.8672_final_dataframe.csv
+LEVIFADLAR2_RT84.96_IM0.9166_final_dataframe.csv
+LFEQVM(UniMod:35)R2_RT38.60_IM0.8185_final_dataframe.csv
+LFGGNFAHQASVAR2_RT50.20_IM1.0986_final_dataframe.csv
+LFPEYKNNK2_RT32.97_IM0.9399_final_dataframe.csv
+LFPVAYNLIK2_RT85.08_IM0.9346_final_dataframe.csv
+LFQFHFHWGSTNEHGSEHTVDGVK4_RT65.69_IM0.9874_final_dataframe.csv
+LFSEYHEKR3_RT23.37_IM0.7293_final_dataframe.csv
+LFSGATMASSR2_RT41.98_IM0.8914_final_dataframe.csv
+LFSQETVMK2_RT47.36_IM0.9000_final_dataframe.csv
+LFTLTALR2_RT74.16_IM0.8463_final_dataframe.csv
+LFTTYDRR2_RT32.33_IM0.9002_final_dataframe.csv
+
+[比较] LFVTGIR2_RT54.85_IM0.7825_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+LFYAPAAGGPEELVPIPGNTNYAILR3_RT91.96_IM1.0209_final_dataframe.csv
+LGAQLADLHLDNKK3_RT51.96_IM0.8077_final_dataframe.csv
+LGEYEDVSRVEK2_RT38.39_IM1.0471_final_dataframe.csv
+LGGIGQFLAK2_RT68.68_IM0.8504_final_dataframe.csv
+LGIEGLSLHNVLK3_RT78.55_IM0.8123_final_dataframe.csv
+LGIEIPAEK2_RT61.94_IM0.8429_final_dataframe.csv
+LGINSLQELK2_RT65.48_IM0.9299_final_dataframe.csv
+LGKPVMER2_RT33.11_IM0.7463_final_dataframe.csv
+LGLSEMSR2_RT42.12_IM0.8124_final_dataframe.csv
+LGLSIPDLTPK2_RT82.77_IM0.9401_final_dataframe.csv
+LGNADNFNYTK2_RT39.35_IM0.9365_final_dataframe.csv
+LGNDFHTNKR3_RT15.58_IM0.7255_final_dataframe.csv
+LGNFFSPKVVSLK2_RT72.37_IM1.0600_final_dataframe.csv
+LGVDISATK2_RT43.70_IM0.7885_final_dataframe.csv
+LGVQDLFNSSK2_RT71.99_IM0.9336_final_dataframe.csv
+LHEVGRTEPELLVAHAYTR3_RT53.09_IM1.0420_final_dataframe.csv
+LHIQGTR2_RT18.11_IM0.7760_final_dataframe.csv
+LHMVLRPFLLR3_RT74.38_IM0.8194_final_dataframe.csv
+LHVMYIGR2_RT47.69_IM0.8577_final_dataframe.csv
+LHYGLPVVVK2_RT60.84_IM0.9228_final_dataframe.csv
+LIDDMVAQVLK2_RT85.93_IM0.9601_final_dataframe.csv
+LIEFSPLR2_RT69.10_IM0.8326_final_dataframe.csv
+LIEGLVVK2_RT57.05_IM0.8048_final_dataframe.csv
+LIFAGKQLEDGR2_RT50.59_IM1.0401_final_dataframe.csv
+LIFQMPQNK2_RT62.83_IM0.8853_final_dataframe.csv
+LILGLMMPPAHYDAK3_RT83.65_IM0.8939_final_dataframe.csv
+LILPVGPAGGNQMLEQYDK2_RT86.72_IM1.2368_final_dataframe.csv
+LIMELTGGGQESSGLNLGK2_RT76.49_IM1.1772_final_dataframe.csv
+LINRPIIVFR3_RT64.80_IM0.7940_final_dataframe.csv
+LIPLVLGLQEQLR2_RT91.66_IM1.0888_final_dataframe.csv
+LITNDTFQPEIMER2_RT72.27_IM1.1042_final_dataframe.csv
+LKDDEVAQLKK2_RT26.78_IM0.9661_final_dataframe.csv
+LKELEVAEGGK2_RT33.33_IM0.9243_final_dataframe.csv
+LKGADPEDVITGAFK2_RT70.54_IM1.0471_final_dataframe.csv
+LKGADPEETILNAFKVFD3_RT92.58_IM0.8500_final_dataframe.csv
+LKQLAVAHEK2_RT19.97_IM0.9231_final_dataframe.csv
+LKSFNLSALEK2_RT60.71_IM0.9631_final_dataframe.csv
+LKVLDKPGPPASVK3_RT38.87_IM0.8331_final_dataframe.csv
+LLAFAEAR2_RT53.69_IM0.8266_final_dataframe.csv
+LLDLENSLLGLPSFYR2_RT93.87_IM1.1720_final_dataframe.csv
+LLEPVLLLGKER2_RT79.65_IM1.0894_final_dataframe.csv
+LLEQSIQSAQETEK2_RT44.03_IM1.0578_final_dataframe.csv
+LLGLLMPFR2_RT91.44_IM0.8948_final_dataframe.csv
+LLGQTDVAVYGVAVPGVEGK2_RT83.59_IM1.2099_final_dataframe.csv
+LLHYLGHVMVNGPTTPIPVK2_RT71.17_IM1.3174_final_dataframe.csv
+LPEITDLK2_RT58.97_IM0.8098_final_dataframe.csv
+LPGIVAEGRDDLYVSDAFHK3_RT72.37_IM0.9951_final_dataframe.csv
+LPHYFPVA2_RT66.51_IM0.8355_final_dataframe.csv
+LPPTPLLLFPEEEATNGR3_RT91.22_IM0.9271_final_dataframe.csv
+LPSEGPRPAHVVVGDVL2_RT64.92_IM1.1424_final_dataframe.csv
+LPSSLLGPDPRPGLR3_RT62.52_IM0.8675_final_dataframe.csv
+LPTGYYFGASAGTGDLSDNHDIISMK3_RT81.73_IM1.0550_final_dataframe.csv
+LPTSALVNLSHGSR2_RT56.75_IM1.0850_final_dataframe.csv
+LPYSVVRNEQVEIR3_RT56.36_IM0.8752_final_dataframe.csv
+LPYTASSGLMAPR2_RT59.31_IM1.0143_final_dataframe.csv
+LQAVEVVITHLAPGTK3_RT81.06_IM0.8948_final_dataframe.csv
+LQAYHTQTTPLIEYYRK4_RT55.62_IM0.8780_final_dataframe.csv
+LQDVHVAEGK2_RT23.89_IM0.9051_final_dataframe.csv
+LQEEIVNSVK2_RT44.08_IM0.9669_final_dataframe.csv
+LQEELSQAESTIDELK2_RT76.49_IM1.1520_final_dataframe.csv
+LQEEMLQR2_RT37.05_IM0.8916_final_dataframe.csv
+
+[比较] LQEGYDHSYYFIATFITDHIR3_RT91.87_IM1.1222_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+LQELHLSSNGLESLSPEFLRPVPQLR4_RT89.05_IM0.9789_final_dataframe.csv
+LQKLLESDYFR3_RT60.62_IM0.8295_final_dataframe.csv
+LQLSLADFR2_RT79.17_IM0.8798_final_dataframe.csv
+LQNEVEDLMIDVER3_RT88.24_IM0.8676_final_dataframe.csv
+LQQTLNALNKK2_RT33.05_IM0.9960_final_dataframe.csv
+LQSLGVPGAAASR2_RT47.93_IM0.9666_final_dataframe.csv
+LQSTFVFEEIGRR3_RT70.87_IM0.8468_final_dataframe.csv
+LQSYVDAGTPMYLVIFPEGTR2_RT92.06_IM1.3104_final_dataframe.csv
+LQTQVFKLGLAK2_RT63.52_IM1.0394_final_dataframe.csv
+LQVNLLVKPSEK2_RT58.24_IM1.0455_final_dataframe.csv
+LQYAVPIINQK2_RT66.75_IM0.9807_final_dataframe.csv
+LRAMEKLLASVEER3_RT66.30_IM0.8977_final_dataframe.csv
+MLGADREFIEAR3_RT51.87_IM0.7978_final_dataframe.csv
+MLGALVAMYEHK2_RT71.57_IM1.0499_final_dataframe.csv
+MLVVLLQGTREEDD2_RT76.36_IM1.0761_final_dataframe.csv
+MNLGVGAYRDDNGK2_RT42.01_IM1.0543_final_dataframe.csv
+MPEMSIK2_RT42.51_IM0.7665_final_dataframe.csv
+MQELLMAHDFTK3_RT62.00_IM0.8227_final_dataframe.csv
+MQKEITALAPSTMKIK2_RT54.86_IM1.1880_final_dataframe.csv
+MQLAAESLQEADK2_RT51.84_IM1.0235_final_dataframe.csv
+MQPGPVFGNMDK2_RT55.37_IM0.9616_final_dataframe.csv
+MQQQLDEYQELLDIK2_RT86.21_IM1.1843_final_dataframe.csv
+MREHVMNEVDTNKDR4_RT23.28_IM0.8150_final_dataframe.csv
+MSMKEVDEQMLNVQNK3_RT60.56_IM0.8476_final_dataframe.csv
+MSVFQTQLPTLGVGALK2_RT90.07_IM1.1949_final_dataframe.csv
+MTTVHAITATQK2_RT30.51_IM0.9879_final_dataframe.csv
+MTVVQAYVGDVHYK2_RT62.73_IM1.1503_final_dataframe.csv
+MVDFAGVK2_RT49.30_IM0.7871_final_dataframe.csv
+MVSGFIPLKPTVK2_RT66.88_IM1.0616_final_dataframe.csv
+MVYSFILRPS2_RT78.92_IM0.9350_final_dataframe.csv
+NALDPMSVLLAR2_RT89.38_IM0.9978_final_dataframe.csv
+NALLQLTDSQIADVAR2_RT84.34_IM1.1320_final_dataframe.csv
+NAVEEYVYEMR2_RT65.54_IM1.0013_final_dataframe.csv
+NAVIVAKSPDAAK2_RT28.42_IM0.9866_final_dataframe.csv
+NAYEESLEHLETF2_RT79.84_IM1.0657_final_dataframe.csv
+NDLNPMFLDQVAK2_RT78.32_IM1.0553_final_dataframe.csv
+NDLVISETELK2_RT59.06_IM0.9597_final_dataframe.csv
+NDMVELLGPRPFAEK2_RT74.44_IM1.1493_final_dataframe.csv
+NEETLREEEEEKK3_RT17.55_IM0.8060_final_dataframe.csv
+NEFGYSNR2_RT27.42_IM0.8413_final_dataframe.csv
+NEHNSILQSLLETLK3_RT91.69_IM0.8529_final_dataframe.csv
+LRDLEDSLARER3_RT40.51_IM0.8293_final_dataframe.csv
+LREAGLAPVPMIIFAK3_RT88.87_IM0.8678_final_dataframe.csv
+LRGIEQAVQSHAVAEEEAR4_RT46.93_IM0.8236_final_dataframe.csv
+LRVDYSGGFEPFSVLR3_RT87.18_IM0.8550_final_dataframe.csv
+LSAEAEKVLALPEPSPAAPTLR3_RT77.43_IM0.9115_final_dataframe.csv
+LSASAPLVIHFLK3_RT81.72_IM0.8376_final_dataframe.csv
+LSDAGITPLFLTRQEDR3_RT76.39_IM0.9291_final_dataframe.csv
+LSEDYGVLK2_RT46.96_IM0.8572_final_dataframe.csv
+LSEFGLIQEK2_RT63.47_IM0.9362_final_dataframe.csv
+LSGVMVPAPIQDLEALR2_RT91.56_IM1.1531_final_dataframe.csv
+LSHLKPSSEGLAIVTK3_RT48.00_IM0.8862_final_dataframe.csv
+LSITEVTK2_RT45.71_IM0.8078_final_dataframe.csv
+LSITGTYDLK2_RT59.50_IM0.9434_final_dataframe.csv
+LSPFMADIRDAPQDFHPDR3_RT73.34_IM0.9994_final_dataframe.csv
+LSRDELVKFEPGQSYAGVVQYSHSQMQEHVSLR5_RT73.89_IM1.0457_final_dataframe.csv
+LSSPDAVM(UniMod:35)GNPK2_RT28.90_IM0.9388_final_dataframe.csv
+LSYTQLLR2_RT64.96_IM0.8512_final_dataframe.csv
+LTGLGQSNAALR2_RT43.91_IM0.9383_final_dataframe.csv
+LTGLTVAEYFR2_RT88.98_IM1.0085_final_dataframe.csv
+LTGPVTDDALHR3_RT40.60_IM0.7300_final_dataframe.csv
+LTGQLFLGGSIVK2_RT79.22_IM1.0014_final_dataframe.csv
+LTHVLTGK2_RT21.32_IM0.7966_final_dataframe.csv
+LTIGEGQQHHLGGA2_RT37.26_IM1.0379_final_dataframe.csv
+LTKSDRPELTGAK3_RT21.80_IM0.8370_final_dataframe.csv
+LTLIDPETLLPR2_RT91.03_IM1.0194_final_dataframe.csv
+LTLPHSIR2_RT45.01_IM0.8681_final_dataframe.csv
+LTPFMLGALVAM(UniMod:35)YEHK2_RT91.68_IM1.2726_final_dataframe.csv
+LTPSGSISLIK2_RT60.32_IM0.8995_final_dataframe.csv
+LTQEVLLLR2_RT67.37_IM0.9112_final_dataframe.csv
+LTQQLEEER2_RT28.76_IM0.9198_final_dataframe.csv
+LTRDETNYGIPQR3_RT37.05_IM0.7922_final_dataframe.csv
+LTSSLEAGLQR2_RT46.39_IM0.9135_final_dataframe.csv
+LVDIIAAVPPQYR2_RT83.89_IM1.0163_final_dataframe.csv
+LVDTGDKFR2_RT28.88_IM0.9092_final_dataframe.csv
+
+[比较] LVEDMENKIR3_RT40.17_IM0.7714_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+LVFDGLR2_RT59.76_IM0.7720_final_dataframe.csv
+LVGFIDDAVK2_RT66.70_IM0.8983_final_dataframe.csv
+LVGRPPLPVPA2_RT66.91_IM0.8877_final_dataframe.csv
+LVINDLTYHVRPPKR3_RT54.85_IM0.8948_final_dataframe.csv
+LVQGSILKK2_RT30.90_IM0.9007_final_dataframe.csv
+LYDFYLFK2_RT87.01_IM0.8945_final_dataframe.csv
+LYDIDVAK2_RT49.82_IM0.8438_final_dataframe.csv
+LYDRDVASAAPEK2_RT32.21_IM1.0559_final_dataframe.csv
+LYEDSDDLK2_RT32.78_IM0.9149_final_dataframe.csv
+LYEEGSNK2_RT15.01_IM0.8027_final_dataframe.csv
+LYGFPYK2_RT58.76_IM0.8046_final_dataframe.csv
+LYKEELEQTYHAK2_RT36.20_IM1.1300_final_dataframe.csv
+LYLNSNKLDFDGLPSGIGK3_RT81.18_IM0.8848_final_dataframe.csv
+LYLVQGTQVYVFLTK3_RT90.73_IM0.8977_final_dataframe.csv
+LYPAVDEQETPLPR2_RT61.84_IM1.0769_final_dataframe.csv
+M(UniMod:35)ALDIEIATYRK3_RT58.73_IM0.8307_final_dataframe.csv
+M(UniMod:35)IEGILYEMR2_RT71.60_IM0.9558_final_dataframe.csv
+M(UniMod:35)M(UniMod:35)DFETFLPMLQHISK3_RT90.04_IM0.9704_final_dataframe.csv
+M(UniMod:35)VGVPAALDMMLTGR2_RT90.88_IM1.0621_final_dataframe.csv
+MADLSELLK2_RT76.58_IM0.8408_final_dataframe.csv
+MAEGEAEGSVK2_RT19.69_IM0.8761_final_dataframe.csv
+MAGTAFDFENMKR3_RT58.55_IM0.8269_final_dataframe.csv
+MAGVRPDNVAEVVAGAR3_RT61.15_IM0.8779_final_dataframe.csv
+NEKVIEHIMEDLDTNADK3_RT73.07_IM0.8965_final_dataframe.csv
+NEQINDEMK2_RT25.10_IM0.9065_final_dataframe.csv
+NFAFLEFR2_RT85.93_IM0.8700_final_dataframe.csv
+NFDFEDVFVK2_RT87.71_IM0.9552_final_dataframe.csv
+NFDVGHVPIRLPR3_RT67.12_IM0.8598_final_dataframe.csv
+NFLLLSYEELKQDTGR3_RT87.28_IM0.9170_final_dataframe.csv
+NFLVEEEQR2_RT45.75_IM0.9267_final_dataframe.csv
+NFSSVYAVVSALQSSPIHR2_RT89.97_IM1.3783_final_dataframe.csv
+NGAVIMAVR2_RT43.70_IM0.8019_final_dataframe.csv
+NGVKIMGTSPLQIDRAEDR3_RT57.67_IM0.9508_final_dataframe.csv
+NIDRTELQTITND2_RT52.67_IM1.0216_final_dataframe.csv
+
+[比较] NIIGLLNVFTPQK2_RT92.34_IM1.0319_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+NIIVFYGSQTGTAEEFANR3_RT78.83_IM0.9950_final_dataframe.csv
+NILETLLQMK2_RT92.20_IM0.9555_final_dataframe.csv
+
+[比较] NILFVITKPDVYK2_RT78.56_IM1.1016_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+NIQDTSDLDAIAK2_RT53.85_IM1.0194_final_dataframe.csv
+NISFNDKK2_RT21.50_IM0.8416_final_dataframe.csv
+NKDPLNETVVGLYQK3_RT60.90_IM0.9054_final_dataframe.csv
+NKEEAAEYAKLLAK3_RT47.97_IM0.8394_final_dataframe.csv
+NLAQTYLAR2_RT48.09_IM0.8911_final_dataframe.csv
+NLDISRPDKK2_RT23.92_IM0.9330_final_dataframe.csv
+NLFFSTNIDDAIK2_RT86.39_IM1.0935_final_dataframe.csv
+NLHALILVNNK3_RT54.58_IM0.7461_final_dataframe.csv
+NLLPRVAAK2_RT39.90_IM0.8757_final_dataframe.csv
+NLQLDYVDLYLIHFPVSVKPGEEVIPK3_RT92.33_IM1.2134_final_dataframe.csv
+NLSDVATKQEGLESVLK3_RT66.26_IM0.8276_final_dataframe.csv
+NLTLDQMIR2_RT67.31_IM0.9250_final_dataframe.csv
+NLTVILSDASAPGEGEHK2_RT61.97_IM1.1977_final_dataframe.csv
+NLVVGDETTSSLR2_RT50.53_IM0.9957_final_dataframe.csv
+
+[比较] PAAPPAPGPGQLTLR2_RT58.31_IM1.0395_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+PAAPPSTPAAPK2_RT17.04_IM0.8880_final_dataframe.csv
+PAEFTPAVHASLDK2_RT49.77_IM1.0715_final_dataframe.csv
+PAELLKMFGIDRDAIAQAVR4_RT88.86_IM0.9028_final_dataframe.csv
+PAGHQEEAKVTANNDK4_RT11.94_IM0.7742_final_dataframe.csv
+PALHLAALNMPFSGDIR3_RT87.55_IM0.8164_final_dataframe.csv
+PAMAATSFILMTTFPNK2_RT91.22_IM1.1883_final_dataframe.csv
+PAPIEKTISKAK3_RT48.82_IM0.7591_final_dataframe.csv
+PATATSVDLR2_RT34.14_IM0.8775_final_dataframe.csv
+PATLEYTVAGTPELKPK3_RT59.80_IM0.9462_final_dataframe.csv
+PAVPTVASSTDMLHSK3_RT54.74_IM0.9137_final_dataframe.csv
+PDAVMGNPKVKAHGK3_RT71.85_IM0.8137_final_dataframe.csv
+PDIIAFRK2_RT45.14_IM0.8635_final_dataframe.csv
+PDRLLQDVDINR3_RT54.22_IM0.7750_final_dataframe.csv
+PDSGLEHSAHVLEK3_RT33.69_IM0.8618_final_dataframe.csv
+PDVIAANILEVK2_RT78.19_IM0.9894_final_dataframe.csv
+PEEEEILNK2_RT51.63_IM0.8840_final_dataframe.csv
+
+[比较] PEIPSAFNSLQR2_RT65.23_IM0.9671_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+PELLEALYPK2_RT78.47_IM0.9408_final_dataframe.csv
+PETFLIIIKGAGGK3_RT76.18_IM0.8117_final_dataframe.csv
+PETLEKFDK2_RT26.49_IM0.9027_final_dataframe.csv
+PETPVLNLLPEPQVAR2_RT88.18_IM1.1550_final_dataframe.csv
+PFDAFTDLK2_RT67.22_IM0.8854_final_dataframe.csv
+PFDLVIPFAVR2_RT92.42_IM0.9478_final_dataframe.csv
+PFQVAEVFTGHMGK2_RT89.95_IM1.1308_final_dataframe.csv
+PGAPGKPTITAVTK2_RT35.05_IM0.9961_final_dataframe.csv
+PGPSSPAGGEDR2_RT16.86_IM0.8474_final_dataframe.csv
+PIDFETNR2_RT38.78_IM0.8515_final_dataframe.csv
+PIVVLHGYEAVK2_RT55.56_IM1.0345_final_dataframe.csv
+MAIESAGFK2_RT45.35_IM0.8208_final_dataframe.csv
+MAIESAGFKLNKK3_RT44.19_IM0.7632_final_dataframe.csv
+
+[比较] MAIQTQQSK2_RT21.02_IM0.8523_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+MALIQMGSVEEAVQALIDLHNHDLGENHHLR5_RT92.67_IM0.9474_final_dataframe.csv
+MAPYQGPDAVPGALDYK2_RT67.21_IM1.1286_final_dataframe.csv
+MATGIEDSELR2_RT44.49_IM0.9236_final_dataframe.csv
+MATLYSR2_RT32.93_IM0.7943_final_dataframe.csv
+MDSTEPPYSQKR2_RT23.98_IM1.0043_final_dataframe.csv
+MEDTEPFSAELLSAMMR2_RT92.77_IM1.1961_final_dataframe.csv
+MEPFHFKNSVIK2_RT54.10_IM1.0614_final_dataframe.csv
+MEVTGLEEGK2_RT40.94_IM0.8809_final_dataframe.csv
+MFGNLQGLTMHVGD2_RT83.38_IM1.0366_final_dataframe.csv
+MFKPQALLDK2_RT57.43_IM0.9494_final_dataframe.csv
+MFLPSLGHR2_RT59.25_IM0.8949_final_dataframe.csv
+MFLSFPTTKTYFPHFDLSHGSAQVK3_RT88.03_IM1.1675_final_dataframe.csv
+MFLSFPTTKTYFPHFDLSHGSAQVKGHGK4_RT81.14_IM1.0609_final_dataframe.csv
+MFVKGAPEGVIDR2_RT51.20_IM1.0348_final_dataframe.csv
+MFVLTVAAENQVPLAK2_RT87.31_IM1.1563_final_dataframe.csv
+MGDHLTNLHRLGGPEAGLGEYLFER4_RT77.55_IM0.8793_final_dataframe.csv
+MGLIDILTQYDAK2_RT33.72_IM1.0228_final_dataframe.csv
+MGPGATAGGAEKSNVK2_RT20.21_IM1.0579_final_dataframe.csv
+MIFDVESMKK2_RT58.21_IM0.9473_final_dataframe.csv
+MIGFSETAK2_RT44.89_IM0.8558_final_dataframe.csv
+MIGGLFIYNHK3_RT66.96_IM0.7828_final_dataframe.csv
+MILLNNSHK2_RT36.20_IM0.9079_final_dataframe.csv
+MILPVGAANFR2_RT75.48_IM0.9164_final_dataframe.csv
+MIMATNRPDTLD2_RT50.16_IM0.9868_final_dataframe.csv
+MIYASSKDAIK2_RT33.05_IM0.9747_final_dataframe.csv
+MLDLYSQISSVPIGYSHPALLK3_RT89.72_IM1.0860_final_dataframe.csv
+PKEEEVSLQGINTR3_RT44.47_IM0.8423_final_dataframe.csv
+PLALVLHELGAGR2_RT92.08_IM1.0415_final_dataframe.csv
+PLLQVTSPVLQR2_RT71.94_IM1.0208_final_dataframe.csv
+PLLVGVPASENPFK2_RT82.52_IM1.0436_final_dataframe.csv
+PLTITSSLSSDGVLTVNGPRK3_RT73.49_IM1.0082_final_dataframe.csv
+PLTNLNTAFDVAEK2_RT71.30_IM1.0582_final_dataframe.csv
+
+[比较] PLVPLMFGSLTVEKLK3_RT90.98_IM0.9619_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+PLVPPQLTIK2_RT71.88_IM0.8873_final_dataframe.csv
+PMIVPDLDLK2_RT88.52_IM0.9099_final_dataframe.csv
+PNGLILQYGTAGFR2_RT76.46_IM1.0536_final_dataframe.csv
+PPADVAIELK2_RT54.92_IM0.9057_final_dataframe.csv
+
+[比较] PPAGSAPGEHVFVK3_RT37.75_IM0.8252_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+PPPEVSALINK2_RT59.50_IM0.9105_final_dataframe.csv
+PPSREEMTK2_RT51.08_IM0.8723_final_dataframe.csv
+PPSVVVTSHQAPGEKK3_RT27.22_IM0.8498_final_dataframe.csv
+PQAIKPILK2_RT36.51_IM0.9100_final_dataframe.csv
+PQAVLGALGR2_RT50.89_IM0.8418_final_dataframe.csv
+PRPDPSPEIEGDLQPATHGSR4_RT46.21_IM0.8682_final_dataframe.csv
+PSAPVVSGPAAR2_RT34.21_IM0.8697_final_dataframe.csv
+PSDLAGPVVAETRPGTK3_RT45.08_IM0.9137_final_dataframe.csv
+PSFPAIPSALGFK2_RT88.55_IM0.9902_final_dataframe.csv
+PSGHDQEPQAVLSPLIAIALK2_RT91.56_IM1.2987_final_dataframe.csv
+PSQMEHAMETM2_RT44.71_IM0.9451_final_dataframe.csv
+
+[比较] PSQVVAETR2_RT19.78_IM0.8432_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+PSSFFGMDRPPK3_RT52.26_IM0.7929_final_dataframe.csv
+PTFVMGHAMATGLVLIGTGSSVK3_RT88.71_IM0.9886_final_dataframe.csv
+PTSPPSPPLDLHVTDAGRK3_RT55.71_IM0.9312_final_dataframe.csv
+PVIFEDVGR2_RT57.70_IM0.8601_final_dataframe.csv
+PVLEESFQQLQR2_RT64.29_IM1.0275_final_dataframe.csv
+NLVVIPKSVTPERIAENFK3_RT76.82_IM1.0284_final_dataframe.csv
+NLYELESR2_RT40.97_IM0.8739_final_dataframe.csv
+NLYSDDIPHALR2_RT57.42_IM1.0348_final_dataframe.csv
+NMASLGGHIISR3_RT47.14_IM0.7832_final_dataframe.csv
+NNPPTIVQDK2_RT30.24_IM0.8926_final_dataframe.csv
+NQVALNPQNTVFDAK2_RT61.35_IM1.0973_final_dataframe.csv
+NQVAMNPTNTIFDAK2_RT65.65_IM1.1048_final_dataframe.csv
+NQVSQLLPEK2_RT49.99_IM0.9054_final_dataframe.csv
+NSALSAQLR2_RT34.48_IM0.8376_final_dataframe.csv
+NSDIIVPHK2_RT30.60_IM0.8702_final_dataframe.csv
+NSLLHGYR2_RT30.84_IM0.8417_final_dataframe.csv
+NSVTPDMMEEM(UniMod:35)YK2_RT51.72_IM1.0579_final_dataframe.csv
+NTGVISVVTTGLDR2_RT72.09_IM1.0167_final_dataframe.csv
+
+[比较] NTIYEIQDNTGSMDVVGSGK2_RT65.50_IM1.2227_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+NTVYLQMNSLR2_RT60.96_IM0.9853_final_dataframe.csv
+NVADDTRSEDLRR3_RT23.04_IM0.7992_final_dataframe.csv
+NVAITALEGLK2_RT71.64_IM0.9138_final_dataframe.csv
+NVDDGHIININSMSGHR3_RT50.49_IM0.9064_final_dataframe.csv
+NVEAM(UniMod:35)SGMEGR2_RT21.66_IM0.8838_final_dataframe.csv
+NVFDEAILAALEPPEPK2_RT93.13_IM1.1673_final_dataframe.csv
+NVLPVLNNLLENR2_RT90.14_IM1.0542_final_dataframe.csv
+NVNIFKFIIPNVVK3_RT91.38_IM0.8245_final_dataframe.csv
+NVQAEEMVEFSSGLK3_RT60.75_IM0.8473_final_dataframe.csv
+NVQDAIADAEQRGEHALK3_RT64.19_IM0.9038_final_dataframe.csv
+NVVLPTETEVAPAK2_RT57.48_IM1.0223_final_dataframe.csv
+NYAHALDGLYR2_RT52.56_IM0.9861_final_dataframe.csv
+NYGILADATEQVGQHK2_RT59.16_IM1.2024_final_dataframe.csv
+NYPIMNLHER2_RT48.11_IM0.9747_final_dataframe.csv
+PAAGSVILLENLR2_RT80.23_IM0.9916_final_dataframe.csv
+SAPELKTGISDVFAK3_RT63.68_IM0.8397_final_dataframe.csv
+SAPLPGLSAPGR2_RT53.49_IM0.8968_final_dataframe.csv
+SAYLM(UniMod:35)GLNSADLLK2_RT76.88_IM1.0663_final_dataframe.csv
+SDRPELTGAK2_RT19.27_IM0.8918_final_dataframe.csv
+SDRPELTGAKVVVSGGR3_RT40.46_IM0.9149_final_dataframe.csv
+SDVFPGPSFR2_RT60.84_IM0.8667_final_dataframe.csv
+SDYAQLLEDMQNAFR2_RT92.33_IM1.1363_final_dataframe.csv
+SEESPAIEAIHLLR3_RT77.86_IM0.8651_final_dataframe.csv
+
+[比较] SEHPGLSIGDTAKK3_RT28.39_IM0.8180_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+SEQLTDRSEISLLPSDIDR3_RT72.61_IM0.9158_final_dataframe.csv
+SERELLEIVK2_RT56.35_IM0.9588_final_dataframe.csv
+SEVAHRFK2_RT11.68_IM0.8343_final_dataframe.csv
+SFAINFK2_RT59.80_IM0.7669_final_dataframe.csv
+SFENSLGINVPR2_RT67.82_IM0.9949_final_dataframe.csv
+SFISRIVEVFDIGPK3_RT92.74_IM0.8377_final_dataframe.csv
+SFLDVLSIK2_RT88.80_IM0.8715_final_dataframe.csv
+SFLVASVLPGPDGNINSPTR2_RT86.94_IM1.1956_final_dataframe.csv
+SFLVWVNEEDHLR2_RT79.89_IM1.1197_final_dataframe.csv
+SFMLLILER2_RT91.07_IM0.9166_final_dataframe.csv
+SFNLPMLMLGGGGYTIR2_RT93.13_IM1.1390_final_dataframe.csv
+SFPFVSKTLGVDFIDVATK2_RT90.84_IM1.3096_final_dataframe.csv
+SFSTASAITPSVSR2_RT52.30_IM0.9922_final_dataframe.csv
+SFVTTAER2_RT46.72_IM0.7873_final_dataframe.csv
+SFYPEEVSSM(UniMod:35)VLTK2_RT70.96_IM1.0730_final_dataframe.csv
+SGAAGPTGPIGSR2_RT28.06_IM0.8848_final_dataframe.csv
+SGAYLIPLLER2_RT87.49_IM0.9383_final_dataframe.csv
+SGEHDFGAAFDGDGDR2_RT43.61_IM1.0475_final_dataframe.csv
+SGEHVTDEEIESLMK2_RT63.16_IM1.0930_final_dataframe.csv
+SGFSLGSDGK2_RT36.87_IM0.8173_final_dataframe.csv
+PVNSVFLPKDVALAR3_RT70.78_IM0.8941_final_dataframe.csv
+PYQYPALTPEQK2_RT51.56_IM1.0154_final_dataframe.csv
+PYTGQQISLFQAMQK2_RT76.48_IM1.1318_final_dataframe.csv
+QGQYSPMAIEEQVAVIYAGVR2_RT91.72_IM1.2985_final_dataframe.csv
+QPNSAGVQDTEMGPC(UniMod:4)RR2_RT23.38_IM1.1199_final_dataframe.csv
+QTVAVGVIK2_RT42.61_IM0.8272_final_dataframe.csv
+QVEYAIEAIK2_RT88.59_IM0.9041_final_dataframe.csv
+RAFVHWYVGEGMEEGEFSEAR3_RT69.86_IM0.9766_final_dataframe.csv
+RAGEILSDR2_RT22.62_IM0.8571_final_dataframe.csv
+RAHLNDLENIIPFLG3_RT91.07_IM0.7975_final_dataframe.csv
+RANEFLEVGKK3_RT31.32_IM0.7442_final_dataframe.csv
+RAVEKLSVEALNSLTGEFK4_RT78.44_IM0.8689_final_dataframe.csv
+RDDGTGQLLLPLSDAR3_RT70.48_IM0.8163_final_dataframe.csv
+RDFNHINVELSLLGK3_RT72.77_IM0.8453_final_dataframe.csv
+RDSGAYTLTATNPGGFAK3_RT51.86_IM0.9441_final_dataframe.csv
+
+[比较] RESGEEFR2_RT14.20_IM0.8535_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+RFIDNLR2_RT37.90_IM0.8511_final_dataframe.csv
+RGDLPFVVPR2_RT60.51_IM0.9367_final_dataframe.csv
+RGIPKVIVVITDGR3_RT62.09_IM0.8697_final_dataframe.csv
+RGLESDVAELR3_RT45.16_IM0.7546_final_dataframe.csv
+RGVM(UniMod:35)LAVDAVIAELKK3_RT82.68_IM0.8854_final_dataframe.csv
+RHIEIFTDLSSR3_RT52.32_IM0.7784_final_dataframe.csv
+RHLVPGAPFLLQALVR3_RT88.21_IM0.8362_final_dataframe.csv
+RIDYVLQEK2_RT39.76_IM0.9362_final_dataframe.csv
+RIELLEEVKR3_RT47.84_IM0.7520_final_dataframe.csv
+RINAEIEK2_RT20.69_IM0.8838_final_dataframe.csv
+RLDLVHTAALMLDK3_RT81.36_IM0.8443_final_dataframe.csv
+RLEAELAAHEPAIQGVLDTGK3_RT68.68_IM0.9299_final_dataframe.csv
+RLTVNEAVK2_RT26.19_IM0.8942_final_dataframe.csv
+RLVFDVPILNEFAK3_RT91.56_IM0.8762_final_dataframe.csv
+RNGFPVALAR2_RT47.21_IM0.8850_final_dataframe.csv
+RNIPMLFVR2_RT64.02_IM0.9118_final_dataframe.csv
+RPLTAATLFK2_RT52.15_IM0.9220_final_dataframe.csv
+RSFDIPPPPMDEK2_RT56.88_IM1.0302_final_dataframe.csv
+RTEMENEFVLIK2_RT63.83_IM1.0728_final_dataframe.csv
+RTPAEIREEFER3_RT38.69_IM0.8387_final_dataframe.csv
+RVFQEFIK2_RT48.40_IM0.8885_final_dataframe.csv
+RVHNATLILSEGLKR3_RT44.50_IM0.9010_final_dataframe.csv
+RVIISAPSADAPMFVM(UniMod:35)GVNHEK3_RT66.88_IM1.0719_final_dataframe.csv
+RVIISAPSADAPMFVMGVNHEK3_RT74.51_IM1.0759_final_dataframe.csv
+
+[比较] RVINEPTAAALAYGLDK3_RT66.32_IM0.9548_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+RVPVALPEMVR3_RT62.02_IM0.7693_final_dataframe.csv
+RVPVIVEK2_RT31.93_IM0.8645_final_dataframe.csv
+RVSLATVDK2_RT27.67_IM0.8549_final_dataframe.csv
+RVSTQEDEEQENR3_RT12.49_IM0.7736_final_dataframe.csv
+RVVLVTSGGTK2_RT26.16_IM0.9003_final_dataframe.csv
+RVVSEIPVLKTNAGPR3_RT49.65_IM0.8981_final_dataframe.csv
+SADESGQALLAAGHYASDEVREK3_RT59.98_IM1.0812_final_dataframe.csv
+SAGSRIEDGVPQHLVLVLGGK4_RT73.89_IM0.8081_final_dataframe.csv
+SAIMNPASK2_RT26.79_IM0.7903_final_dataframe.csv
+SALFAQLNQGEAITK2_RT69.41_IM1.0850_final_dataframe.csv
+SALFLLEHQADINVR3_RT77.65_IM0.8541_final_dataframe.csv
+SALQALEMDRK2_RT46.53_IM0.9759_final_dataframe.csv
+SALTQHMER2_RT22.35_IM0.8884_final_dataframe.csv
+SALVQIYELEEHK2_RT68.50_IM1.0887_final_dataframe.csv
+SAMKTLAQLFSGAQTAEGEGAGGGAKK3_RT74.96_IM1.1208_final_dataframe.csv
+SAMMYIQELR2_RT69.58_IM0.9324_final_dataframe.csv
+SAPAMQSSGSFNYAR2_RT44.84_IM1.0386_final_dataframe.csv
+SGGGYIVVDPILR2_RT77.46_IM0.9846_final_dataframe.csv
+SGGSSGGPAVPTVQR2_RT35.23_IM0.9525_final_dataframe.csv
+SGGSSQVYFMTLGR2_RT69.99_IM1.0269_final_dataframe.csv
+SGINPFDSQEAK2_RT48.69_IM0.9560_final_dataframe.csv
+SGLDGAKGDAGPAGPK2_RT40.06_IM1.0063_final_dataframe.csv
+SGTDFTLTISR2_RT61.58_IM0.9071_final_dataframe.csv
+SGVLSVSSGAAAHR2_RT33.17_IM1.0144_final_dataframe.csv
+SHPEVIGVFGESVK2_RT59.74_IM1.0386_final_dataframe.csv
+SHSHQDEDEDEVVSSEHHHHILR5_RT26.22_IM0.8849_final_dataframe.csv
+SIFLVAHR2_RT46.87_IM0.8391_final_dataframe.csv
+
+[比较] SIFSPVVK2_RT57.08_IM0.7969_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+SIHLVTQR2_RT29.03_IM0.8389_final_dataframe.csv
+SILDEFKK2_RT55.19_IM0.8481_final_dataframe.csv
+SILHYIADK2_RT49.10_IM0.8864_final_dataframe.csv
+SILTPRIKVGR3_RT45.77_IM0.7845_final_dataframe.csv
+SIQETLGESGSLLPNK2_RT67.67_IM1.1047_final_dataframe.csv
+SISAALEHK2_RT26.67_IM0.8566_final_dataframe.csv
+SISFIPPDGEFELM(UniMod:35)R2_RT87.43_IM1.1245_final_dataframe.csv
+SKEQLTPLIK2_RT42.68_IM0.9139_final_dataframe.csv
+SKLPGIVAEGRDDLYVSDAFHK3_RT67.48_IM1.0609_final_dataframe.csv
+SKPPFLLEK2_RT48.52_IM0.8898_final_dataframe.csv
+SLAMTKPDR2_RT22.68_IM0.8699_final_dataframe.csv
+SLDVNHFAPDELTVK2_RT74.53_IM1.1157_final_dataframe.csv
+SLETSLVPLSDPK2_RT70.41_IM1.0525_final_dataframe.csv
+SLFPGHPHSAYEQAFQGDESVR3_RT58.15_IM0.9667_final_dataframe.csv
+SLFSEEAANEEK2_RT45.11_IM0.9500_final_dataframe.csv
+SLGGGTGSGMGTLLISKIR2_RT75.27_IM1.2754_final_dataframe.csv
+SLGKGSAPPGPVPEGSIR3_RT43.77_IM0.8291_final_dataframe.csv
+SLGMIFEK2_RT63.06_IM0.8282_final_dataframe.csv
+SPGAFDMSGVR2_RT49.22_IM0.8752_final_dataframe.csv
+SPIYSHFSETVTGASVIR3_RT68.16_IM0.9569_final_dataframe.csv
+SPLLQLPHIEEDNLR2_RT78.68_IM1.1999_final_dataframe.csv
+SPMYSIITPNILR2_RT87.81_IM1.0588_final_dataframe.csv
+SPTDILLFHMK2_RT77.91_IM1.0046_final_dataframe.csv
+SPVSFLALHNQIR2_RT67.49_IM1.0926_final_dataframe.csv
+SPWVESEIGYTALSETESPR2_RT82.19_IM1.2294_final_dataframe.csv
+
+[比较] SQAEEEIDEIRK2_RT38.99_IM1.0163_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+SQAEEEIDEIRK3_RT39.02_IM0.7600_final_dataframe.csv
+SQAPVLDAIRR3_RT47.99_IM0.7627_final_dataframe.csv
+SQHGEPLLMEYSR3_RT51.41_IM0.8061_final_dataframe.csv
+SQLDIIIHSLKK2_RT69.28_IM1.0575_final_dataframe.csv
+SQRAGLQFPVGR3_RT47.78_IM0.7564_final_dataframe.csv
+SQSSNDTFPTAMHIAAAIEVHEVLLPGLQK3_RT91.09_IM1.2868_final_dataframe.csv
+SREDLSAQPVQTK2_RT25.76_IM1.0175_final_dataframe.csv
+SREVIDSIIK2_RT49.95_IM0.9172_final_dataframe.csv
+SRFFEYR2_RT39.02_IM0.8637_final_dataframe.csv
+SRNVYSLEIR3_RT45.50_IM0.7313_final_dataframe.csv
+SRPELLEYYIK2_RT66.45_IM1.0427_final_dataframe.csv
+
+[比较] SRPQPAEEYEDDTERR3_RT25.82_IM0.9354_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+SSDKFDIIADGKK3_RT38.78_IM0.7775_final_dataframe.csv
+
+[比较] SSFYSLTSSNISK2_RT57.73_IM1.0231_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+SSIDSEPALVLGPLK2_RT80.39_IM1.0465_final_dataframe.csv
+SSLILDVPLGVISR2_RT91.32_IM1.0625_final_dataframe.csv
+SSSISSFKD2_RT30.03_IM0.8114_final_dataframe.csv
+
+[比较] SSSSVGGLSVSSR2_RT35.11_IM0.9254_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+SSYYVVSGNDPAAEEPSR2_RT49.28_IM1.1079_final_dataframe.csv
+STHGLEVPLSHK3_RT35.44_IM0.7448_final_dataframe.csv
+STLLLLLTGK2_RT89.45_IM0.8914_final_dataframe.csv
+TDHPEIGEGKPTPALSEEASSSSIR3_RT48.24_IM1.0012_final_dataframe.csv
+TDSREDEISPPPPNPVVK3_RT48.85_IM0.8888_final_dataframe.csv
+TDTGEPMGRGTK2_RT14.20_IM0.9564_final_dataframe.csv
+TDTSHHDQDHPTFNK4_RT15.70_IM0.7875_final_dataframe.csv
+TDTSHHDQDHPTFNKITPNLAEFAFSLYR5_RT88.86_IM0.9686_final_dataframe.csv
+TEADTISGR2_RT18.78_IM0.7970_final_dataframe.csv
+TEDEYETLER2_RT37.35_IM0.9322_final_dataframe.csv
+TEIEDFPRFPHR3_RT54.92_IM0.7978_final_dataframe.csv
+TEVHIRPK2_RT14.77_IM0.8521_final_dataframe.csv
+TFDAGAGIALNDHFVK2_RT68.15_IM1.1924_final_dataframe.csv
+TFDEIASGFR2_RT62.40_IM0.8789_final_dataframe.csv
+TFDSIMEAHK2_RT43.47_IM0.9439_final_dataframe.csv
+TFEESFQKALR3_RT55.98_IM0.7970_final_dataframe.csv
+TFFRGLESQTK3_RT45.99_IM0.7498_final_dataframe.csv
+TFGLTLGHVVDEIQR3_RT80.73_IM0.8489_final_dataframe.csv
+TGAIMHFGNMK2_RT58.03_IM0.9486_final_dataframe.csv
+TGEISPGMIK2_RT44.89_IM0.8751_final_dataframe.csv
+TGISHGHTVYVVHD3_RT31.75_IM0.8927_final_dataframe.csv
+TGPLLIELR2_RT73.95_IM0.8662_final_dataframe.csv
+TGQEMIEGGHYASDNVTTR3_RT41.64_IM0.8800_final_dataframe.csv
+TGTVSLEVR2_RT40.15_IM0.8550_final_dataframe.csv
+THLGGEDFDNR3_RT29.23_IM0.7278_final_dataframe.csv
+THSITFKDLSIDDTSQIR3_RT64.71_IM0.9441_final_dataframe.csv
+THTTMSGVAHR2_RT12.59_IM0.9350_final_dataframe.csv
+TIAPIIGR2_RT50.43_IM0.7873_final_dataframe.csv
+
+[比较] TIAQDYGVLKADEGISFR2_RT73.23_IM1.2657_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+TIDDLEDEVYAQKMK2_RT61.75_IM1.1834_final_dataframe.csv
+TIDSVTSAQELR2_RT44.86_IM0.9964_final_dataframe.csv
+TIIDIITHR2_RT69.81_IM0.8865_final_dataframe.csv
+YYVTIIDAPGHR2_RT57.18_IM1.0664_final_dataframe.csv
+SLGTKLAEEMR2_RT46.56_IM0.9861_final_dataframe.csv
+SLHDAIMIVR2_RT55.78_IM0.9262_final_dataframe.csv
+SLKDEDVLQK2_RT32.82_IM0.9372_final_dataframe.csv
+SLLHLVLLGNQIER3_RT86.12_IM0.8273_final_dataframe.csv
+SLLKTASLSGR2_RT39.39_IM0.9470_final_dataframe.csv
+SLLSAEEAAK2_RT40.03_IM0.8461_final_dataframe.csv
+SLLTTAEVVVTEIPK2_RT92.23_IM1.1500_final_dataframe.csv
+SLNESKIEIER2_RT38.38_IM0.9967_final_dataframe.csv
+SLQALGEVIEAELR2_RT91.69_IM1.0524_final_dataframe.csv
+SLQSGVPSR2_RT25.40_IM0.8063_final_dataframe.csv
+SLQTSLDAETR2_RT41.54_IM0.9339_final_dataframe.csv
+SLQWMAGGTFTGEALQYTR2_RT88.14_IM1.2579_final_dataframe.csv
+SLSSAYIQR2_RT37.99_IM0.8601_final_dataframe.csv
+SLVIEHIQVNK2_RT51.16_IM0.9903_final_dataframe.csv
+SLVNLGGSK2_RT40.45_IM0.7907_final_dataframe.csv
+SLVPAAELLESR2_RT77.70_IM0.9673_final_dataframe.csv
+SLVSGLIR2_RT61.63_IM0.7936_final_dataframe.csv
+SM(UniMod:35)EAEMIQLQEELAAAER2_RT86.75_IM1.2084_final_dataframe.csv
+SMGLTLAESELTK2_RT70.56_IM1.0159_final_dataframe.csv
+SMLRGGPLPGPYR2_RT52.48_IM1.0148_final_dataframe.csv
+SMLYSGSDVIR2_RT55.71_IM0.9525_final_dataframe.csv
+SNTENLSQHFR3_RT30.72_IM0.7600_final_dataframe.csv
+
+[比较] SNTHEFVNLVK3_RT46.78_IM0.7773_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+
+[比较] SNTVASLHTEK2_RT20.69_IM0.9561_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+SPAGPTVVSIGGGKG2_RT45.77_IM0.9301_final_dataframe.csv
+SPALQILLTNTK2_RT75.90_IM1.0080_final_dataframe.csv
+SPAPGPLGPPGPTGPPGPPGPPR3_RT64.50_IM0.8763_final_dataframe.csv
+SPFEVSVDKAQGDASK3_RT43.68_IM0.8472_final_dataframe.csv
+
+[比较] SPFTVGVAAPLDLSK2_RT83.26_IM1.0398_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+TLTGKTITLEVEPSDTIENVK2_RT70.38_IM1.3044_final_dataframe.csv
+TLVPGPPGSSRPVK2_RT39.84_IM1.0058_final_dataframe.csv
+TLYSSSPR2_RT23.31_IM0.8364_final_dataframe.csv
+TMAQHEELMK2_RT26.42_IM0.9613_final_dataframe.csv
+TMLESAGGLIQTAR2_RT66.48_IM1.0242_final_dataframe.csv
+TMTQFLEQGEATLSVAR3_RT86.42_IM0.9262_final_dataframe.csv
+TNIDRLEGDHQLLQESLVFDNK4_RT75.96_IM0.8898_final_dataframe.csv
+TNLDESDVQPVK2_RT38.69_IM0.9739_final_dataframe.csv
+TNTGSAMLEQIAMSDR2_RT72.18_IM1.1032_final_dataframe.csv
+TNYTMEHIR2_RT24.38_IM0.9170_final_dataframe.csv
+TPAEIREEFER2_RT42.73_IM1.0016_final_dataframe.csv
+TPEEEPLNLEGLVAHR3_RT75.11_IM0.9346_final_dataframe.csv
+TPEELETFMLK2_RT77.85_IM0.9818_final_dataframe.csv
+TPEELQAER2_RT26.13_IM0.8750_final_dataframe.csv
+TPEIMLAK2_RT48.06_IM0.8231_final_dataframe.csv
+TPIESLFIEATEK2_RT88.30_IM1.0110_final_dataframe.csv
+TPLHEIALSIK3_RT60.25_IM0.8080_final_dataframe.csv
+TPLNPPEPPSNPPEVLDVTK3_RT75.48_IM0.9049_final_dataframe.csv
+TPLVSVLLEGPPHSGK3_RT77.86_IM0.8750_final_dataframe.csv
+TPVPSDIDISR2_RT52.17_IM0.9075_final_dataframe.csv
+TPYTIM(UniMod:35)FGPDK2_RT60.10_IM0.9620_final_dataframe.csv
+TQDQISNIK2_RT26.31_IM0.8808_final_dataframe.csv
+TQEEIVAKVR2_RT30.79_IM0.9502_final_dataframe.csv
+TQEFILNSPTVTSIK2_RT73.76_IM1.1141_final_dataframe.csv
+
+[比较] TQGQFDEHYVLSSR2_RT53.05_IM1.1275_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+TQIPTQR2_RT21.10_IM0.7741_final_dataframe.csv
+TRPEFYLNSYMNKQDVVNAVR3_RT78.25_IM0.9860_final_dataframe.csv
+TSFGSLKDEDR2_RT31.41_IM0.9663_final_dataframe.csv
+TSLGPKGMDK2_RT22.44_IM0.8600_final_dataframe.csv
+STLLNILSGLSVPTK2_RT92.71_IM1.0873_final_dataframe.csv
+STNPGISIGDVAK2_RT52.60_IM0.9547_final_dataframe.csv
+STTSISKQTLPR2_RT30.36_IM0.9945_final_dataframe.csv
+STVNVLGFLK2_RT85.17_IM0.8821_final_dataframe.csv
+STVQLM(UniMod:35)FM(UniMod:35)PR2_RT54.85_IM0.9229_final_dataframe.csv
+SVDPTLALSVYLR2_RT89.51_IM1.0479_final_dataframe.csv
+SVGIVTTTR2_RT33.11_IM0.8290_final_dataframe.csv
+SVLTQPPSVSGAPGQR2_RT50.38_IM1.0462_final_dataframe.csv
+SVMIDEDM(UniMod:35)TAR2_RT36.26_IM0.9352_final_dataframe.csv
+SVPADLSRPKSTSTSSMK3_RT31.32_IM0.8804_final_dataframe.csv
+
+[比较] SVPGYNVMILDDNMQKLK2_RT79.13_IM1.3064_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+SVSSSLSDAR2_RT25.28_IM0.8404_final_dataframe.csv
+SVTAPYKYPR2_RT34.09_IM0.9584_final_dataframe.csv
+SVTTDHISPAGNIAR3_RT39.18_IM0.7868_final_dataframe.csv
+SYQASPDLR2_RT30.66_IM0.8680_final_dataframe.csv
+TAEELMNFSK2_RT54.35_IM0.8911_final_dataframe.csv
+
+[比较] TAEEQNFLQLQTSR2_RT61.02_IM1.0852_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+TAEILELAGNAAR2_RT68.83_IM0.9716_final_dataframe.csv
+TAEQVIASFR2_RT58.83_IM0.8810_final_dataframe.csv
+TAEYDVAYGESHLFR3_RT64.08_IM0.8900_final_dataframe.csv
+TAIGKAGYTDK2_RT19.24_IM0.9228_final_dataframe.csv
+TALALAIAQELGSK2_RT88.61_IM1.0782_final_dataframe.csv
+TALDAFGR2_RT44.95_IM0.7936_final_dataframe.csv
+TAMNVNEIFMAIAK2_RT91.38_IM1.0677_final_dataframe.csv
+TASDMVSTSR2_RT21.93_IM0.8264_final_dataframe.csv
+TASIEIVTLDKPD2_RT67.98_IM1.0035_final_dataframe.csv
+TAVEKDEITLK2_RT36.17_IM0.9676_final_dataframe.csv
+TAYVGENVR2_RT28.42_IM0.8614_final_dataframe.csv
+TDEDTIIDIITHR2_RT86.58_IM1.0812_final_dataframe.csv
+TINEVETQILTRDAK2_RT57.17_IM1.1404_final_dataframe.csv
+TIPGKQQLLIGAYAK2_RT58.57_IM1.1249_final_dataframe.csv
+
+[比较] TIPTDKHVDLLINK3_RT52.79_IM0.8494_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+TIQDKGIVVGIK2_RT47.90_IM0.9898_final_dataframe.csv
+TISGEIDVNVIARPSAPK2_RT64.62_IM1.2358_final_dataframe.csv
+TISQEFLTPGK2_RT55.43_IM0.9128_final_dataframe.csv
+TISSDAVLQR2_RT39.57_IM0.8925_final_dataframe.csv
+TITTAYYR2_RT36.47_IM0.8298_final_dataframe.csv
+TKAIEHADGGVAAGVAVLDNPYPV3_RT76.37_IM0.9431_final_dataframe.csv
+TKTENPLILIDEVDK3_RT80.18_IM0.7945_final_dataframe.csv
+
+[比较] TKYEHELALR3_RT31.14_IM0.8081_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+TLALEIINFK2_RT88.21_IM0.9333_final_dataframe.csv
+TLDNLGYR2_RT40.15_IM0.8270_final_dataframe.csv
+TLGSFFGSLPGFSSAR2_RT90.90_IM1.0959_final_dataframe.csv
+TLITFVNKHLNK3_RT53.30_IM0.7653_final_dataframe.csv
+TLLAQANSK2_RT27.39_IM0.8300_final_dataframe.csv
+TLLDIDNTR2_RT53.15_IM0.8878_final_dataframe.csv
+TLLEAENSR2_RT31.78_IM0.8778_final_dataframe.csv
+TLLEDGTFK2_RT52.30_IM0.8658_final_dataframe.csv
+TLLFTFNVPGSGNTYPK2_RT89.36_IM1.1842_final_dataframe.csv
+TLLPVSKPEIR2_RT53.85_IM1.0176_final_dataframe.csv
+TLMLPLTEGSLR2_RT82.49_IM0.9883_final_dataframe.csv
+TLMTQIDGVNLAANSLVESGHPR3_RT85.10_IM1.0809_final_dataframe.csv
+TLNDELEIIEGM(UniMod:35)KFDR2_RT79.26_IM1.2162_final_dataframe.csv
+TLNNKFASFIDK3_RT60.01_IM0.7302_final_dataframe.csv
+TLPTPSPEAYQAMLLR2_RT87.10_IM1.1594_final_dataframe.csv
+TLQKPESVISVQK2_RT42.10_IM1.0412_final_dataframe.csv
+TLSAYAELVISPSER2_RT79.83_IM1.0915_final_dataframe.csv
+TLSLRPLLAVPTEEEPDSAAK3_RT80.91_IM0.9826_final_dataframe.csv
+TSLTIENANR2_RT34.33_IM0.8853_final_dataframe.csv
+TSPGRVDLPGSSTTLTK3_RT47.52_IM0.8233_final_dataframe.csv
+TSVQIEMNK2_RT36.27_IM0.8563_final_dataframe.csv
+TTASSHEFEHTK2_RT31.45_IM1.0170_final_dataframe.csv
+TTHFVEGGDAGNREDQINR3_RT30.81_IM0.9199_final_dataframe.csv
+TTHFVEGGDAGNREDQINR4_RT30.75_IM0.8498_final_dataframe.csv
+TTMYPGIADR2_RT45.11_IM0.8936_final_dataframe.csv
+TTPPVLDSDGSFFLYSKLTVDK3_RT89.13_IM1.0614_final_dataframe.csv
+TTSNVLIIGELLK2_RT90.63_IM1.0242_final_dataframe.csv
+TVDNFVALATGEKGFGYK3_RT78.67_IM0.9525_final_dataframe.csv
+TVEEPMEEEEAAKEEK2_RT39.85_IM1.1676_final_dataframe.csv
+TVIRLPSGSGAASPTGSAVDIR3_RT63.10_IM0.9100_final_dataframe.csv
+TVLAPGVVLIVQQGDLAR2_RT90.04_IM1.2818_final_dataframe.csv
+TVLPFVNTHPDK3_RT57.85_IM0.7812_final_dataframe.csv
+TVPIYEGYALPHAILR2_RT81.91_IM1.2195_final_dataframe.csv
+TVQIEASTVEIEER2_RT58.61_IM1.0564_final_dataframe.csv
+TVTVKISQK2_RT25.01_IM0.8745_final_dataframe.csv
+TVVDLSEVYKPR2_RT60.05_IM1.0662_final_dataframe.csv
+
+[比较] TVVYFPVR2_RT62.58_IM0.8355_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+TVVYGITTGFGK2_RT64.77_IM0.9359_final_dataframe.csv
+TYDEM(UniMod:35)SLIQDDVDLR3_RT72.11_IM0.8096_final_dataframe.csv
+TYETTLEK2_RT28.06_IM0.8464_final_dataframe.csv
+TYFPHFDLSHGS3_RT67.00_IM0.8010_final_dataframe.csv
+TYFPHFDLSHGSAQVKGHGKK5_RT46.35_IM0.8167_final_dataframe.csv
+TYSDHPEKVNKDDEEFIESNK4_RT36.99_IM0.9070_final_dataframe.csv
+TYSYLNK2_RT30.38_IM0.7842_final_dataframe.csv
+TYTVNTLQTLTSQLLK2_RT91.62_IM1.1988_final_dataframe.csv
+TYYNPSLK2_RT36.17_IM0.8632_final_dataframe.csv
+
+[比较] VAAIQSAGLTETLNR2_RT59.93_IM1.0764_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+VFDKDGNGYISAAELR2_RT58.00_IM1.1367_final_dataframe.csv
+VFDLLNR2_RT63.24_IM0.7994_final_dataframe.csv
+VFEVQKVK2_RT30.63_IM0.8551_final_dataframe.csv
+VFFDLMR2_RT79.32_IM0.8207_final_dataframe.csv
+VFGAAPLENVVR2_RT70.29_IM0.9576_final_dataframe.csv
+VFIHAVPVEER3_RT50.43_IM0.7569_final_dataframe.csv
+VFIHQKGDEAK2_RT16.16_IM0.9921_final_dataframe.csv
+VFITDDFHDM(UniMod:35)MPK3_RT65.63_IM0.8037_final_dataframe.csv
+VFSLIQQAVTR2_RT72.85_IM0.9459_final_dataframe.csv
+VFSNGADLSGVTEEAPLKLSK3_RT72.92_IM1.0156_final_dataframe.csv
+VFTSSTISGGYAEYALAADHTVYKLPEK3_RT81.11_IM1.1415_final_dataframe.csv
+VFVVGVGMTK2_RT61.82_IM0.8778_final_dataframe.csv
+VFYLKMKGDYYR3_RT53.85_IM0.8429_final_dataframe.csv
+VGAGAPVYM(UniMod:35)AAVLEYL2_RT92.85_IM1.0818_final_dataframe.csv
+
+[比较] VGAQPPTGAEEGAC(UniMod:4)LV2_RT47.97_IM1.0630_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+VGDLYSDLRDGR3_RT48.79_IM0.7376_final_dataframe.csv
+VGEGVTTVKPGDK3_RT26.12_IM0.8072_final_dataframe.csv
+VGERQPLLGPPESMR3_RT51.66_IM0.8382_final_dataframe.csv
+VGGEESEVTVGGLEPGRK2_RT46.02_IM1.1780_final_dataframe.csv
+VGIEAAEMLLANLR2_RT93.04_IM1.0528_final_dataframe.csv
+VGKLIPGQEYIFR2_RT68.47_IM1.0769_final_dataframe.csv
+VGLGEATSVPGTVKPEDKLEAPELDLDSELRK4_RT77.58_IM1.0768_final_dataframe.csv
+VGMGGMEAK2_RT27.63_IM0.7872_final_dataframe.csv
+VGSALFLSHNLK2_RT56.07_IM1.0286_final_dataframe.csv
+VGSTKVPMTSGVK2_RT31.17_IM0.9706_final_dataframe.csv
+VGTFFSEVK2_RT57.70_IM0.8612_final_dataframe.csv
+VHFEESSKLEDLLR3_RT67.61_IM0.8873_final_dataframe.csv
+VHIMPDIPQIILAK3_RT88.12_IM0.8734_final_dataframe.csv
+
+[比较] VHLPSSIYR2_RT45.93_IM0.8943_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+VADALTNAVAHVDDM(UniMod:35)PNALSA3_RT77.46_IM0.8739_final_dataframe.csv
+VADALTNAVAHVDDM(UniMod:35)PNALSALSD3_RT87.95_IM0.9634_final_dataframe.csv
+VAEFHTELER3_RT39.08_IM0.7414_final_dataframe.csv
+VAEQTPLSALYLASLIK2_RT93.38_IM1.1833_final_dataframe.csv
+VAGLAVFHGK2_RT44.83_IM0.8916_final_dataframe.csv
+VAILKANLR2_RT43.22_IM0.8895_final_dataframe.csv
+VAKPVVEMDGDEMTR3_RT45.51_IM0.8370_final_dataframe.csv
+VALEGVSHFFR2_RT68.73_IM1.0063_final_dataframe.csv
+VALQHNLGIGGAVVVTLYK2_RT82.16_IM1.2389_final_dataframe.csv
+VAQPTITDNKDGTVTVR3_RT42.42_IM0.8804_final_dataframe.csv
+VAQTDGVNVDMHLK2_RT48.03_IM1.1288_final_dataframe.csv
+VAVVTYNNEVTTEIRFADSK3_RT71.12_IM1.0267_final_dataframe.csv
+VDDNEETIKK2_RT15.81_IM0.9051_final_dataframe.csv
+VDFNVPMKKNQITNNQR3_RT55.01_IM0.8784_final_dataframe.csv
+VDNEILDYK2_RT50.11_IM0.8898_final_dataframe.csv
+VDVGQQPLR2_RT34.33_IM0.8426_final_dataframe.csv
+VEEDVASDLVMK2_RT58.79_IM0.9745_final_dataframe.csv
+VEEEIVTLR2_RT52.51_IM0.8843_final_dataframe.csv
+VEEVGPYTYR2_RT43.97_IM0.9326_final_dataframe.csv
+VEGFPTIYFAPSGD2_RT90.76_IM0.9825_final_dataframe.csv
+VEHIKLGGGEKAR3_RT18.69_IM0.8048_final_dataframe.csv
+VEKFDLVPVPTNLYGDF2_RT92.09_IM1.1907_final_dataframe.csv
+VEPTVTISPSR2_RT44.02_IM0.8964_final_dataframe.csv
+VEQATKPSFER2_RT26.06_IM0.9510_final_dataframe.csv
+VETAATEAELK2_RT33.03_IM0.9225_final_dataframe.csv
+
+[比较] VEVDGSIMEGGGQILR2_RT70.93_IM1.0712_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+VEYSEEELKTHISK3_RT40.55_IM0.8446_final_dataframe.csv
+VEYYPVSGGK2_RT38.18_IM0.8925_final_dataframe.csv
+VFAVSHGRESK3_RT16.28_IM0.7297_final_dataframe.csv
+VHLSDSER2_RT15.68_IM0.8388_final_dataframe.csv
+VHSAPRSGAPAAESK3_RT11.17_IM0.8024_final_dataframe.csv
+VHVGDEDFVHLR2_RT51.72_IM1.0445_final_dataframe.csv
+VIALKAGK2_RT23.79_IM0.7823_final_dataframe.csv
+VIATANLSR2_RT34.05_IM0.8309_final_dataframe.csv
+VIDGATMSR2_RT27.12_IM0.8274_final_dataframe.csv
+VIDLPGGGAAFVMEHLKM(UniMod:35)K3_RT56.60_IM0.9241_final_dataframe.csv
+VIEHIM(UniMod:35)EDLDTNADK2_RT45.20_IM1.1154_final_dataframe.csv
+VIELTDDSFDK2_RT58.88_IM0.9497_final_dataframe.csv
+VIEPKDIHAK2_RT24.62_IM0.9387_final_dataframe.csv
+VIFGLFGKTVPK2_RT74.01_IM1.0171_final_dataframe.csv
+VIHDNFGIVEGLM2_RT88.02_IM1.0349_final_dataframe.csv
+VIILDKPGPPTGPIK2_RT59.96_IM1.0895_final_dataframe.csv
+VIISAPSADAPMFVMGVNHEKYDNSLK4_RT81.06_IM0.9940_final_dataframe.csv
+VIKDFMIQGGDFTR3_RT66.67_IM0.8475_final_dataframe.csv
+VILDYNTAHNK2_RT35.11_IM1.0131_final_dataframe.csv
+VILEIDNAR2_RT53.94_IM0.8920_final_dataframe.csv
+VIPHFTATADAFKDDRK3_RT51.10_IM0.9386_final_dataframe.csv
+VIPVGIGPHANLK2_RT74.32_IM1.0362_final_dataframe.csv
+VIPVNLPGEHGQR3_RT49.79_IM0.8306_final_dataframe.csv
+VIQSVANYAK2_RT38.91_IM0.8997_final_dataframe.csv
+VISGVLQLGNIVFK2_RT91.47_IM1.0702_final_dataframe.csv
+VKDEVSDLK2_RT22.95_IM0.8815_final_dataframe.csv
+VKDLESLFHR3_RT55.19_IM0.7441_final_dataframe.csv
+VKIVEVGPR2_RT36.20_IM0.8553_final_dataframe.csv
+VKLVNEVTEFAK2_RT60.53_IM1.0377_final_dataframe.csv
+
+[比较] VLAEKLAAIGEATR2_RT58.00_IM1.0651_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+VLAVNQENERLM(UniMod:35)EEYER3_RT50.50_IM0.9843_final_dataframe.csv
+VLDAYGLLGVLR2_RT91.40_IM1.0140_final_dataframe.csv
+VLDRPGPPEGPVVISGVTAEK3_RT64.50_IM0.9003_final_dataframe.csv
+VLEDSDLKK2_RT23.22_IM0.8901_final_dataframe.csv
+VLEKLGVTVR2_RT46.66_IM0.9478_final_dataframe.csv
+VLGAEGTVFPKSIETPNVR3_RT69.80_IM0.9337_final_dataframe.csv
+VLGKPRQEELNTK3_RT22.74_IM0.8439_final_dataframe.csv
+VLGTSVESIM(UniMod:35)ATEDR2_RT54.52_IM1.0845_final_dataframe.csv
+VLGVQRPLLQSTIIVEK3_RT74.16_IM0.8762_final_dataframe.csv
+VLISEEVKK2_RT32.18_IM0.8908_final_dataframe.csv
+VLKQVHPDTGISSK2_RT26.88_IM1.0445_final_dataframe.csv
+VLKSYYYAISDFAVGGR3_RT79.01_IM0.8586_final_dataframe.csv
+VLLQHVHEGYEK3_RT31.66_IM0.8077_final_dataframe.csv
+VLPIDVHQPQPLG2_RT69.93_IM1.0167_final_dataframe.csv
+VLPSITTEILKSVVAR3_RT90.29_IM0.8730_final_dataframe.csv
+VLPSIVNEVLKSVVAK2_RT92.05_IM1.2113_final_dataframe.csv
+VLQDLVM(UniMod:35)DILR2_RT90.81_IM1.0058_final_dataframe.csv
+VLSSMADAVLAR2_RT66.90_IM0.9577_final_dataframe.csv
+VLTLDGMNPR2_RT56.08_IM0.9223_final_dataframe.csv
+VLVAGDTM(UniMod:35)DSVK2_RT36.17_IM0.9930_final_dataframe.csv
+VLVDGEEHVGFLK2_RT61.11_IM1.0705_final_dataframe.csv
+VLVFVMGK2_RT68.49_IM0.8031_final_dataframe.csv
+VLVLDKPGPPR2_RT44.02_IM0.9497_final_dataframe.csv
+VLVLEM(UniMod:35)FSGGDAAALER2_RT82.37_IM1.1381_final_dataframe.csv
+VLVTGKTAEYDVAYGESHLFR4_RT72.92_IM0.9004_final_dataframe.csv
+VLVVHDGFEGLAK3_RT59.74_IM0.8014_final_dataframe.csv
+VLVVVTDGR2_RT45.99_IM0.8373_final_dataframe.csv
+VMEVFLAQLR2_RT84.49_IM0.9498_final_dataframe.csv
+VMGPGVSYLVR2_RT64.26_IM0.9426_final_dataframe.csv
+VMLFEVANLR2_RT84.69_IM0.9486_final_dataframe.csv
+VMVDANEVPIQK2_RT53.15_IM1.0140_final_dataframe.csv
+VMVGVIILYDHVHPVGAFAK3_RT88.58_IM1.0012_final_dataframe.csv
+VMVVVTDGESHDGSMLK2_RT55.23_IM1.2230_final_dataframe.csv
+VNTLIRPDGEKK3_RT25.43_IM0.7352_final_dataframe.csv
+VNVEVEFAEPEPERK3_RT56.36_IM0.8837_final_dataframe.csv
+VPFSLLR2_RT66.96_IM0.8015_final_dataframe.csv
+VPIYEGYALPHAILR2_RT87.74_IM1.1869_final_dataframe.csv
+VPLLAEYR2_RT57.12_IM0.8558_final_dataframe.csv
+VPLQDLMVR2_RT67.95_IM0.8917_final_dataframe.csv
+VPPPLPQFGKK3_RT51.47_IM0.7504_final_dataframe.csv
+VPQIAFVITGGKSVEDAQDVSLALTQR3_RT89.82_IM1.2427_final_dataframe.csv
+VPSGLPDLK2_RT53.09_IM0.8221_final_dataframe.csv
+VPVVFVTNAGNILQHSK2_RT77.61_IM1.2627_final_dataframe.csv
+VQAINVSSR2_RT29.87_IM0.8383_final_dataframe.csv
+VQASLSANTFAITGHAEAK2_RT58.71_IM1.2523_final_dataframe.csv
+VQDQLSEVK2_RT30.15_IM0.8844_final_dataframe.csv
+VQDTPGKVVGPIR2_RT37.69_IM0.9960_final_dataframe.csv
+
+[比较] VQHELDEAEERA3_RT29.27_IM0.7584_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+VQHIQLLQK2_RT39.15_IM0.9263_final_dataframe.csv
+VQHITDATLAIVK2_RT57.42_IM1.0481_final_dataframe.csv
+VQKSLAAEEEAAR3_RT26.12_IM0.7896_final_dataframe.csv
+VQRFFVADTANEALEAAK3_RT70.75_IM0.8868_final_dataframe.csv
+VREMEEEAEK2_RT16.49_IM0.9423_final_dataframe.csv
+VREMFMK2_RT32.38_IM0.8411_final_dataframe.csv
+VSAENQFGISKPLK2_RT47.06_IM1.0819_final_dataframe.csv
+VSAPGVQGDVK2_RT31.75_IM0.8794_final_dataframe.csv
+VSAPNLLNVK2_RT59.68_IM0.8832_final_dataframe.csv
+VSDLENEAKK2_RT17.88_IM0.9095_final_dataframe.csv
+VSDLHEGHFYEFR3_RT48.82_IM0.8850_final_dataframe.csv
+VSEGGPAEIAGLQIGDK2_RT67.39_IM1.0924_final_dataframe.csv
+VVEEAPSIFLDAETRR3_RT70.13_IM0.9389_final_dataframe.csv
+VVFTDEMAHFDR3_RT63.71_IM0.8270_final_dataframe.csv
+VVIDAFR2_RT52.56_IM0.7706_final_dataframe.csv
+VVIESLQDRQK3_RT36.26_IM0.7363_final_dataframe.csv
+VVIFQQEQENK2_RT44.47_IM0.9922_final_dataframe.csv
+
+[比较] VVIIGAGKPAAVVLQTKGSPESR3_RT60.20_IM1.0824_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+
+[比较] VVITSKSGEILYR2_RT49.28_IM1.0944_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+VVLSVSSGGQHTVLLVK2_RT64.89_IM1.2236_final_dataframe.csv
+VVPLHSLK2_RT32.72_IM0.8543_final_dataframe.csv
+VVPLVQM(UniMod:35)GETDANVAK2_RT55.19_IM1.1144_final_dataframe.csv
+VVQVYADTQEINLK3_RT46.81_IM0.8302_final_dataframe.csv
+VVRDPQGIR2_RT20.63_IM0.8847_final_dataframe.csv
+VVSETNDTKVLR2_RT29.12_IM1.0110_final_dataframe.csv
+VVSKEESIVSSLR2_RT48.12_IM1.0381_final_dataframe.csv
+VYAINAAGVGPASLPSDPATAR2_RT72.76_IM1.2193_final_dataframe.csv
+VYFFKGK2_RT38.78_IM0.8217_final_dataframe.csv
+VYFHTDAAQAVGK3_RT41.88_IM0.7919_final_dataframe.csv
+VYGQMNEPPGAR2_RT33.96_IM0.9475_final_dataframe.csv
+VYLQNEYK2_RT35.27_IM0.8992_final_dataframe.csv
+VYNASSTIVPSLK2_RT60.75_IM1.0465_final_dataframe.csv
+VYVLKFK2_RT48.69_IM0.8295_final_dataframe.csv
+WGFDSISSVK2_RT25.22_IM0.8958_final_dataframe.csv
+YAETVHQLSK2_RT25.68_IM0.9168_final_dataframe.csv
+YAPVAKDLASR2_RT34.15_IM0.9564_final_dataframe.csv
+YAYHLSR2_RT37.50_IM0.7285_final_dataframe.csv
+YDAFLASESLIK2_RT79.17_IM0.9949_final_dataframe.csv
+YDEVLHMVR2_RT49.16_IM0.9393_final_dataframe.csv
+YEAFLQR2_RT44.25_IM0.8231_final_dataframe.csv
+YEIMDGAPVRGESIPIR3_RT67.57_IM0.9072_final_dataframe.csv
+VSHLLGINVTDFTR2_RT76.76_IM1.0875_final_dataframe.csv
+VSISEGDDKIEYR2_RT43.47_IM1.0946_final_dataframe.csv
+VSNKGLPSSIEK2_RT31.23_IM0.9591_final_dataframe.csv
+VSSPVASGMSSPSGGSTVSFSHTLPDFSK3_RT75.88_IM1.0736_final_dataframe.csv
+VSVGAPDLSLEASEGSIK2_RT70.14_IM1.1401_final_dataframe.csv
+VSYDLGSGMASVVSNQNHNDGK3_RT61.18_IM0.9064_final_dataframe.csv
+VTAEVVLAHLGGGSTSR3_RT65.36_IM0.8775_final_dataframe.csv
+VTAGISFAIPSDK2_RT70.14_IM0.9563_final_dataframe.csv
+VTAVPTLLK2_RT59.10_IM0.8229_final_dataframe.csv
+VTDFGDKVED2_RT35.30_IM0.8659_final_dataframe.csv
+VTEDLFSSLK2_RT68.22_IM0.9015_final_dataframe.csv
+VTEPEVTIVR2_RT51.17_IM0.8933_final_dataframe.csv
+
+[比较] VTEPLDRER2_RT22.62_IM0.9128_final_dataframe.csv
+  folder1 独有行数: 0
+  folder2 独有行数: 72
+  共同的行数: 0
+  folder1 总行数: 0, folder2 总行数: 72
+VTGEADVEFATHEDAVAAMSKDK3_RT58.79_IM1.0813_final_dataframe.csv
+VTGHPKPIVK2_RT13.88_IM0.8828_final_dataframe.csv
+VTGLIENHDYEFR2_RT55.35_IM1.1151_final_dataframe.csv
+VTKPNIPEAIRR3_RT38.57_IM0.8015_final_dataframe.csv
+VTLLHHVLEEAEK2_RT56.30_IM1.0726_final_dataframe.csv
+VTPAHSPADAEMGAR3_RT29.00_IM0.7851_final_dataframe.csv
+VTSLRPFDLVIPFTIKK3_RT89.73_IM0.9776_final_dataframe.csv
+VTSVGNPTIK2_RT30.66_IM0.8568_final_dataframe.csv
+VTVAGGVHISGLHTESAPR2_RT49.31_IM1.2313_final_dataframe.csv
+VTVFPIGIGDRYDAAQLR3_RT81.39_IM0.9021_final_dataframe.csv
+VTVLFAGQHIAK2_RT53.94_IM1.0367_final_dataframe.csv
+VTYHPDGPEGQAYDVDFTPPFR3_RT77.30_IM0.9770_final_dataframe.csv
+VTYVVLDEADR2_RT56.96_IM0.9699_final_dataframe.csv
+VVAFMDHIR2_RT52.39_IM0.9019_final_dataframe.csv
+VVDLLATDADIISR2_RT83.47_IM1.0686_final_dataframe.csv
+VVDLMAHMASK3_RT49.88_IM0.7663_final_dataframe.csv
+YEMFAQTLQQSR2_RT60.17_IM1.0344_final_dataframe.csv
+YEMVIPDHPAK2_RT47.14_IM0.9666_final_dataframe.csv
+YEPIVTK2_RT31.75_IM0.8102_final_dataframe.csv
+YEVSVYALK2_RT59.41_IM0.8950_final_dataframe.csv
+YFDLGLPNRDQTD2_RT70.18_IM1.0439_final_dataframe.csv
+YFPDAIPLIGEK2_RT87.43_IM0.9991_final_dataframe.csv
+YFQQGDMESNGK2_RT30.90_IM0.9803_final_dataframe.csv
+YGGLHFSD2_RT46.69_IM0.7789_final_dataframe.csv
+YGISSMIQSQEKPDR3_RT52.45_IM0.8747_final_dataframe.csv
+YGVFPLR2_RT62.02_IM0.7738_final_dataframe.csv
+YGVSGYPTLKIFR3_RT73.37_IM0.8015_final_dataframe.csv
+YHLGMYHR2_RT30.36_IM0.8874_final_dataframe.csv
+YHSHIDAPK2_RT21.56_IM0.8994_final_dataframe.csv
+YIAENM(UniMod:35)KAQNEAK3_RT45.72_IM0.7706_final_dataframe.csv
+YIANTVELR2_RT46.84_IM0.8873_final_dataframe.csv
+YIFDNVAK2_RT52.51_IM0.8398_final_dataframe.csv
+YIFHNFMER2_RT60.22_IM0.9767_final_dataframe.csv
+YIHSADIIHR3_RT33.74_IM0.7392_final_dataframe.csv
+YISLIYTNYEAGKDDYVK3_RT71.82_IM0.9992_final_dataframe.csv
+YKVLNASAIPEGQFIDSK3_RT68.86_IM0.8844_final_dataframe.csv
+YLDIHER2_RT29.99_IM0.8401_final_dataframe.csv
+YLHPEGLPSDYTISFLFR3_RT91.03_IM0.9334_final_dataframe.csv
+YLLNLNLEPFSEK2_RT90.33_IM1.0995_final_dataframe.csv
+YLQIIFLHSNSIAR2_RT80.50_IM1.1616_final_dataframe.csv
+YMIAEDLGR2_RT54.50_IM0.8875_final_dataframe.csv
+YNPVVIDFEMQPIHEVLR3_RT89.64_IM0.9306_final_dataframe.csv
+YNRDFESHITSYK3_RT39.30_IM0.8487_final_dataframe.csv
+YNTPHDMFNVVAAK3_RT60.32_IM0.7842_final_dataframe.csv
+YPIANGNNQSPVDIK2_RT52.17_IM1.0748_final_dataframe.csv
+YQLSIHKNPNTSEPQHLLVMK4_RT55.37_IM0.9329_final_dataframe.csv
+YQMVQDGAAAELLVR2_RT75.35_IM1.0932_final_dataframe.csv
+YQSLVAAYGEAKR2_RT44.87_IM1.1147_final_dataframe.csv
+YRILNPAAIPEGQFIDSR3_RT78.46_IM0.9027_final_dataframe.csv
+YRQPADQLK2_RT22.50_IM0.8966_final_dataframe.csv
+YSAPVIHVLDASK2_RT60.41_IM1.0213_final_dataframe.csv
+
+[比较] YSDIDIILLK2_RT85.60_IM0.9498_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+YSEFELLR2_RT67.03_IM0.8784_final_dataframe.csv
+YSGAYGASVSDEELKRR3_RT37.59_IM0.9039_final_dataframe.csv
+YSHEVLSEENFK3_RT42.31_IM0.8463_final_dataframe.csv
+YSLIVAQHVEK2_RT46.72_IM1.0408_final_dataframe.csv
+YSPGGTPTAIK2_RT34.27_IM0.8644_final_dataframe.csv
+
+[比较] YSQKEDKYEEEIK3_RT26.58_IM0.8534_final_dataframe.csv
+  folder1 独有行数: 72
+  folder2 独有行数: 0
+  共同的行数: 0
+  folder1 总行数: 72, folder2 总行数: 0
+YSVTKLIEGK2_RT51.29_IM0.9179_final_dataframe.csv
+YTEFYHVPTHSDASKK3_RT34.71_IM0.8931_final_dataframe.csv
+YTELPYGREDVLK3_RT55.47_IM0.8415_final_dataframe.csv
+YTFSPDTPHISHSK2_RT40.84_IM1.0739_final_dataframe.csv
+YTFSPDTPHISHSK3_RT40.82_IM0.8438_final_dataframe.csv
+YTLTVENNSGSK2_RT36.41_IM0.9653_final_dataframe.csv
+YTPVQQGPVGVNVTYGGD2_RT67.00_IM1.1082_final_dataframe.csv
+YTSQIVGR2_RT27.57_IM0.8098_final_dataframe.csv
+YTVVYFPVR2_RT72.43_IM0.9033_final_dataframe.csv
+YVASYLLAALGGNSSPSAK3_RT88.95_IM0.9865_final_dataframe.csv
+YVDAGPETMTQR2_RT37.45_IM0.9740_final_dataframe.csv
+YVIESSSHTPELAR2_RT44.26_IM1.0982_final_dataframe.csv
+YVRPFLNSISK3_RT52.02_IM0.7421_final_dataframe.csv
+YVTTLLYKPI2_RT75.72_IM0.9630_final_dataframe.csv
+YVYVVTELMK2_RT78.95_IM0.9650_final_dataframe.csv
+YYEGYYAAGPGYGGR2_RT50.28_IM1.1024_final_dataframe.csv

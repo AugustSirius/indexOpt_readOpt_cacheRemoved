@@ -102,11 +102,11 @@ def batch_compare_files(file_batch, folder1, folder2):
 
 def main():
     # 文件夹路径
-    # folder1 = "/wangshuaiyao/jiangheng/indexOpt_readOpt_cacheRemoved/02.rust_for_rsm_optimizedRead-modified-extractPeakGroup/output"
-    # folder2 = "/wangshuaiyao/jiangheng/indexOpt_readOpt_cacheRemoved/shuaiyao-yuanban-extractPeakGroup/output"
+    folder1 = "/wangshuaiyao/jiangheng/indexOpt_readOpt_cacheRemoved/02.rust_for_rsm_optimizedRead-modified-extractPeakGroup/output"
+    folder2 = "/wangshuaiyao/jiangheng/indexOpt_readOpt_cacheRemoved/shuaiyao-yuanban-extractPeakGroup/output"
 
-    folder1 = "/Users/augustsirius/Desktop/indexOpt_readOpt_cacheRemoved/02.rust_for_rsm_optimizedRead-modified-extractPeakGroup/output"
-    folder2 = "/Users/augustsirius/Desktop/dia-bert-release-version/ORIGINAL-UNTOUCHED-VERSION/wangshuaiyao/dia-bert-timstof/00.TimsTOF_Rust/02.rust_for_rsm-加入finaldataframe输出csv/output"
+    # folder1 = "/Users/augustsirius/Desktop/indexOpt_readOpt_cacheRemoved/02.rust_for_rsm_optimizedRead-modified-extractPeakGroup/output"
+    # folder2 = "/Users/augustsirius/Desktop/dia-bert-release-version/ORIGINAL-UNTOUCHED-VERSION/wangshuaiyao/dia-bert-timstof/00.TimsTOF_Rust/02.rust_for_rsm-加入finaldataframe输出csv/output"
 
     
     # 输出文件路径

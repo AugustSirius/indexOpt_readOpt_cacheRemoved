@@ -62,7 +62,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     println!("\n--- Testing Frame Reading ---");
     println!("Will attempt to read first 10 frames (or all if less than 10)");
     
-    let frames_to_test = n_frames.min(100);
+    let frames_to_test = n_frames.min(1000);
     let mut successful_reads = 0;
     let mut failed_reads = 0;
     let mut ms1_frames = 0;

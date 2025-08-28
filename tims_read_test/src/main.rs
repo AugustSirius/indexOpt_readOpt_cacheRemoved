@@ -7,7 +7,8 @@ use timsrust::{
 
 fn main() -> Result<(), Box<dyn Error>> {
     // Hardcoded path to the TimsTOF data
-    let d_folder = "/wangshuaiyao/00.Tims_Training40data_guomics/K20200702yuel_TPHP_DIA_234_Slot2-22_1_986.d";
+    // let d_folder = "/wangshuaiyao/00.Tims_Training40data_guomics/K20200702yuel_TPHP_DIA_234_Slot2-22_1_986.d";
+    let d_folder = "/wangshuaiyao/jiangheng/00.Tims_Training40data_guomics/K20200706yuel_TPHP_DIA_309_Slot2-43_1_1058.d";
     
     println!("========================================");
     println!("TimsTOF Data Reading Test");

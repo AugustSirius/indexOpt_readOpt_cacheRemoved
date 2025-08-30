@@ -4,7 +4,7 @@
 #SBATCH -q normal
 #SBATCH -J rust
 #SBATCH -c 1
-#SBATCH -n 20
+#SBATCH -n 64
 #SBATCH --mem 150G
 
 # Load module

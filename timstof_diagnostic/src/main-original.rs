@@ -3,9 +3,9 @@ use colored::*;
 use rayon::prelude::*;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
-use std::fs::{self, File};
+use std::fs::File;
 use std::io::Write;
-use std::path::{Path, PathBuf};
+use std::path::Path;
 use std::sync::atomic::{AtomicUsize, Ordering};
 use std::sync::{Arc, Mutex};
 use std::time::Instant;
@@ -33,225 +33,7 @@ struct Args {
     /// Optional: enable verbose output
     #[arg(short = 'v', long)]
     verbose: bool,
-    
-    /// Optional: force use of local storage (auto-detect by default)
-    #[arg(short = 'l', long)]
-    force_local: bool,
-    
-    /// Optional: disable local storage optimization
-    #[arg(long)]
-    no_local: bool,
 }
-
-// Add this struct for local storage management
-struct LocalStorageManager {
-    original_path: PathBuf,
-    local_path: Option<PathBuf>,
-    cleanup_on_drop: bool,
-}
-
-impl LocalStorageManager {
-    fn new(original_path: &Path) -> Self {
-        Self {
-            original_path: original_path.to_path_buf(),
-            local_path: None,
-            cleanup_on_drop: true,
-        }
-    }
-    
-    fn should_use_local(&self, force_local: bool, no_local: bool) -> bool {
-        if no_local {
-            return false;
-        }
-        
-        if force_local {
-            return true;
-        }
-        
-        // Auto-detect: Check if path is on network storage
-        self.is_network_storage(&self.original_path)
-    }
-    
-    fn is_network_storage(&self, path: &Path) -> bool {
-        let fs_type = get_filesystem_type(path);
-        matches!(fs_type.as_str(), "lustre" | "nfs" | "gpfs" | "beegfs" | "cifs")
-    }
-    
-    fn copy_to_local(&mut self) -> Result<PathBuf, Box<dyn std::error::Error>> {
-        println!("\n{}", "Local Storage Optimization".bold().cyan());
-        println!("{}", "─".repeat(40).cyan());
-        
-        // Test performance first
-        let avg_read_time = self.test_read_performance(&self.original_path)?;
-        println!("  Source read performance: {:.2} ms/frame", avg_read_time);
-        
-        if avg_read_time < 1.0 {
-            println!("  {} Source is already fast, skipping local copy", "→".blue());
-            return Ok(self.original_path.clone());
-        }
-        
-        // Find best local storage
-        let local_base = self.find_best_local_storage()?;
-        let folder_name = self.original_path.file_name()
-            .ok_or("Invalid folder name")?
-            .to_string_lossy();
-        
-        // Create unique local path with PID
-        let pid = std::process::id();
-        let local_path = local_base.join(format!("{}_{}", folder_name, pid));
-        
-        // Check space
-        let data_size = self.get_folder_size(&self.original_path)?;
-        let available_space = self.get_available_space(&local_base)?;
-        
-        println!("  Data size: {:.2} GB", data_size as f64 / 1_073_741_824.0);
-        println!("  Available space: {:.2} GB", available_space as f64 / 1_073_741_824.0);
-        
-        if available_space < data_size + 1_073_741_824 { // Need 1GB buffer
-            return Err("Insufficient local storage space".into());
-        }
-        
-        // Copy data
-        println!("  {} Copying to: {}", "→".blue(), local_path.display());
-        let copy_start = Instant::now();
-        
-        self.copy_dir_recursive(&self.original_path, &local_path)?;
-        
-        let copy_time = copy_start.elapsed();
-        println!("  {} Copy completed in {:.2}s", "✓".green(), copy_time.as_secs_f64());
-        
-        // Verify copy
-        let local_size = self.get_folder_size(&local_path)?;
-        if (local_size as i64 - data_size as i64).abs() > 1_048_576 { // 1MB tolerance
-            return Err("Copy verification failed: size mismatch".into());
-        }
-        
-        self.local_path = Some(local_path.clone());
-        Ok(local_path)
-    }
-    
-    fn test_read_performance(&self, path: &Path) -> Result<f64, Box<dyn std::error::Error>> {
-        // Quick test: read a few frames
-        let frames = FrameReader::new(path)?;
-        let mut total_time = 0.0;
-        let test_count = 10.min(frames.len());
-        
-        for i in 0..test_count {
-            let start = Instant::now();
-            let _ = frames.get(i)?;
-            total_time += start.elapsed().as_secs_f64() * 1000.0;
-        }
-        
-        Ok(total_time / test_count as f64)
-    }
-    
-    fn find_best_local_storage(&self) -> Result<PathBuf, Box<dyn std::error::Error>> {
-        // Priority order: /tmp, /scratch, /local, /dev/shm
-        let candidates = vec![
-            PathBuf::from("/tmp"),
-            PathBuf::from("/scratch"),
-            PathBuf::from("/local"),
-            PathBuf::from("/var/tmp"),
-        ];
-        
-        for candidate in candidates {
-            if candidate.exists() && candidate.is_dir() {
-                // Check if writable
-                let test_file = candidate.join(format!("test_write_{}", std::process::id()));
-                if fs::write(&test_file, b"test").is_ok() {
-                    let _ = fs::remove_file(&test_file);
-                    
-                    // Check available space (need at least 20GB)
-                    if let Ok(space) = self.get_available_space(&candidate) {
-                        if space > 20 * 1_073_741_824 {
-                            println!("  Selected local storage: {}", candidate.display());
-                            return Ok(candidate);
-                        }
-                    }
-                }
-            }
-        }
-        
-        Err("No suitable local storage found".into())
-    }
-    
-    fn get_folder_size(&self, path: &Path) -> Result<u64, Box<dyn std::error::Error>> {
-        let output = std::process::Command::new("du")
-            .arg("-sb")
-            .arg(path)
-            .output()?;
-        
-        let size_str = String::from_utf8_lossy(&output.stdout);
-        let size = size_str
-            .split_whitespace()
-            .next()
-            .and_then(|s| s.parse::<u64>().ok())
-            .ok_or("Failed to parse folder size")?;
-        
-        Ok(size)
-    }
-    
-    fn get_available_space(&self, path: &Path) -> Result<u64, Box<dyn std::error::Error>> {
-        let output = std::process::Command::new("df")
-            .arg("-B1")
-            .arg(path)
-            .output()?;
-        
-        let output_str = String::from_utf8_lossy(&output.stdout);
-        let lines: Vec<&str> = output_str.lines().collect();
-        
-        if lines.len() > 1 {
-            let fields: Vec<&str> = lines[1].split_whitespace().collect();
-            if fields.len() > 3 {
-                return fields[3].parse::<u64>()
-                    .map_err(|e| e.into());
-            }
-        }
-        
-        Err("Failed to get available space".into())
-    }
-    
-    fn copy_dir_recursive(&self, from: &Path, to: &Path) -> Result<(), Box<dyn std::error::Error>> {
-        fs::create_dir_all(to)?;
-        
-        for entry in fs::read_dir(from)? {
-            let entry = entry?;
-            let file_type = entry.file_type()?;
-            let from_path = entry.path();
-            let to_path = to.join(entry.file_name());
-            
-            if file_type.is_dir() {
-                self.copy_dir_recursive(&from_path, &to_path)?;
-            } else {
-                fs::copy(&from_path, &to_path)?;
-            }
-        }
-        
-        Ok(())
-    }
-    
-    fn get_working_path(&self) -> &Path {
-        self.local_path.as_deref().unwrap_or(&self.original_path)
-    }
-}
-
-impl Drop for LocalStorageManager {
-    fn drop(&mut self) {
-        if self.cleanup_on_drop {
-            if let Some(local_path) = &self.local_path {
-                println!("\n{} Cleaning up local storage...", "→".blue());
-                if let Err(e) = fs::remove_dir_all(local_path) {
-                    eprintln!("  {} Failed to cleanup {}: {}", "⚠".yellow(), local_path.display(), e);
-                } else {
-                    println!("  {} Cleaned up: {}", "✓".green(), local_path.display());
-                }
-            }
-        }
-    }
-}
-
-// Keep all existing structs and functions...
-// [Previous SystemInfo, PerformanceMetrics, FrameStats, DiagnosticLogger definitions remain the same]
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct SystemInfo {
@@ -292,7 +74,6 @@ struct DiagnosticLogger {
     verbose: bool,
 }
 
-// [Keep all existing DiagnosticLogger methods...]
 impl DiagnosticLogger {
     fn new(verbose: bool) -> Self {
         DiagnosticLogger {
@@ -331,7 +112,32 @@ impl DiagnosticLogger {
     }
 }
 
-// Update get_filesystem_type to be accessible
+fn get_system_info() -> SystemInfo {
+    let mut sys = System::new_all();
+    sys.refresh_all();
+    
+    let filesystem_type = get_filesystem_type(&std::env::current_dir().unwrap());
+    
+    // Get Rust version at runtime
+    let rust_version = format!("{}.{}.{}", 
+        env!("CARGO_PKG_RUST_VERSION"),
+        env!("CARGO_PKG_VERSION_MAJOR"),
+        env!("CARGO_PKG_VERSION_MINOR")
+    ).to_string();
+    
+    SystemInfo {
+        hostname: System::host_name().unwrap_or_else(|| "unknown".to_string()),
+        cpu_count: num_cpus::get(),
+        cpu_physical: num_cpus::get_physical(),
+        rayon_threads: rayon::current_num_threads(),
+        total_memory_gb: sys.total_memory() as f64 / 1_073_741_824.0,
+        available_memory_gb: sys.available_memory() as f64 / 1_073_741_824.0,
+        filesystem_type,
+        rust_version: "1.70+".to_string(), // Just use a generic version string
+        timestamp: chrono::Local::now().to_rfc3339(),
+    }
+}
+
 fn get_filesystem_type(path: &Path) -> String {
     #[cfg(target_os = "linux")]
     {
@@ -353,27 +159,6 @@ fn get_filesystem_type(path: &Path) -> String {
     "unknown".to_string()
 }
 
-// [Keep all other existing functions: get_system_info, print_header, print_system_info, test_io_performance, test_parallel_overhead, read_timstof_diagnostic, print_summary]
-
-fn get_system_info() -> SystemInfo {
-    let mut sys = System::new_all();
-    sys.refresh_all();
-    
-    let filesystem_type = get_filesystem_type(&std::env::current_dir().unwrap());
-    
-    SystemInfo {
-        hostname: System::host_name().unwrap_or_else(|| "unknown".to_string()),
-        cpu_count: num_cpus::get(),
-        cpu_physical: num_cpus::get_physical(),
-        rayon_threads: rayon::current_num_threads(),
-        total_memory_gb: sys.total_memory() as f64 / 1_073_741_824.0,
-        available_memory_gb: sys.available_memory() as f64 / 1_073_741_824.0,
-        filesystem_type,
-        rust_version: "1.70+".to_string(),
-        timestamp: chrono::Local::now().to_rfc3339(),
-    }
-}
-
 fn print_header(d_folder: &Path) {
     println!("\n{}", "═".repeat(80).blue());
     println!("{}", "    TimsTOF Read Performance Diagnostic Tool".bold().blue());
@@ -393,7 +178,6 @@ fn print_system_info(info: &SystemInfo) {
     println!("  Filesystem:      {}", info.filesystem_type);
 }
 
-// [Keep existing test functions but they need the Path parameter]
 fn test_io_performance(d_folder: &Path, logger: &DiagnosticLogger) -> std::io::Result<()> {
     println!("\n{}", "I/O Performance Test".bold().yellow());
     println!("{}", "─".repeat(40).yellow());
@@ -756,7 +540,6 @@ fn print_summary(logger: &DiagnosticLogger) {
     }
 }
 
-// Updated main function with local storage optimization
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
     
@@ -773,26 +556,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         std::process::exit(1);
     }
     
-    // Initialize local storage manager
-    let mut storage_manager = LocalStorageManager::new(d_path);
-    
-    // Determine if we should use local storage
-    let working_path = if storage_manager.should_use_local(args.force_local, args.no_local) {
-        println!("{} Detected network storage, optimizing with local copy", "→".blue());
-        match storage_manager.copy_to_local() {
-            Ok(path) => path,
-            Err(e) => {
-                eprintln!("{} Failed to copy to local storage: {}", "⚠".yellow(), e);
-                eprintln!("  Falling back to original path");
-                d_path.to_path_buf()
-            }
-        }
-    } else {
-        println!("{} Using original path (local storage or fast network)", "→".blue());
-        d_path.to_path_buf()
-    };
-    
-    print_header(&working_path);
+    print_header(d_path);
     
     let system_info = get_system_info();
     print_system_info(&system_info);
@@ -804,10 +568,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                               system_info.hostname,
                               chrono::Local::now().format("%Y%m%d_%H%M%S"));
     
-    // Run diagnostics with the working path
-    test_io_performance(&working_path, &logger)?;
+    // Run diagnostics
+    test_io_performance(d_path, &logger)?;
     test_parallel_overhead(&logger);
-    read_timstof_diagnostic(&working_path, args.max_frames, &logger)?;
+    read_timstof_diagnostic(d_path, args.max_frames, &logger)?;
     
     print_summary(&logger);
     
@@ -818,8 +582,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("\n{}", "═".repeat(80).blue());
     println!("{}", "Diagnostic Complete".bold().blue());
     println!("{}", "═".repeat(80).blue());
-    
-    // Cleanup happens automatically when storage_manager is dropped
     
     Ok(())
 }

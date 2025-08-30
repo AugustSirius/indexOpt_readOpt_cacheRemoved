@@ -20,7 +20,8 @@ cd /storage/guotiannanLab/wangshuaiyao/006.DIABERT_TimsTOF_Rust/indexOpt_readOpt
 cargo run --release -- -d "$D" \
   -r "/storage/guotiannanLab/wangshuaiyao/006.DIABERT_TimsTOF_Rust/test_data/report.parquet" \
   -l "/storage/guotiannanLab/wangshuaiyao/777.library/TPHPlib_frag1025_swissprot_final_all_from_Yueliang.tsv" \
+  -o "output" \
   -t 64 \
-  -n 1000
+  -b 1000
 
 rm -rf /tmp/$(basename $D) 2>/dev/null

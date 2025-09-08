@@ -16,4 +16,5 @@ cargo run --release -- \
   -r "/storage/guotiannanLab/wangshuaiyao/006.DIABERT_TimsTOF_Rust/test_data/report.parquet" \
   -l "/storage/guotiannanLab/wangshuaiyao/777.library/TPHPlib_frag1025_swissprot_final_all_from_Yueliang.tsv" \
   -t 64 \
-  -n 1000
+  -o "output" \
+  -b 1000

@@ -2,3 +2,14 @@
 因为在优化 build index data 和 indexed_timstof_data 过程中不小心重新对 slice_by_mz_im_range 引入了 into_par_iter() 
 这样会导致 threads 更高时因为资源问题 contention 处理速度更慢
 
+---
+
+/Users/augustsirius/Desktop/00.Project_DIA-BERT-TimsTOF/indexOpt_readOpt_cacheRemoved/00.rust_for_iIM_optimizedRead-modified-skipFirstErrorFrame
+/Users/augustsirius/Desktop/00.Project_DIA-BERT-TimsTOF/indexOpt_readOpt_cacheRemoved/01.rust_for_iRT_optimizedRead-modified-skipFirstErrorFrame
+/Users/augustsirius/Desktop/00.Project_DIA-BERT-TimsTOF/indexOpt_readOpt_cacheRemoved/02.rust_for_rsm_optimizedRead-modified-skipfirstErrorFrame
+
+这三个版本为最终的敲定版本
+read_timstof_data 和 build_indexed_timstof 都被深入地优化过了
+在AiStation上面可以直接运行
+但是在HPC上面，因为它的compute node 的储存位置跟数据存放在硬盘中的位置不一致
+所以需要借鉴它们中 Rust_run.sh 的模板脚本提交程序运行，先把数据复制到compute node再运行才能跑满速度

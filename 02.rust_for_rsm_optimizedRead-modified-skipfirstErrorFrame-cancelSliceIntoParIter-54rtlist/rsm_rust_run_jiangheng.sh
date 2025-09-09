@@ -4,6 +4,7 @@
 #SBATCH -q huge
 #SBATCH -J rust
 #SBATCH -c 1
+#SBATCH -a 1-2
 #SBATCH -n 64
 #SBATCH --mem 350G
 

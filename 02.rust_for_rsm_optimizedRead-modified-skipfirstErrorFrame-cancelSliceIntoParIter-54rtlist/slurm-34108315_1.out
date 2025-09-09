@@ -1,0 +1,69 @@
+Initialized parallel processing with 64 threads
+Batch size: 1000
+Output directory: /storage/guotiannanLab/wangshuaiyao/006.DIABERT_TimsTOF_Rust/indexOpt_readOpt_cacheRemoved/02.rust_for_rsm_optimizedRead-modified-skipfirstErrorFrame-cancelSliceIntoParIter/20250908test/CAD20220224yuel_TPHP_DIA_SCA_404_Slot2-1_1_4613
+
+========== DATA PREPARATION PHASE ==========
+Reading TimsTOF data from raw files...
+Reading TimsTOF data from: "/tmp/CAD20220224yuel_TPHP_DIA_SCA_404_Slot2-1_1_4613.d"
+  ✓ Metadata read: 14.32 ms
+  ✓ Frame reader initialized: 45.08 ms (53363 frames)
+  ✓ First frame (index 0) is readable
+  Processing 53363 frames in parallel (starting from index 0)...
+  ✓ Frame processing: 36021.45 ms
+  Merging MS1 data...
+  ✓ MS1 merge: 2689.99 ms (547480105 peaks)
+  Merging MS2 data...
+  ✓ MS2 merge: 15049.16 ms (32 windows)
+  ✓ MS2 convert: 0.06 ms
+  MS1 data points: 547480105
+  MS2 windows: 32
+  MS2 data points: 2095528380
+
+  Total processing time: 53.82 seconds
+Raw data reading time: 54.09530 seconds
+  - MS1 data points: 547480105
+  - MS2 windows: 32
+
+Building indexed data structures...
+Building indexed data structures...
+Index building completed in 34.639s
+Index building time: 34.63874 seconds
+Total data preparation time: 88.73412 seconds
+
+========== LIBRARY AND REPORT PROCESSING ==========
+Reading library file: /storage/guotiannanLab/wangshuaiyao/777.library/TPHPlib_frag1025_swissprot_final_all_from_Yueliang_with_decoy_sort.tsv
+Processing 22547491 library records...
+diann_precursor_id_all: shape: (5, 3)
+┌─────────────────────┬───────────┬──────────┐
+│ transition_group_id ┆ RT        ┆ IM       │
+│ ---                 ┆ ---       ┆ ---      │
+│ str                 ┆ f32       ┆ f32      │
+╞═════════════════════╪═══════════╪══════════╡
+│ AAVLWEVKK2          ┆ 45.562107 ┆ 0.881033 │
+│ AQNVGEGGAYEAELR2    ┆ 46.29438  ┆ 1.029371 │
+│ LQPGSVPK2           ┆ 25.738201 ┆ 0.761108 │
+│ LVNLQHLDLLNNK3      ┆ 73.271973 ┆ 0.797665 │
+│ TQDGETALQLAIR2      ┆ 64.224037 ┆ 1.019346 │
+└─────────────────────┴───────────┴──────────┘
+Library and report processing time: 57.12362 seconds
+
+========== BATCH PRECURSOR PROCESSING ==========
+
+[Step 1] Preparing library data for all precursors
+
+========== LIBRARY STATISTICS ==========
+Total unique precursor IDs in library: 60766
+Grouping library records by precursor ID...
+  Grouping took: 17.274 seconds
+Preparing library data for 60766 precursors...
+  Parallel preparation took: 0.343 seconds
+✓ Prepared 60766 precursors
+Total time for prepare_precursor_lib_data: 17.620 seconds
+  - Prepared data for 60766 precursors
+  - Preparation time: 32.28124 seconds
+  - Released library_records from memory
+
+[Step 2] Processing 60766 precursors in 61 batches
+
+========== Processing Batch 1/61 ==========
+Precursors 1 to 1000 (total: 1000)

@@ -1,0 +1,61 @@
+Initialized parallel processing with 64 threads
+Batch size: 1000
+Output directory: /storage/guotiannanLab/wangshuaiyao/006.DIABERT_TimsTOF_Rust/indexOpt_readOpt_cacheRemoved/02.rust_for_rsm_optimizedRead-modified-skipfirstErrorFrame-cancelSliceIntoParIter/20250908test/CAD20220224yuel_TPHP_DIA_SCA_427_Slot2-26_1_4647
+
+========== DATA PREPARATION PHASE ==========
+Reading TimsTOF data from raw files...
+Reading TimsTOF data from: "/tmp/CAD20220224yuel_TPHP_DIA_SCA_427_Slot2-26_1_4647.d"
+  ✓ Metadata read: 13.71 ms
+  ✓ Frame reader initialized: 44.57 ms (53087 frames)
+  ✓ First frame (index 0) is readable
+  Processing 53087 frames in parallel (starting from index 0)...
+  ✓ Frame processing: 39586.62 ms
+  Merging MS1 data...
+  ✓ MS1 merge: 4060.33 ms (783900501 peaks)
+  Merging MS2 data...
+  ✓ MS2 merge: 19743.83 ms (32 windows)
+  ✓ MS2 convert: 19.72 ms
+  MS1 data points: 783900501
+  MS2 windows: 32
+  MS2 data points: 2632896149
+
+  Total processing time: 63.47 seconds
+Raw data reading time: 63.69775 seconds
+  - MS1 data points: 783900501
+  - MS2 windows: 32
+
+Building indexed data structures...
+Building indexed data structures...
+Index building completed in 49.506s
+Index building time: 49.50700 seconds
+Total data preparation time: 113.20482 seconds
+
+========== LIBRARY AND REPORT PROCESSING ==========
+Reading library file: /storage/guotiannanLab/wangshuaiyao/777.library/TPHPlib_frag1025_swissprot_final_all_from_Yueliang_with_decoy_sort.tsv
+Processing 22547491 library records...
+diann_precursor_id_all: shape: (5, 3)
+┌────────────────────────────┬───────────┬──────────┐
+│ transition_group_id        ┆ RT        ┆ IM       │
+│ ---                        ┆ ---       ┆ ---      │
+│ str                        ┆ f32       ┆ f32      │
+╞════════════════════════════╪═══════════╪══════════╡
+│ IILLFDAHKLDISDEFSEVIK4     ┆ 91.649055 ┆ 0.89375  │
+│ LEAANGELEVK2               ┆ 45.124809 ┆ 0.929692 │
+│ PLLQVSRQEEEMMAKEEELVK3     ┆ 77.627823 ┆ 1.097299 │
+│ AVPPNNSNAAEDDLPTVELQGVVPR3 ┆ 83.229637 ┆ 1.090863 │
+│ EDGLPTGYLFVWHK2            ┆ 87.576881 ┆ 1.105885 │
+└────────────────────────────┴───────────┴──────────┘
+Library and report processing time: 49.40267 seconds
+
+========== BATCH PRECURSOR PROCESSING ==========
+
+[Step 1] Preparing library data for all precursors
+
+========== LIBRARY STATISTICS ==========
+Total unique precursor IDs in library: 82377
+Grouping library records by precursor ID...
+  Grouping took: 18.664 seconds
+Preparing library data for 82377 precursors...
+  Parallel preparation took: 0.411 seconds
+✓ Prepared 82377 precursors
+Total time for prepare_precursor_lib_data: 19.079 seconds

@@ -291,7 +291,7 @@ fn save_batch_results_as_npy(
     let n_original = original_precursor_list.len();
     let frag_repeat_num = 5;
     let n_fragments = 72; // MS1 + MS2 fragments
-    let n_scans = 348;
+    let n_scans = 54;  // CHANGED FROM 348 TO 54
     
     // Initialize with zeros
     let mut all_rsm_matrix = Array4::<f32>::zeros((n_original, frag_repeat_num, n_fragments, n_scans));
@@ -305,9 +305,10 @@ fn save_batch_results_as_npy(
         
         if let Some(result) = result_map.get(&i) {
             // Successfully processed - copy the RSM matrix
+            // The result should already have shape [1, 5, 72, 54]
             all_rsm_matrix.slice_mut(s![i, .., .., ..]).assign(&result.rsm_matrix.slice(s![0, .., .., ..]));
             
-            // Copy RT values
+            // Copy RT values (should be exactly 54 values)
             for (j, &rt_val) in result.all_rt.iter().enumerate() {
                 if j < n_scans {
                     all_rt_values[[i, j]] = rt_val;
@@ -342,7 +343,7 @@ fn save_batch_results_as_npy(
     writeln!(id_file, "# Row_Index\tPrecursor_ID\tStatus")?;
     
     for (i, (id, status)) in precursor_ids.iter().zip(status_list.iter()).enumerate() {
-        writeln!(id_file, "{}\t{}", i, id)?;
+        writeln!(id_file, "{}\t{}\t{}", i, id, status)?;
     }
     
     println!("\nSuccessfully saved batch {} files:", batch_idx);

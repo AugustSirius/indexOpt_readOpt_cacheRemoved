@@ -1940,44 +1940,16 @@ pub fn create_rt_im_dicts(df: &DataFrame) -> PolarsResult<(HashMap<String, f32>,
 //     lst[start..start + 48].to_vec()
 // }
 
-pub fn get_rt_list(mut lst: Vec<f32>, target: f32) -> Vec<f32> {
-    lst.sort_by(|a, b| a.partial_cmp(b).unwrap_or(Ordering::Equal));
-    
-    if lst.is_empty() {
-        return vec![0.0; 54];
-    }
-    
-    if lst.len() <= 54 {
-        let mut result = lst;
-        result.resize(54, 0.0);
-        return result;
-    }
-    
-    let closest_idx = lst.iter()
-        .enumerate()
-        .min_by_key(|(_, &val)| ((val - target).abs() * 1e9) as i32)
-        .map(|(idx, _)| idx)
-        .unwrap_or(0);
-    
-    let start = if closest_idx >= 27 {
-        (closest_idx - 27).min(lst.len() - 54)
-    } else {
-        0
-    };
-    
-    lst[start..start + 54].to_vec()
-}
-
 // pub fn get_rt_list(mut lst: Vec<f32>, target: f32) -> Vec<f32> {
 //     lst.sort_by(|a, b| a.partial_cmp(b).unwrap_or(Ordering::Equal));
     
 //     if lst.is_empty() {
-//         return vec![0.0; 348];
+//         return vec![0.0; 54];
 //     }
     
-//     if lst.len() <= 348 {
+//     if lst.len() <= 54 {
 //         let mut result = lst;
-//         result.resize(348, 0.0);
+//         result.resize(54, 0.0);
 //         return result;
 //     }
     
@@ -1987,14 +1959,42 @@ pub fn get_rt_list(mut lst: Vec<f32>, target: f32) -> Vec<f32> {
 //         .map(|(idx, _)| idx)
 //         .unwrap_or(0);
     
-//     let start = if closest_idx >= 174 {
-//         (closest_idx - 174).min(lst.len() - 348)
+//     let start = if closest_idx >= 27 {
+//         (closest_idx - 27).min(lst.len() - 54)
 //     } else {
 //         0
 //     };
     
-//     lst[start..start + 348].to_vec()
+//     lst[start..start + 54].to_vec()
 // }
+
+pub fn get_rt_list(mut lst: Vec<f32>, target: f32) -> Vec<f32> {
+    lst.sort_by(|a, b| a.partial_cmp(b).unwrap_or(Ordering::Equal));
+    
+    if lst.is_empty() {
+        return vec![0.0; 348];
+    }
+    
+    if lst.len() <= 348 {
+        let mut result = lst;
+        result.resize(348, 0.0);
+        return result;
+    }
+    
+    let closest_idx = lst.iter()
+        .enumerate()
+        .min_by_key(|(_, &val)| ((val - target).abs() * 1e9) as i32)
+        .map(|(idx, _)| idx)
+        .unwrap_or(0);
+    
+    let start = if closest_idx >= 174 {
+        (closest_idx - 174).min(lst.len() - 348)
+    } else {
+        0
+    };
+    
+    lst[start..start + 348].to_vec()
+}
 
 pub fn build_ext_ms1_matrix(ms1_data_tensor: &Array3<f32>, device: &str) -> Array3<f32> {
     let shape = ms1_data_tensor.shape();

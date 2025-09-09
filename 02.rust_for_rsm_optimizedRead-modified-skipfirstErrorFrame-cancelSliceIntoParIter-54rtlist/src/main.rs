@@ -291,7 +291,7 @@ fn save_batch_results_as_npy(
     let n_original = original_precursor_list.len();
     let frag_repeat_num = 5;
     let n_fragments = 72; // MS1 + MS2 fragments
-    let n_scans = 54;  // CHANGED FROM 348 TO 54
+    let n_scans = 348;  // CHANGED FROM 348 TO 54
     
     // Initialize with zeros
     let mut all_rsm_matrix = Array4::<f32>::zeros((n_original, frag_repeat_num, n_fragments, n_scans));
